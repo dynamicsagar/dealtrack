@@ -40,6 +40,14 @@ class LandlordPages(SeleniumDriver):
     add_landlord_link = "//p[contains(.,'+ Add landlord')]"
     landlord_textbox = "//div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input"
     save_button = "//span[contains(text(),'Save')]"
+    check_element_present = "//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div[13]/div/div[2]/div/div[2]/div"
+
+    def Verification(self):
+        time.sleep(2)
+        self.elementClick(self.save_button)
+        time.sleep(3)
+        sa = self.elementPresenceCheck(self.check_element_present, byType='xpath')
+        self.log.info(sa)
 
     def EnterLandlord(self, landlord):
         self.elementClick(self.landlord_textbox)
@@ -86,7 +94,7 @@ class LandlordPages(SeleniumDriver):
     add_subsidiary_link = "//div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p"
     subsidiary_company = "//div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input"
     click_create = ".contact-search--create-option"
-    check_element_present = "//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div[13]/div/div[2]/div/div[2]/div"
+
 
     def EnterSubsidiary_company(self, subsidiaryname):
         self.elementClick(self.subsidiary_company)
@@ -101,8 +109,6 @@ class LandlordPages(SeleniumDriver):
 
     def LandlordsCanHaveMultipleSubsidiary(self):
         time.sleep(2)
-        # self.innerScroll(self.landlord_tab)
-        # time.sleep(2)
         self.elementClick(self.landlord_tab)
         time.sleep(2)
         for i in range(1, 4):
@@ -115,16 +121,13 @@ class LandlordPages(SeleniumDriver):
             self.RandomSubsidiary_company()
             time.sleep(2)
             self.elementClick(self.click_create, locatorType='css')
-        self.elementClick(self.save_button)
-        time.sleep(2)
-        if self.elementPresenceCheck(self.check_element_present) == True:
-            return True
+        self.Verification()
 
 
     click_add_contact = '''//*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div/div[1]/p'''
 
     def LandlordsCanHaveMultipleContacts(self):
-        time.sleep(2)
+        time.sleep(3)
         self.elementClick(self.landlord_tab)
         time.sleep(2)
         for i in range(1, 4):
@@ -138,14 +141,12 @@ class LandlordPages(SeleniumDriver):
             time.sleep(2)
             self.elementClick(self.click_create, locatorType='css')
             time.sleep(2)
-        self.elementClick(self.save_button)
+        self.Verification()
 
     add_sub_contact = '''//*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p'''
 
     def LandlordCanHaveMultipleSubContacts(self):
-        time.sleep(2)
-        self.innerScroll(self.landlord_tab)
-        time.sleep(2)
+        time.sleep(3)
         self.elementClick(self.landlord_tab)
         time.sleep(2)
         for i in range(1, 3):
@@ -154,5 +155,5 @@ class LandlordPages(SeleniumDriver):
             time.sleep(2)
             self.elementClick(self.click_create, locatorType='css')
             time.sleep(4)
-        self.elementClick(self.save_button)
+        self.Verification()
 

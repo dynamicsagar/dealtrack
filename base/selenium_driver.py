@@ -200,21 +200,22 @@ class SeleniumDriver():
         """
         Check if element is present
         """
-        try:
-            elementList = self.driver.find_elements(byType, locator)
-            if len(elementList) > 0:
-                self.log.info("Element present with locator: " + locator +
-                              " locatorType: " + str(byType))
-                assert True
-            else:
-                self.log.info("Element not present with locator: " + locator +
-                              " locatorType: " + str(byType))
-                self.log.info("### VERIFICATION DOES NOT CONTAINS !!!")
-                self.screenShot('element present not found')
-                assert False
-        except:
-            self.log.info("Element not found")
-            return False
+
+        #try:
+        elementList = self.driver.find_elements(byType, locator)
+        if len(elementList) > 0:
+            self.log.info("Element present with locator: " + locator +
+                          " locatorType: " + str(byType))
+            assert True
+        else:
+            self.log.info("Element not present with locator: " + locator +
+                          " locatorType: " + str(byType))
+            self.log.info("### VERIFICATION DOES NOT CONTAINS !!!")
+            self.screenShot('element present not found')
+            assert False
+        # except:
+        #     self.log.info("Element not found")
+        #     return False
 
     def waitForElement(self, locator, locatorType="xpath",
                                timeout=30, pollFrequency=1):

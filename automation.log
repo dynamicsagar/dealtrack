@@ -1,280 +1,146 @@
-09/06/2019 02:19:00 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:19:00 PM - SeleniumDriver - INFO: Element appeared on the web page
-09/06/2019 02:19:00 PM - SeleniumDriver - INFO: Element found with locator: //div[@class='auth0-lock-social-button-text'] and  locatorType: xpath
-09/06/2019 02:19:02 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@class='auth0-lock-social-button-text'] locatorType: xpath
-09/06/2019 02:19:04 PM - SeleniumDriver - INFO: Locator type //input[@id='identifierid'] not correct/supported
-09/06/2019 02:19:04 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:19:04 PM - SeleniumDriver - INFO: Element not appeared on the web page
-09/06/2019 02:19:04 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='identifierId'] and  locatorType: xpath
-09/06/2019 02:19:04 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='identifierId'] locatorType: xpath
-09/06/2019 02:19:06 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:19:06 PM - SeleniumDriver - INFO: Element appeared on the web page
-09/06/2019 02:19:06 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
-09/06/2019 02:19:06 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
-09/06/2019 02:19:08 PM - SeleniumDriver - INFO: Locator type //input[@name='password'] not correct/supported
-09/06/2019 02:19:08 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:19:08 PM - SeleniumDriver - INFO: Element not appeared on the web page
-09/06/2019 02:19:08 PM - SeleniumDriver - INFO: Element found with locator: //input[@name='password'] and  locatorType: xpath
-09/06/2019 02:19:08 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='password'] locatorType: xpath
-09/06/2019 02:19:10 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:19:10 PM - SeleniumDriver - INFO: Element appeared on the web page
-09/06/2019 02:19:10 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
-09/06/2019 02:19:10 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
-09/06/2019 02:19:10 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:19:10 PM - LandlordTest - INFO:  test_01VerifyDealsCanHaveMultipleLandlordsWithNoParents 
-09/06/2019 02:19:10 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:19:23 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:19:27 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:19:27 PM - SeleniumDriver - INFO: Clicked on element with locator: //h4[contains(text(),'Landlord')] locatorType: xpath
-09/06/2019 02:19:32 PM - SeleniumDriver - INFO: Element not found with locator: //p[contains(.,'+ Add landlord')] and  locatorType: xpath
-09/06/2019 02:19:32 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //p[contains(.,'+ Add landlord')] locatorType: xpath
-09/06/2019 02:19:34 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:19:34 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:19:36 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:19:36 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:19:36 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:19:36 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:19:38 PM - SeleniumDriver - INFO: Element found with locator: //p[contains(.,'+ Add landlord')] and  locatorType: xpath
-09/06/2019 02:19:38 PM - SeleniumDriver - INFO: Clicked on element with locator: //p[contains(.,'+ Add landlord')] locatorType: xpath
-09/06/2019 02:19:40 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:19:40 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:19:42 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:19:43 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:19:43 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:19:43 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:19:45 PM - SeleniumDriver - INFO: Element found with locator: //p[contains(.,'+ Add landlord')] and  locatorType: xpath
-09/06/2019 02:19:45 PM - SeleniumDriver - INFO: Clicked on element with locator: //p[contains(.,'+ Add landlord')] locatorType: xpath
-09/06/2019 02:19:47 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:19:47 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:19:49 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:19:49 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:19:49 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:19:49 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:19:51 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
-09/06/2019 02:19:51 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Save')] locatorType: xpath
-09/06/2019 02:19:51 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:19:51 PM - LandlordTest - INFO:  test_02VerifyLandlordsCanHaveMultipleSubsidiary 
-09/06/2019 02:19:51 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:19:53 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:19:53 PM - SeleniumDriver - INFO: Clicked on element with locator: //h4[contains(text(),'Landlord')] locatorType: xpath
-09/06/2019 02:19:57 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p and  locatorType: xpath
-09/06/2019 02:19:57 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p locatorType: xpath
-09/06/2019 02:19:57 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:19:57 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:19:59 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:00 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:02 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:20:02 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:20:04 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/p and  locatorType: xpath
-09/06/2019 02:20:04 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/p locatorType: xpath
-09/06/2019 02:20:04 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:04 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:06 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:06 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:08 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:20:08 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:20:10 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/p and  locatorType: xpath
-09/06/2019 02:20:10 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/p locatorType: xpath
-09/06/2019 02:20:10 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:10 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:12 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:12 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:14 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:20:15 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:20:15 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
-09/06/2019 02:20:15 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Save')] locatorType: xpath
-09/06/2019 02:20:15 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:20:15 PM - LandlordTest - INFO:  test_03VerifyLandlordsCanHaveMultipleContacts 
-09/06/2019 02:20:15 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:20:17 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:20:17 PM - SeleniumDriver - INFO: Clicked on element with locator: //h4[contains(text(),'Landlord')] locatorType: xpath
-09/06/2019 02:20:21 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div/div[1]/p and  locatorType: xpath
-09/06/2019 02:20:21 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div/div[1]/p locatorType: xpath
-09/06/2019 02:20:21 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:21 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:23 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:23 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:25 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:20:25 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:20:27 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[2]/div[1]/div[2]/div/div[1]/p and  locatorType: xpath
-09/06/2019 02:20:27 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[2]/div[1]/div[2]/div/div[1]/p locatorType: xpath
-09/06/2019 02:20:27 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:27 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:29 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:30 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:32 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:20:32 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:20:34 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div[2]/div/div[1]/p and  locatorType: xpath
-09/06/2019 02:20:34 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div[2]/div/div[1]/p locatorType: xpath
-09/06/2019 02:20:34 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:34 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:36 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:36 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:38 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:20:38 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:20:38 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
-09/06/2019 02:20:38 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Save')] locatorType: xpath
-09/06/2019 02:20:38 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:20:38 PM - LandlordTest - INFO:  test_03VerifyLandlordsCanHaveMultipleContacts 
-09/06/2019 02:20:38 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:20:40 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:20:44 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:20:44 PM - SeleniumDriver - INFO: Clicked on element with locator: //h4[contains(text(),'Landlord')] locatorType: xpath
-09/06/2019 02:20:46 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p and  locatorType: xpath
-09/06/2019 02:20:46 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p locatorType: xpath
-09/06/2019 02:20:47 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:47 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:49 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:49 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:51 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:20:51 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:20:51 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p and  locatorType: xpath
-09/06/2019 02:20:51 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p locatorType: xpath
-09/06/2019 02:20:51 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:51 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:53 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:20:53 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:20:55 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:20:55 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:20:55 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
-09/06/2019 02:20:56 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Save')] locatorType: xpath
-09/06/2019 02:47:57 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:47:58 PM - SeleniumDriver - INFO: Element appeared on the web page
-09/06/2019 02:47:58 PM - SeleniumDriver - INFO: Element found with locator: //div[@class='auth0-lock-social-button-text'] and  locatorType: xpath
-09/06/2019 02:47:59 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@class='auth0-lock-social-button-text'] locatorType: xpath
-09/06/2019 02:48:01 PM - SeleniumDriver - INFO: Locator type //input[@id='identifierid'] not correct/supported
-09/06/2019 02:48:01 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:48:01 PM - SeleniumDriver - INFO: Element not appeared on the web page
-09/06/2019 02:48:01 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='identifierId'] and  locatorType: xpath
-09/06/2019 02:48:01 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='identifierId'] locatorType: xpath
-09/06/2019 02:48:03 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:48:03 PM - SeleniumDriver - INFO: Element appeared on the web page
-09/06/2019 02:48:03 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
-09/06/2019 02:48:03 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
-09/06/2019 02:48:05 PM - SeleniumDriver - INFO: Locator type //input[@name='password'] not correct/supported
-09/06/2019 02:48:05 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:48:05 PM - SeleniumDriver - INFO: Element not appeared on the web page
-09/06/2019 02:48:05 PM - SeleniumDriver - INFO: Element found with locator: //input[@name='password'] and  locatorType: xpath
-09/06/2019 02:48:05 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='password'] locatorType: xpath
-09/06/2019 02:48:07 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
-09/06/2019 02:48:08 PM - SeleniumDriver - INFO: Element appeared on the web page
-09/06/2019 02:48:08 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
-09/06/2019 02:48:08 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
-09/06/2019 02:48:08 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:48:08 PM - LandlordTest - INFO:  test_01VerifyDealsCanHaveMultipleLandlordsWithNoParents 
-09/06/2019 02:48:08 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:48:20 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:48:24 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:48:24 PM - SeleniumDriver - INFO: Clicked on element with locator: //h4[contains(text(),'Landlord')] locatorType: xpath
-09/06/2019 02:48:29 PM - SeleniumDriver - INFO: Element not found with locator: //p[contains(.,'+ Add landlord')] and  locatorType: xpath
-09/06/2019 02:48:29 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //p[contains(.,'+ Add landlord')] locatorType: xpath
-09/06/2019 02:48:31 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:48:32 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:48:34 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:48:34 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:48:34 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:48:34 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:48:36 PM - SeleniumDriver - INFO: Element found with locator: //p[contains(.,'+ Add landlord')] and  locatorType: xpath
-09/06/2019 02:48:36 PM - SeleniumDriver - INFO: Clicked on element with locator: //p[contains(.,'+ Add landlord')] locatorType: xpath
-09/06/2019 02:48:38 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:48:38 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:48:40 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:48:40 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:48:40 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:48:40 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:48:42 PM - SeleniumDriver - INFO: Element found with locator: //p[contains(.,'+ Add landlord')] and  locatorType: xpath
-09/06/2019 02:48:42 PM - SeleniumDriver - INFO: Clicked on element with locator: //p[contains(.,'+ Add landlord')] locatorType: xpath
-09/06/2019 02:48:44 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:48:44 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:48:46 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:48:46 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
-09/06/2019 02:48:46 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:48:46 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:48:48 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
-09/06/2019 02:48:49 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Save')] locatorType: xpath
-09/06/2019 02:48:49 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:48:49 PM - LandlordTest - INFO:  test_02VerifyLandlordsCanHaveMultipleSubsidiary 
-09/06/2019 02:48:49 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:48:51 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:48:51 PM - SeleniumDriver - INFO: Clicked on element with locator: //h4[contains(text(),'Landlord')] locatorType: xpath
-09/06/2019 02:48:55 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p and  locatorType: xpath
-09/06/2019 02:48:55 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p locatorType: xpath
-09/06/2019 02:48:55 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:48:55 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:48:57 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:48:57 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:48:59 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:48:59 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:49:01 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/p and  locatorType: xpath
-09/06/2019 02:49:01 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/p locatorType: xpath
-09/06/2019 02:49:01 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:01 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:03 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:04 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:06 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:49:06 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:49:08 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/p and  locatorType: xpath
-09/06/2019 02:49:08 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/p locatorType: xpath
-09/06/2019 02:49:08 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:08 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:10 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:10 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:12 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:49:12 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:49:12 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
-09/06/2019 02:49:12 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Save')] locatorType: xpath
-09/06/2019 02:49:12 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:49:12 PM - LandlordTest - INFO:  test_03VerifyLandlordsCanHaveMultipleContacts 
-09/06/2019 02:49:12 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:49:14 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:49:14 PM - SeleniumDriver - INFO: Clicked on element with locator: //h4[contains(text(),'Landlord')] locatorType: xpath
-09/06/2019 02:49:18 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div/div[1]/p and  locatorType: xpath
-09/06/2019 02:49:18 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div/div[1]/p locatorType: xpath
-09/06/2019 02:49:18 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:18 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:20 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:21 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:23 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:49:23 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:49:27 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[2]/div[1]/div[2]/div/div[1]/p and  locatorType: xpath
-09/06/2019 02:49:27 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[2]/div[1]/div[2]/div/div[1]/p locatorType: xpath
-09/06/2019 02:49:27 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:27 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:29 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:29 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:31 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:49:31 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:49:35 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div[2]/div/div[1]/p and  locatorType: xpath
-09/06/2019 02:49:35 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[3]/div[1]/div[2]/div/div[1]/p locatorType: xpath
-09/06/2019 02:49:35 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:35 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:37 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:37 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:39 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:49:40 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:49:42 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
-09/06/2019 02:49:42 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Save')] locatorType: xpath
-09/06/2019 02:49:42 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:49:42 PM - LandlordTest - INFO:  test_03VerifyLandlordsCanHaveMultipleContacts 
-09/06/2019 02:49:42 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-09/06/2019 02:49:44 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:49:48 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
-09/06/2019 02:49:48 PM - SeleniumDriver - INFO: Clicked on element with locator: //h4[contains(text(),'Landlord')] locatorType: xpath
-09/06/2019 02:49:50 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p and  locatorType: xpath
-09/06/2019 02:49:50 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p locatorType: xpath
-09/06/2019 02:49:50 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:50 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:52 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:52 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:49:54 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:49:54 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:49:58 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p and  locatorType: xpath
-09/06/2019 02:49:58 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p locatorType: xpath
-09/06/2019 02:49:58 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:49:58 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:50:00 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
-09/06/2019 02:50:01 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
-09/06/2019 02:50:03 PM - SeleniumDriver - INFO: Element found with locator: .contact-search--create-option and  locatorType: css
-09/06/2019 02:50:03 PM - SeleniumDriver - INFO: Clicked on element with locator: .contact-search--create-option locatorType: css
-09/06/2019 02:50:07 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
-09/06/2019 02:50:07 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Save')] locatorType: xpath
+09/06/2019 03:29:17 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:29:18 PM - SeleniumDriver - INFO: Element appeared on the web page
+09/06/2019 03:29:18 PM - SeleniumDriver - INFO: Element found with locator: //div[@class='auth0-lock-social-button-text'] and  locatorType: xpath
+09/06/2019 03:29:21 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@class='auth0-lock-social-button-text'] locatorType: xpath
+09/06/2019 03:29:23 PM - SeleniumDriver - INFO: Locator type //input[@id='identifierid'] not correct/supported
+09/06/2019 03:29:23 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:29:23 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/06/2019 03:29:23 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='identifierId'] and  locatorType: xpath
+09/06/2019 03:29:23 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='identifierId'] locatorType: xpath
+09/06/2019 03:29:25 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:29:25 PM - SeleniumDriver - INFO: Element appeared on the web page
+09/06/2019 03:29:25 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
+09/06/2019 03:29:25 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
+09/06/2019 03:29:27 PM - SeleniumDriver - INFO: Locator type //input[@name='password'] not correct/supported
+09/06/2019 03:29:27 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:29:27 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/06/2019 03:29:27 PM - SeleniumDriver - INFO: Element found with locator: //input[@name='password'] and  locatorType: xpath
+09/06/2019 03:29:27 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='password'] locatorType: xpath
+09/06/2019 03:29:29 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:29:29 PM - SeleniumDriver - INFO: Element appeared on the web page
+09/06/2019 03:29:29 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
+09/06/2019 03:29:29 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
+09/06/2019 03:29:29 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/06/2019 03:29:29 PM - LandlordTest - INFO:  test_01VerifyDealsCanHaveMultipleLandlordsWithNoParents 
+09/06/2019 03:29:29 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/06/2019 03:29:48 PM - SeleniumDriver - INFO: Element not found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
+09/06/2019 03:29:48 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/06/2019 03:29:48 PM - LandlordTest - INFO:  test_02VerifyLandlordsCanHaveMultipleSubsidiary 
+09/06/2019 03:29:48 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/06/2019 03:29:57 PM - SeleniumDriver - INFO: Element not found with locator: //div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p and  locatorType: xpath
+09/06/2019 03:29:57 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p locatorType: xpath
+09/06/2019 03:30:00 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:30:00 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:30:05 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:30:05 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:30:10 PM - SeleniumDriver - INFO: Element not found with locator: .contact-search--create-option and  locatorType: css
+09/06/2019 03:30:10 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .contact-search--create-option locatorType: css
+09/06/2019 03:30:15 PM - SeleniumDriver - INFO: Element not found with locator: //div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/p and  locatorType: xpath
+09/06/2019 03:30:15 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/p locatorType: xpath
+09/06/2019 03:30:18 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:30:18 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:30:23 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:30:23 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:30:28 PM - SeleniumDriver - INFO: Element not found with locator: .contact-search--create-option and  locatorType: css
+09/06/2019 03:30:28 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .contact-search--create-option locatorType: css
+09/06/2019 03:30:33 PM - SeleniumDriver - INFO: Element not found with locator: //div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/p and  locatorType: xpath
+09/06/2019 03:30:33 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/p locatorType: xpath
+09/06/2019 03:30:36 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:30:36 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:30:41 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:30:41 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:30:46 PM - SeleniumDriver - INFO: Element not found with locator: .contact-search--create-option and  locatorType: css
+09/06/2019 03:30:46 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .contact-search--create-option locatorType: css
+09/06/2019 03:30:49 PM - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
+09/06/2019 03:30:49 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //span[contains(text(),'Save')] locatorType: xpath
+09/06/2019 03:30:54 PM - SeleniumDriver - INFO: Element not present with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div[13]/div/div[2]/div/div[2]/div locatorType: xpath
+09/06/2019 03:30:54 PM - SeleniumDriver - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+09/06/2019 03:30:55 PM - SeleniumDriver - INFO: Screenshot save to directory: C:\Users\Sagar\PycharmProjects\DealTrack\base\../screenshots/element present not found.1567764054670.png
+09/06/2019 03:30:55 PM - SeleniumDriver - INFO: Element not found
+09/06/2019 03:30:55 PM - SeleniumDriver - INFO: False
+09/06/2019 03:35:22 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:35:23 PM - SeleniumDriver - INFO: Element appeared on the web page
+09/06/2019 03:35:23 PM - SeleniumDriver - INFO: Element found with locator: //div[@class='auth0-lock-social-button-text'] and  locatorType: xpath
+09/06/2019 03:35:25 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@class='auth0-lock-social-button-text'] locatorType: xpath
+09/06/2019 03:35:27 PM - SeleniumDriver - INFO: Locator type //input[@id='identifierid'] not correct/supported
+09/06/2019 03:35:27 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:35:27 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/06/2019 03:35:27 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='identifierId'] and  locatorType: xpath
+09/06/2019 03:35:27 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='identifierId'] locatorType: xpath
+09/06/2019 03:35:29 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:35:29 PM - SeleniumDriver - INFO: Element appeared on the web page
+09/06/2019 03:35:29 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
+09/06/2019 03:35:29 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
+09/06/2019 03:35:31 PM - SeleniumDriver - INFO: Locator type //input[@name='password'] not correct/supported
+09/06/2019 03:35:31 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:35:31 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/06/2019 03:35:31 PM - SeleniumDriver - INFO: Element found with locator: //input[@name='password'] and  locatorType: xpath
+09/06/2019 03:35:31 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='password'] locatorType: xpath
+09/06/2019 03:35:33 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/06/2019 03:35:33 PM - SeleniumDriver - INFO: Element appeared on the web page
+09/06/2019 03:35:33 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
+09/06/2019 03:35:33 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
+09/06/2019 03:35:33 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/06/2019 03:35:33 PM - LandlordTest - INFO:  test_01VerifyDealsCanHaveMultipleLandlordsWithNoParents 
+09/06/2019 03:35:33 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/06/2019 03:35:46 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
+09/06/2019 03:35:50 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(text(),'Landlord')] and  locatorType: xpath
+09/06/2019 03:35:51 PM - SeleniumDriver - INFO: Clicked on element with locator: //h4[contains(text(),'Landlord')] locatorType: xpath
+09/06/2019 03:35:53 PM - SeleniumDriver - INFO: Element found with locator: //p[contains(.,'+ Add landlord')] and  locatorType: xpath
+09/06/2019 03:35:53 PM - SeleniumDriver - INFO: Clicked on element with locator: //p[contains(.,'+ Add landlord')] locatorType: xpath
+09/06/2019 03:35:55 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:35:55 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
+09/06/2019 03:36:00 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:36:00 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
+09/06/2019 03:36:03 PM - SeleniumDriver - INFO: Element not found with locator: .contact-search--create-option and  locatorType: css
+09/06/2019 03:36:03 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .contact-search--create-option locatorType: css
+09/06/2019 03:36:08 PM - SeleniumDriver - INFO: Element not found with locator: //p[contains(.,'+ Add landlord')] and  locatorType: xpath
+09/06/2019 03:36:08 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //p[contains(.,'+ Add landlord')] locatorType: xpath
+09/06/2019 03:36:13 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:36:13 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
+09/06/2019 03:36:18 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:36:18 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
+09/06/2019 03:36:21 PM - SeleniumDriver - INFO: Element not found with locator: .contact-search--create-option and  locatorType: css
+09/06/2019 03:36:21 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .contact-search--create-option locatorType: css
+09/06/2019 03:36:26 PM - SeleniumDriver - INFO: Element not found with locator: //p[contains(.,'+ Add landlord')] and  locatorType: xpath
+09/06/2019 03:36:26 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //p[contains(.,'+ Add landlord')] locatorType: xpath
+09/06/2019 03:36:31 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:36:31 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
+09/06/2019 03:36:36 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:36:36 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/div/input locatorType: xpath
+09/06/2019 03:36:39 PM - SeleniumDriver - INFO: Element not found with locator: .contact-search--create-option and  locatorType: css
+09/06/2019 03:36:39 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .contact-search--create-option locatorType: css
+09/06/2019 03:36:44 PM - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
+09/06/2019 03:36:44 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //span[contains(text(),'Save')] locatorType: xpath
+09/06/2019 03:36:44 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/06/2019 03:36:44 PM - LandlordTest - INFO:  test_02VerifyLandlordsCanHaveMultipleSubsidiary 
+09/06/2019 03:36:44 PM - LandlordTest - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/06/2019 03:36:53 PM - SeleniumDriver - INFO: Element not found with locator: //div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p and  locatorType: xpath
+09/06/2019 03:36:53 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p locatorType: xpath
+09/06/2019 03:36:56 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:36:56 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:37:01 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:37:01 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:37:06 PM - SeleniumDriver - INFO: Element not found with locator: .contact-search--create-option and  locatorType: css
+09/06/2019 03:37:06 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .contact-search--create-option locatorType: css
+09/06/2019 03:37:11 PM - SeleniumDriver - INFO: Element not found with locator: //div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/p and  locatorType: xpath
+09/06/2019 03:37:11 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/div[2]/p locatorType: xpath
+09/06/2019 03:37:14 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:37:14 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:37:19 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:37:19 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:37:24 PM - SeleniumDriver - INFO: Element not found with locator: .contact-search--create-option and  locatorType: css
+09/06/2019 03:37:24 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .contact-search--create-option locatorType: css
+09/06/2019 03:37:29 PM - SeleniumDriver - INFO: Element not found with locator: //div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/p and  locatorType: xpath
+09/06/2019 03:37:29 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[2]/p locatorType: xpath
+09/06/2019 03:37:32 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:37:32 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:37:37 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input and  locatorType: xpath
+09/06/2019 03:37:37 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input locatorType: xpath
+09/06/2019 03:37:42 PM - SeleniumDriver - INFO: Element not found with locator: .contact-search--create-option and  locatorType: css
+09/06/2019 03:37:42 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .contact-search--create-option locatorType: css
+09/06/2019 03:37:46 PM - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
+09/06/2019 03:37:46 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //span[contains(text(),'Save')] locatorType: xpath
+09/06/2019 03:37:51 PM - SeleniumDriver - INFO: Element not present with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div[13]/div/div[2]/div/div[2]/div locatorType: xpath
+09/06/2019 03:37:51 PM - SeleniumDriver - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+09/06/2019 03:37:51 PM - SeleniumDriver - INFO: Screenshot save to directory: C:\Users\Sagar\PycharmProjects\DealTrack\base\../screenshots/element present not found.1567764471041.png
