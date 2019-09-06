@@ -36,4 +36,3 @@ class LandlordTest(unittest.TestCase):
         self.log.info(" test_03VerifyLandlordsCanHaveMultipleContacts ")
         self.log.info("*#" * 20)
         self.landlord.LandlordCanHaveMultipleSubContacts()
-

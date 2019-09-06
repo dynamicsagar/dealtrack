@@ -205,11 +205,13 @@ class SeleniumDriver():
             if len(elementList) > 0:
                 self.log.info("Element present with locator: " + locator +
                               " locatorType: " + str(byType))
-                return True
+                assert True
             else:
                 self.log.info("Element not present with locator: " + locator +
                               " locatorType: " + str(byType))
-                return False
+                self.log.info("### VERIFICATION DOES NOT CONTAINS !!!")
+                self.screenShot('element present not found')
+                assert False
         except:
             self.log.info("Element not found")
             return False

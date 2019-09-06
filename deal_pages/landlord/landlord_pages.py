@@ -86,7 +86,7 @@ class LandlordPages(SeleniumDriver):
     add_subsidiary_link = "//div[2]/div/div/div/div/div/div/div[1]/div/div[2]/div/div[2]/p"
     subsidiary_company = "//div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input"
     click_create = ".contact-search--create-option"
-
+    check_element_present = "//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div[13]/div/div[2]/div/div[2]/div"
 
     def EnterSubsidiary_company(self, subsidiaryname):
         self.elementClick(self.subsidiary_company)
@@ -116,6 +116,9 @@ class LandlordPages(SeleniumDriver):
             time.sleep(2)
             self.elementClick(self.click_create, locatorType='css')
         self.elementClick(self.save_button)
+        time.sleep(2)
+        if self.elementPresenceCheck(self.check_element_present) == True:
+            return True
 
 
     click_add_contact = '''//*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div/div[1]/p'''
@@ -137,7 +140,6 @@ class LandlordPages(SeleniumDriver):
             time.sleep(2)
         self.elementClick(self.save_button)
 
-
     add_sub_contact = '''//*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p'''
 
     def LandlordCanHaveMultipleSubContacts(self):
@@ -153,26 +155,4 @@ class LandlordPages(SeleniumDriver):
             self.elementClick(self.click_create, locatorType='css')
             time.sleep(4)
         self.elementClick(self.save_button)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
