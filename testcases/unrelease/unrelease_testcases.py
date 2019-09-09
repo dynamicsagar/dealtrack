@@ -27,7 +27,7 @@ class UnreleaseTest(unittest.TestCase):
 
     def test_03VerifyUnReleaseCToB(self):
         self.log.info("*#" * 20)
-        self.log.info(" test_02VerifyUnReleaseDToC ")
+        self.log.info(" test_03VerifyUnReleaseCToB ")
         self.log.info("*#" * 20)
         self.unrelease.UnReleaseBTOC()
 
@@ -39,31 +39,31 @@ class UnreleaseTest(unittest.TestCase):
 
     def test_05VerifyBudgetAsNewRequiredDocWhileReleasingBToA(self):
         self.log.info("*#" * 20)
-        self.log.info(" test_04VerifyBudgetAsNewRequiredDocWhileReleasingBToA ")
+        self.log.info(" test_05VerifyBudgetAsNewRequiredDocWhileReleasingBToA ")
         self.log.info("*#" * 20)
         self.unrelease.BudgetAsNewRequiredDocWhileReleasingBToA()
 
     def test_06BudgetAsNewRequiredDocWhileReleasingBToA_VerifyByUploadRequiredDocAndCancelTheProcess(self):
         self.log.info("*#" * 20)
-        self.log.info(" test_07BudgetAsNewRequiredDocWhileReleasingBToA_VerifyByUploadRequiredDocAndCancelTheProcess ")
+        self.log.info(" test_06BudgetAsNewRequiredDocWhileReleasingBToA_VerifyByUploadRequiredDocAndCancelTheProcess ")
         self.log.info("*#" * 20)
         self.unrelease.VerifyByUploadRequiredDocAndCancelTheProcess()
 
     def test_07BudgetAsNewRequiredDocWhileReleasingBToA_VerifyInvalidFileUpload(self):
         self.log.info("*#" * 20)
-        self.log.info(" BudgetAsNewRequiredDocWhileReleasingBToA_VerifyInvalidFileUpload ")
+        self.log.info(" test_07BudgetAsNewRequiredDocWhileReleasingBToA_VerifyInvalidFileUpload ")
         self.log.info("*#" * 20)
         self.unrelease.BudgetAsNewRequiredDocWhileReleasingBToA_VerifyInvalidFileUpload()
 
     def test_08VerifyLeaseTextOnPopUp(self):
         self.log.info("*#" * 20)
-        self.log.info(" Lease document validation - VerifyLeaseTextOnPopUp ")
+        self.log.info(" test_08VerifyLeaseTextOnPopUp ")
         self.log.info("*#" * 20)
         self.unrelease.VerifyLeaseTextOnPopUp()
 
     def test_09VerifyLeaseAttachementByClickingLeaseDocument(self):
         self.log.info("*#" * 20)
-        self.log.info(" est_09VerifyLeaseAttachementByClickingLeaseDocument ")
+        self.log.info(" test_09VerifyLeaseAttachementByClickingLeaseDocument ")
         self.log.info("*#" * 20)
         self.unrelease.VerifyLeaseAttachementByClickingLeaseDocument()
 

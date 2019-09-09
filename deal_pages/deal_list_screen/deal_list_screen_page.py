@@ -55,6 +55,7 @@ class DealList(SeleniumDriver):
         self.elementClick(self.click_arrow_img)
         time.sleep(2)
         self.ClickNeedMyApproval()
+        time.sleep(3)
         button_text = self.getText(self.approve_release_button)
         button_original_text = "Approve release"
         self.verifyTextContains(actualText=button_text, expectedText=button_original_text)
@@ -212,7 +213,7 @@ class DealList(SeleniumDriver):
 
     # test_07RegionFieldFilter
 
-    more_filter_icon = "//img[@src='/1/client/7ace26a7466f9ba855bb192b01aecb91.svg']"
+    more_filter_icon = "//img[@src='/2/client/7ace26a7466f9ba855bb192b01aecb91.svg']"
     region_textfield = '''//*[@id="app"]/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div/div/div[1]'''
     external_click_close_dropdown = "//p[contains(text(),'Territory')]"
     select_region_list = "//p[contains(text(),'US & Canada East & Israel')]"
@@ -425,15 +426,15 @@ class DealList(SeleniumDriver):
         self.driver.execute_script("window.scrollBy(0, -1000);")
         ##### scroll into view #####
 
-        self.EnterTeamName()
+        name = 'Shazadi Mohammed'
+        self.EnterTeamName(name)
         time.sleep(2)
         self.elementClick(self.select_team_member_list)
         time.sleep(2)
         self.elementClick(self.apply_button)
         time.sleep(2)
         team_member_tag = self.getText(self.team_member_after_tag)
-        team_member_original = 'Shazadi Mohammed'
-        self.verifyTextContains(actualText=team_member_tag, expectedText=team_member_original)
+        self.verifyTextContains(actualText=team_member_tag, expectedText=name)
 
 
     #

@@ -167,7 +167,7 @@ class UnReleasePages(SeleniumDriver):
         self.deal.ClickApplyButton()
         time.sleep(2)
         self.ClickMenuIcon()
-        time.sleep(2)
+        time.sleep(3)
         text = self.getText(self.button_release_to_a)
         button_text = "Request release to A"
         self.verifyTextContains(actualText=text, expectedText=button_text)

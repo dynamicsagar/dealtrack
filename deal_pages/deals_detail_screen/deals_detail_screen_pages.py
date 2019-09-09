@@ -93,7 +93,7 @@ class DealDetailScreenPages(SeleniumDriver):
     click_description = "//h4[contains(.,'Description')]"
     enter_description = "//textarea[@name='description']"
     click_Save_button = "//button[contains(.,'Save')]"
-    description_text = "//p[contains(text(),'testest')]"
+    description_text = "//p[contains(text(),'Hi this is a random automation text')]"
 
     def EnterDesc(self, description):
         self.elementClick(self.enter_description)

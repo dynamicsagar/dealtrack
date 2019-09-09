@@ -180,7 +180,7 @@ class AccountPages(SeleniumDriver):
         self.verifyTextContains(actualText=text, expectedText=original_text)
         self.log.info(" !!!!! ChatSupport verification successfully !!!!")
 
-    navigation_page_header = "//h2[contains(text(),'Dealtrack FAQ')]"
+    navigation_page_header = '''//p[contains(text(),"FAQs")]'''
 
     def Faq(self):
         time.sleep(2)

@@ -405,6 +405,14 @@ class ReleasePages(SeleniumDriver):
         self.elementClick(self.move_to_b_button)
         time.sleep(2)
         self.deal.SelectFirstDateFromCalendar()
+        time.sleep(4)
+        base = datetime.datetime.now()
+        for x in range(1, 2):  # adding method to select lease signing date
+            if x == 1:
+                a = (base + datetime.timedelta(days=x))
+                a = (a.strftime("%m/%d/%Y"))
+                self.log.info(a)
+                self.EnterLeaseSigningDate(a)
         time.sleep(2)
         self.elementClick(self.button_release)
         time.sleep(3)
