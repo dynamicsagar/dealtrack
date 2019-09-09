@@ -15,7 +15,7 @@ class RequestRevisionPages(SeleniumDriver):
         self.deal = DealList(self.driver)
         self.dealdetail = DealDetailScreenPages(self.driver)
         self.unrelease = UnReleasePages(self.driver)
-        self.release =  ReleasePages(self.driver)
+        self.release = ReleasePages(self.driver)
         self.driver = driver
 
 
@@ -301,10 +301,10 @@ class RequestRevisionPages(SeleniumDriver):
 
     def ApprovalButtonsReturnAfterUpdatingDocumentsAfterChangesAreRequested(self):
         time.sleep(3)
-        approve_button = self.getText(self.release.ClickApproveButtonAfterMovingFromXtoY())
+        approve_button = self.getText(self.release.approve_release_button)
         approve_button_text = "Approve release"
         self.verifyTextContains(actualText=approve_button, expectedText=approve_button_text)
-        time.sleep(2)
+        time.sleep(3)
         self.release.ApproveReleaseButtonClick()
 
 

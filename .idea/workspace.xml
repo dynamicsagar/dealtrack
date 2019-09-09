@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac67b39-6865-46cd-9101-8430a9aa15f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/deal_pages/account_tab/account_tab_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/account_tab/account_tab_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/deal_list_screen/deal_list_screen_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/deal_list_screen/deal_list_screen_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/deal_pages/release/release_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/release/release_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/unrelease/unrelease_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/unrelease/unrelease_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/test_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_suite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/unrelease/unrelease_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/unrelease/unrelease_testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="348" column="48" selection-start-line="348" selection-start-column="31" selection-end-line="348" selection-end-column="48" />
+            <state relative-caret-position="262">
+              <caret line="336" column="49" selection-start-line="336" selection-start-column="13" selection-end-line="336" selection-end-column="49" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -31,11 +27,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/automation.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7561" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deal_pages/release/release_pages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="207" column="56" lean-forward="true" selection-start-line="207" selection-start-column="56" selection-end-line="207" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="92" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="92" />
+            <state relative-caret-position="93">
+              <caret line="69" column="65" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -51,13 +66,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>util</find>
-      <find>.contact-search--create-option</find>
-      <find>click_create_new_broker</find>
-      <find>contact_close_icon</find>
-      <find>add_contact</find>
-      <find>//div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/input</find>
-      <find>broker</find>
       <find>LandlordsCanHaveMultipleSubsidiary</find>
       <find>Element not found</find>
       <find>byType</find>
@@ -72,15 +80,22 @@
       <find>more_filter_icon</find>
       <find>ClickNeedMyApproval</find>
       <find>MoreFilterIcon</find>
-      <find>ClickApproveButtonAfterMovingFromXtoY</find>
       <find>v</find>
       <find>approve_release_button</find>
       <find>select_lease_signed</find>
-      <find>ApproveReleaseButtonClick</find>
-      <find>VerifyRequestButton</find>
       <find>DealRemovedFromNeedMyApprovalAfterRequestChanges</find>
+      <find>click_first_close_icon</find>
+      <find>ApproverSectionUpdatesToReflectRequestedChangesStatus</find>
+      <find>VerifyRequestButton</find>
+      <find>RequestModalSubmitButton</find>
       <find>ApprovalButtonsReturnAfterUpdatingDocumentsAfterChangesAreRequested</find>
+      <find>ClickApproveButtonAfterMovingFromXtoY</find>
+      <find>ApproveReleaseButtonClick</find>
+      <find>approve_button</find>
       <find>NoApprovalButtonsAfterRequestChanges</find>
+      <find>click_approve_button</find>
+      <find>test_10VerifyApprovalButtonsReturnAfterUpdatingDocumentsAfterChangesAreRequested</find>
+      <find>NoApprovalButtonsAfterRequestChangesFromBtoA</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -100,7 +115,6 @@
         <option value="$PROJECT_DIR$/deal_pages/explore_tab_screen/explore_tab_screen_pages.py" />
         <option value="$PROJECT_DIR$/deal_pages/login_and_logout/login_logout_page.py" />
         <option value="$PROJECT_DIR$/testcases/account_tab/account_tab_testcases.py" />
-        <option value="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" />
         <option value="$PROJECT_DIR$/testcases/request_revision/request-revision_testcases.py" />
         <option value="$PROJECT_DIR$/testcases/broker/broker_testcases.py" />
         <option value="$PROJECT_DIR$/deal_pages/broker/broker_pages.py" />
@@ -114,10 +128,11 @@
         <option value="$PROJECT_DIR$/testcases/release/release_testcases.py" />
         <option value="$PROJECT_DIR$/deal_pages/account_tab/account_tab_pages.py" />
         <option value="$PROJECT_DIR$/deal_pages/deal_list_screen/deal_list_screen_page.py" />
-        <option value="$PROJECT_DIR$/deal_pages/release/release_pages.py" />
         <option value="$PROJECT_DIR$/deal_pages/unrelease/unrelease_pages.py" />
         <option value="$PROJECT_DIR$/testcases/unrelease/unrelease_testcases.py" />
         <option value="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" />
+        <option value="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" />
+        <option value="$PROJECT_DIR$/deal_pages/release/release_pages.py" />
         <option value="$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py" />
       </list>
     </option>
@@ -140,34 +155,6 @@
             <path>
               <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
               <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="deal_pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="deal_pages" type="462c0819:PsiDirectoryNode" />
-              <item name="request_revision" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="release" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="request_revision" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,8 +203,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18631178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18631178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -230,7 +218,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50253487" side_tool="true" weight="0.22580644" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.26075268" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49746513" visible="true" weight="0.2594086" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49746513" visible="true" weight="0.36962366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -504,23 +492,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/automation.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17696" />
+        <state relative-caret-position="-7561" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deal_pages/release/release_pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3537">
-          <caret line="233" column="8" selection-start-line="233" selection-start-column="8" selection-end-line="233" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="348" column="48" selection-start-line="348" selection-start-column="31" selection-end-line="348" selection-end-column="48" />
+        <state relative-caret-position="309">
+          <caret line="207" column="56" lean-forward="true" selection-start-line="207" selection-start-column="56" selection-end-line="207" selection-end-column="56" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -529,8 +507,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="92" lean-forward="true" selection-start-line="75" selection-start-column="2" selection-end-line="92" />
+        <state relative-caret-position="93">
+          <caret line="69" column="65" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="336" column="49" selection-start-line="336" selection-start-column="13" selection-end-line="336" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

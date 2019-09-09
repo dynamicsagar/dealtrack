@@ -199,7 +199,7 @@ class ReleasePages(SeleniumDriver):
     select_approver = "//p[contains(.,'Gaurav Dave')]"
     cancel_button_for_verification = "//span[contains(text(),'Cancel')]"
     approve_release_button = "//span[contains(text(),'Approve release')]"
-    click_approve_button = "//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/button"
+    click_approve_button = "//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/button/span"
 
     def ClickApproveButtonAfterMovingFromXtoY(self):
         self.elementClick(self.approve_release_button)
@@ -233,7 +233,7 @@ class ReleasePages(SeleniumDriver):
 
     def ApproveReleaseButtonClick(self):
         self.elementClick(self.approve_release_button)
-        time.sleep(2)
+        time.sleep(3)
         self.elementClick(self.click_approve_button)
 
     def ReleaseDToCForm(self):
