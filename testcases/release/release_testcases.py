@@ -6,7 +6,7 @@ import logging
 
 
 @pytest.mark.usefixtures("oneTimeSetUp", "setUp")
-class DealListTest(unittest.TestCase):
+class ReleaseTest(unittest.TestCase):
     log = cl.customLogger(logging.DEBUG)
 
     @pytest.fixture(autouse=True)
