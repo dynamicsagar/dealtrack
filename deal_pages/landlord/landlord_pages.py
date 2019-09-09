@@ -119,7 +119,7 @@ class LandlordPages(SeleniumDriver):
             time.sleep(2)
             self.elementClick(add_subsidiary)
             self.RandomSubsidiary_company()
-            time.sleep(2)
+            time.sleep(4)
             self.elementClick(self.click_create, locatorType='css')
         self.Verification()
 
@@ -140,7 +140,7 @@ class LandlordPages(SeleniumDriver):
             self.RandomSubsidiary_company()
             time.sleep(2)
             self.elementClick(self.click_create, locatorType='css')
-            time.sleep(2)
+            time.sleep(4)
         self.Verification()
 
     add_sub_contact = '''//*[@id="app"]/div/div[2]/div/div/div[1]/div/div/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/p'''

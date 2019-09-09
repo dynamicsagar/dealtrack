@@ -33,6 +33,6 @@ class LandlordTest(unittest.TestCase):
 
     def test_04VerifyLandlordCanHaveMultipleSubContacts(self):
         self.log.info("*#" * 20)
-        self.log.info(" test_03VerifyLandlordsCanHaveMultipleContacts ")
+        self.log.info(" test_04VerifyLandlordCanHaveMultipleSubContacts ")
         self.log.info("*#" * 20)
         self.landlord.LandlordCanHaveMultipleSubContacts()
