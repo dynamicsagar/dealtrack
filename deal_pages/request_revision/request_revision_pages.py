@@ -7,7 +7,6 @@ from deal_pages.release.release_pages import ReleasePages
 from selenium.webdriver.common.keys import Keys
 
 
-
 class RequestRevisionPages(SeleniumDriver):
 
     def __init__(self, driver):

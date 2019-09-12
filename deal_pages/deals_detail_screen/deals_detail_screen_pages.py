@@ -72,6 +72,15 @@ class DealDetailScreenPages(SeleniumDriver):
         self.getElement(self.click_upload_popup)
         self.sendKeys(name, self.click_upload_popup)
 
+    def ClickUploadButton(self):
+        self.elementClick(self.click_upload_button)
+
+    def ClickPhotoModalCloseIcon(self):
+        self.elementClick(self.click_close_icon)
+
+    def ClickUploadedImage(self):
+        self.elementClick(self.click_uploaded_image, locatorType='css')
+
     def AddPhotos(self, name=''):
         time.sleep(2)
         self.elementClick(self.click_new_photo)
@@ -80,15 +89,18 @@ class DealDetailScreenPages(SeleniumDriver):
         name = "C:/Users/Sagar/Desktop/360degreeimages/R0010005.JPG"
         self.UploadDocuments(name)
         time.sleep(4)
-        self.elementClick(self.click_upload_button)
-        time.sleep(40)
+        self.ClickUploadButton()
+        time.sleep(25)
+        self.VerifyPhotoAddedSuccessfully()
+
+    def VerifyPhotoAddedSuccessfully(self):
         upload_text = "Photos"
-        self.elementClick(self.click_uploaded_image, locatorType='css')
+        self.ClickUploadedImage()
         time.sleep(2)
         get_upload_text = self.getText(self.check_after_photo_upload)
         self.verifyTextContains(actualText=get_upload_text, expectedText=upload_text)
         time.sleep(2)
-        self.elementClick(self.click_close_icon)
+        self.ClickPhotoModalCloseIcon()
 
     click_description = "//h4[contains(.,'Description')]"
     enter_description = "//textarea[@name='description']"
@@ -131,9 +143,9 @@ class DealDetailScreenPages(SeleniumDriver):
 
     '''
 
-    click_financial = "//div[8]/div[2]/div[1]/div[2]/div"
-    click_deal_memo = "//div[8]/div[2]/div[3]/div[2]/div"
-    click_term_sheet = "//div[8]/div[2]/div[2]/div[2]/div"
+    click_financial = "//div[9]/div[2]/div[1]/div[2]/div"
+    click_deal_memo = "//div[9]/div[2]/div[3]/div[2]/div"
+    click_term_sheet = "//div[9]/div[2]/div[2]/div[2]/div"
     scroll_to_text = "//span[contains(text(),'Financial model')]"
     text_after_upload_financial_pdf = "//span[contains(text(),'E (Discovery)')]"
 

@@ -180,7 +180,7 @@ class AccountPages(SeleniumDriver):
         self.verifyTextContains(actualText=text, expectedText=original_text)
         self.log.info(" !!!!! ChatSupport verification successfully !!!!")
 
-    navigation_page_header = '''//p[contains(text(),"FAQs")]'''
+    navigation_page_header = "//div[@id='how-to-access-dealtrack']"
 
     def Faq(self):
         time.sleep(2)
@@ -192,6 +192,7 @@ class AccountPages(SeleniumDriver):
 
         # switch on to new child window
         self.driver.switch_to.window(window_after)
+        time.sleep(3)
         result = self.isElementDisplayed(self.navigation_page_header)
 
 
