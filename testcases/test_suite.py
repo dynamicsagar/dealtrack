@@ -27,11 +27,8 @@ tc10 = unittest.TestLoader().loadTestsFromTestCase(ExploreScreenTest)
 tc11 = unittest.TestLoader().loadTestsFromTestCase(MeetingNotesTests)
 tc12 = unittest.TestLoader().loadTestsFromTestCase(PhotoModalTest)
 
-
-
 # Create a test suite combining all test classes
 smokeTest = unittest.TestSuite([tc3, tc1, tc2, tc7, tc4, tc5, tc6, tc8, tc9, tc10, tc11, tc12])
-
 
 unittest.TextTestRunner(verbosity=2).run(smokeTest)
 
