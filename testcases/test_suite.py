@@ -9,6 +9,8 @@ from testcases.release.release_testcases import ReleaseTest
 from testcases.unrelease.unrelease_testcases import UnreleaseTest
 from testcases.explore_tab_screen.explore_tab_screen_textcases import ExploreScreenTest
 from testcases.request_revision.request_revision_testcases import RequestRevisionTest
+from testcases.meeting_notes.meeting_notes_testcases import MeetingNotesTests
+from testcases.photo_modal.photo_modal_testcases import PhotoModalTest
 
 # Get all tests from the test classes
 
@@ -22,10 +24,13 @@ tc7 = unittest.TestLoader().loadTestsFromTestCase(AccountTabTest)
 tc8 = unittest.TestLoader().loadTestsFromTestCase(UnreleaseTest)
 tc9 = unittest.TestLoader().loadTestsFromTestCase(RequestRevisionTest)
 tc10 = unittest.TestLoader().loadTestsFromTestCase(ExploreScreenTest)
+tc11 = unittest.TestLoader().loadTestsFromTestCase(MeetingNotesTests)
+tc12 = unittest.TestLoader().loadTestsFromTestCase(PhotoModalTest)
+
 
 
 # Create a test suite combining all test classes
-smokeTest = unittest.TestSuite([tc3, tc1, tc2, tc7, tc4, tc5, tc6, tc8, tc9, tc10])
+smokeTest = unittest.TestSuite([tc3, tc1, tc2, tc7, tc4, tc5, tc6, tc8, tc9, tc10, tc11, tc12])
 
 
 unittest.TextTestRunner(verbosity=2).run(smokeTest)

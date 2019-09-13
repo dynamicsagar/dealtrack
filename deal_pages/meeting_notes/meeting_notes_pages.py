@@ -188,7 +188,7 @@ class MeetingNotesPages(SeleniumDriver):
         self.elementClick(self.add_meeting_notes_button)
         time.sleep(2)
         textbox = self.getElement(self.enter_meeting_notes).get_attribute('value')
-        if textbox.isEmpty():
+        if textbox == '':
             self.log.info("empty")
             assert True
         else:

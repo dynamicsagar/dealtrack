@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac67b39-6865-46cd-9101-8430a9aa15f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/deal_pages/deal_list_screen/deal_list_screen_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/deal_list_screen/deal_list_screen_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/photo_modal/photo_modal_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/photo_modal/photo_modal_testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal_pages/meeting_notes/meeting_notes_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/meeting_notes/meeting_notes_pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/element present not found.1568369958049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/element present not found.1568370014017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/element present not found.1568370266376.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/element present not found.1568375269463.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_suite.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deal_pages/meeting_notes/meeting_notes_pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="159" selection-start-line="159" selection-end-line="159" />
+            <state relative-caret-position="4114">
+              <caret line="190" column="24" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -27,25 +31,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deal_pages/release/release_pages.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcases/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="389" column="38" lean-forward="true" selection-start-line="389" selection-start-column="8" selection-end-line="389" selection-end-column="38" />
+            <state relative-caret-position="477">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="109" column="28" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/meeting_notes/meeting_notes_testcases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="39" column="53" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="53" />
+            <state relative-caret-position="1078">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -98,9 +90,9 @@
       <find>MoreFilterIcon</find>
       <find>add_meeting_notes_button</find>
       <find>description_text</find>
-      <find>VerifyMeetingNoteButton</find>
       <find>desc</find>
       <find>ReleaseProcessCTOB</find>
+      <find>VerifyMeetingNoteButton</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,7 +120,6 @@
         <option value="$PROJECT_DIR$/deal_pages/landlord/landlord_pages.py" />
         <option value="$PROJECT_DIR$/testcases/deal_list_screen/deal_list_screen_testcases.py" />
         <option value="$PROJECT_DIR$/testcases/deal_detail_screen/deal_detail_screen_testcases.py" />
-        <option value="$PROJECT_DIR$/testcases/test_suite.py" />
         <option value="$PROJECT_DIR$/automation.log" />
         <option value="$PROJECT_DIR$/testcases/release/release_testcases.py" />
         <option value="$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py" />
@@ -143,6 +134,7 @@
         <option value="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" />
         <option value="$PROJECT_DIR$/testcases/meeting_notes/meeting_notes_testcases.py" />
         <option value="$PROJECT_DIR$/deal_pages/meeting_notes/meeting_notes_pages.py" />
+        <option value="$PROJECT_DIR$/testcases/test_suite.py" />
       </list>
     </option>
   </component>
@@ -168,13 +160,7 @@
             <path>
               <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
               <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="deal_pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
-              <item name="deal_pages" type="462c0819:PsiDirectoryNode" />
-              <item name="release" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +211,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13561471" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13561471" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -238,7 +224,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5038023" side_tool="true" weight="0.26881722" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.26075268" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49619773" visible="true" weight="0.3077957" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49619773" weight="0.22580644" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -446,16 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/test_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcases/account_tab/account_tab_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
@@ -607,30 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/meeting_notes/meeting_notes_testcases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="39" column="53" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/automation.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="179" column="80" lean-forward="true" selection-start-line="179" selection-start-column="80" selection-end-line="179" selection-end-column="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="109" column="28" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deal_pages/release/release_pages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
@@ -641,12 +593,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deal_pages/meeting_notes/meeting_notes_pages.py">
+    <entry file="file://$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        <state relative-caret-position="-43">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="24" selection-end-line="109" selection-end-column="28" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7168">
+          <caret line="179" column="80" lean-forward="true" selection-start-line="179" selection-start-column="80" selection-end-line="179" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_pages/meeting_notes/meeting_notes_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4114">
+          <caret line="190" column="24" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/meeting_notes/meeting_notes_testcases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
