@@ -41,6 +41,11 @@ class RequestRevisionPages(SeleniumDriver):
     select_b_to_a = "//div[5]/div/div/div[2]/div[7]/div/img"
     request_change_button = "//span[contains(text(),'Request changes')]"
 
+    def SelectCtoB(self):
+        self.elementClick(self.select_c_to_b)
+
+    def SelectBToA(self):
+        self.elementClick(self.select_b_to_a)
 
     # Verify request button available on the page
     # test_01VerifyRequestRevisionButtonDToC
@@ -126,6 +131,9 @@ class RequestRevisionPages(SeleniumDriver):
 
     doc_upload_button = "//span[@class='upload-docs']"
     cancel_button = "//span[contains(text(),'Cancel')]"
+
+    def ClickDealDetailPageCancelButton(self):
+        self.elementClick(self.cancel_button)
 
     # test_02VerifyNoApprovalButtonsAfterRequestChanges
 
@@ -412,7 +420,7 @@ class RequestRevisionPages(SeleniumDriver):
         time.sleep(2)
         self.deal.ClickStageField()
         time.sleep(2)
-        self.elementClick(self.select_c_to_b)
+        self.SelectCtoB()
         time.sleep(2)
         self.deal.ClickApplyButton()
         time.sleep(2)

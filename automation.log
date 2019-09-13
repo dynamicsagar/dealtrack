@@ -1,0 +1,253 @@
+09/13/2019 05:12:34 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/13/2019 05:12:34 PM - SeleniumDriver - INFO: Element appeared on the web page
+09/13/2019 05:12:34 PM - SeleniumDriver - INFO: Element found with locator: //div[@class='auth0-lock-social-button-text'] and  locatorType: xpath
+09/13/2019 05:12:36 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@class='auth0-lock-social-button-text'] locatorType: xpath
+09/13/2019 05:12:38 PM - SeleniumDriver - INFO: Locator type //input[@id='identifierid'] not correct/supported
+09/13/2019 05:12:38 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/13/2019 05:12:39 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/13/2019 05:12:40 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='identifierId'] and  locatorType: xpath
+09/13/2019 05:12:40 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='identifierId'] locatorType: xpath
+09/13/2019 05:12:42 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/13/2019 05:12:42 PM - SeleniumDriver - INFO: Element appeared on the web page
+09/13/2019 05:12:42 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
+09/13/2019 05:12:42 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
+09/13/2019 05:12:44 PM - SeleniumDriver - INFO: Locator type //input[@name='password'] not correct/supported
+09/13/2019 05:12:44 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/13/2019 05:12:44 PM - SeleniumDriver - INFO: Element not appeared on the web page
+09/13/2019 05:12:44 PM - SeleniumDriver - INFO: Element found with locator: //input[@name='password'] and  locatorType: xpath
+09/13/2019 05:12:44 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@name='password'] locatorType: xpath
+09/13/2019 05:12:46 PM - SeleniumDriver - INFO: Waiting for maximum :: 30 :: seconds for element to be clickable
+09/13/2019 05:12:46 PM - SeleniumDriver - INFO: Element appeared on the web page
+09/13/2019 05:12:46 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Next')] and  locatorType: xpath
+09/13/2019 05:12:46 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Next')] locatorType: xpath
+09/13/2019 05:12:46 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:12:46 PM - MeetingNotesTests - INFO:  test_01VerifyMeetingNoteButton 
+09/13/2019 05:12:46 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:12:58 PM - SeleniumDriver - INFO: Element found with locator: //img[@class='sidebar--header-chevron'] and  locatorType: xpath
+09/13/2019 05:12:59 PM - SeleniumDriver - INFO: Clicked on element with locator: //img[@class='sidebar--header-chevron'] locatorType: xpath
+09/13/2019 05:13:01 PM - SeleniumDriver - INFO: Element found with locator: .sidebar--header-icon:nth-child(3) and  locatorType: css
+09/13/2019 05:13:01 PM - SeleniumDriver - INFO: Clicked on element with locator: .sidebar--header-icon:nth-child(3) locatorType: css
+09/13/2019 05:13:03 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div/div/div[1] and  locatorType: xpath
+09/13/2019 05:13:03 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div/div/div[1] locatorType: xpath
+09/13/2019 05:13:05 PM - SeleniumDriver - INFO: Element found with locator: //div[5]/div/div/div[2]/div[7]/div/img and  locatorType: xpath
+09/13/2019 05:13:05 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[5]/div/div/div[2]/div[7]/div/img locatorType: xpath
+09/13/2019 05:13:07 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Apply')] and  locatorType: xpath
+09/13/2019 05:13:08 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Apply')] locatorType: xpath
+09/13/2019 05:13:13 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/button[2]/span and  locatorType: xpath
+09/13/2019 05:13:13 PM - SeleniumDriver - INFO: Element not displayed
+09/13/2019 05:13:16 PM - SeleniumDriver - INFO: Element not found with locator: //button[contains(text(),'Apply')] and  locatorType: xpath
+09/13/2019 05:13:16 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //button[contains(text(),'Apply')] locatorType: xpath
+09/13/2019 05:13:18 PM - SeleniumDriver - INFO: Element found with locator: .sc-1dok22n-0 > path and  locatorType: css
+09/13/2019 05:13:18 PM - SeleniumDriver - INFO: Clicked on element with locator: .sc-1dok22n-0 > path locatorType: css
+09/13/2019 05:13:21 PM - SeleniumDriver - INFO: Element found with locator: //*[@class='icon--unrelease'] and  locatorType: xpath
+09/13/2019 05:13:21 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@class='icon--unrelease'] locatorType: xpath
+09/13/2019 05:13:23 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Submit')] and  locatorType: xpath
+09/13/2019 05:13:23 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Submit')] locatorType: xpath
+09/13/2019 05:13:25 PM - SeleniumDriver - INFO: Element found with locator: .sidebar--header-icon:nth-child(3) and  locatorType: css
+09/13/2019 05:13:25 PM - SeleniumDriver - INFO: Clicked on element with locator: .sidebar--header-icon:nth-child(3) locatorType: css
+09/13/2019 05:13:27 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Apply')] and  locatorType: xpath
+09/13/2019 05:13:27 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Apply')] locatorType: xpath
+09/13/2019 05:13:30 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/button[2]/span and  locatorType: xpath
+09/13/2019 05:13:30 PM - SeleniumDriver - INFO: Element is displayed
+09/13/2019 05:13:30 PM - SeleniumDriver - INFO: Element present with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/button[2]/span locatorType: xpath
+09/13/2019 05:13:30 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:13:30 PM - MeetingNotesTests - INFO:  test_02AddMeetingNotesBtoA 
+09/13/2019 05:13:30 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:13:32 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/button[2]/span and  locatorType: xpath
+09/13/2019 05:13:32 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/button[2]/span locatorType: xpath
+09/13/2019 05:13:34 PM - SeleniumDriver - INFO: Element found with locator: //textarea[@placeholder='Enter text here'] and  locatorType: xpath
+09/13/2019 05:13:34 PM - SeleniumDriver - INFO: Clicked on element with locator: //textarea[@placeholder='Enter text here'] locatorType: xpath
+09/13/2019 05:13:36 PM - SeleniumDriver - INFO: Element found with locator: //textarea[@placeholder='Enter text here'] and  locatorType: xpath
+09/13/2019 05:13:37 PM - SeleniumDriver - INFO: Sent data on element with locator: //textarea[@placeholder='Enter text here'] locatorType: xpath
+09/13/2019 05:13:39 PM - SeleniumDriver - INFO: 09/13/2019
+09/13/2019 05:13:39 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='regionalCommitteeMeetingDate'] and  locatorType: xpath
+09/13/2019 05:13:39 PM - SeleniumDriver - INFO: Clicked on element with locator: //input[@id='regionalCommitteeMeetingDate'] locatorType: xpath
+09/13/2019 05:13:41 PM - SeleniumDriver - INFO: 09/13/2019
+09/13/2019 05:13:41 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='regionalCommitteeMeetingDate'] and  locatorType: xpath
+09/13/2019 05:13:41 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='regionalCommitteeMeetingDate'] locatorType: xpath
+09/13/2019 05:13:43 PM - SeleniumDriver - INFO: Element found with locator: .sc-1b2vuwt-0 and  locatorType: css
+09/13/2019 05:13:43 PM - SeleniumDriver - INFO: Clicked on element with locator: .sc-1b2vuwt-0 locatorType: css
+09/13/2019 05:13:43 PM - SeleniumDriver - INFO: Element found with locator: .sc-1b2vuwt-0 and  locatorType: css
+09/13/2019 05:13:43 PM - SeleniumDriver - INFO: Sent data on element with locator: .sc-1b2vuwt-0 locatorType: css
+09/13/2019 05:13:43 PM - SeleniumDriver - INFO: Element found with locator: .sc-1b2vuwt-0 and  locatorType: css
+09/13/2019 05:13:43 PM - SeleniumDriver - INFO: Sent data on element with locator: .sc-1b2vuwt-0 locatorType: css
+09/13/2019 05:13:45 PM - SeleniumDriver - INFO: Element found with locator: .sc-1b2vuwt-0 and  locatorType: css
+09/13/2019 05:13:45 PM - SeleniumDriver - INFO: Sent data on element with locator: .sc-1b2vuwt-0 locatorType: css
+09/13/2019 05:13:47 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
+09/13/2019 05:13:47 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Save')] locatorType: xpath
+09/13/2019 05:13:47 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:13:47 PM - MeetingNotesTests - INFO:  test_03VerifyAddedMeetingNotesOnNotesSection 
+09/13/2019 05:13:47 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:13:49 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Notes')] and  locatorType: xpath
+09/13/2019 05:13:54 PM - SeleniumDriver - INFO: Element present with locator: //span[contains(text(),'B to A release')] locatorType: xpath
+09/13/2019 05:13:54 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:13:54 PM - MeetingNotesTests - INFO:  test_04VerifyMeetingNotesButtonFromCtoB 
+09/13/2019 05:13:54 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:13:56 PM - SeleniumDriver - INFO: Element found with locator: .sidebar--header-icon:nth-child(3) and  locatorType: css
+09/13/2019 05:13:56 PM - SeleniumDriver - INFO: Clicked on element with locator: .sidebar--header-icon:nth-child(3) locatorType: css
+09/13/2019 05:13:58 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Reset')] and  locatorType: xpath
+09/13/2019 05:13:58 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Reset')] locatorType: xpath
+09/13/2019 05:14:00 PM - SeleniumDriver - INFO: Element found with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div/div/div[1] and  locatorType: xpath
+09/13/2019 05:14:00 PM - SeleniumDriver - INFO: Clicked on element with locator: //*[@id="app"]/div/div[2]/div/div/div[1]/div/div[2]/div[5]/div/div/div[1] locatorType: xpath
+09/13/2019 05:14:02 PM - SeleniumDriver - INFO: Element found with locator: //div[5]/div/div/div[2]/div[4]/div/img and  locatorType: xpath
+09/13/2019 05:14:02 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[5]/div/div/div[2]/div[4]/div/img locatorType: xpath
+09/13/2019 05:14:04 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Apply')] and  locatorType: xpath
+09/13/2019 05:14:04 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Apply')] locatorType: xpath
+09/13/2019 05:14:11 PM - SeleniumDriver - INFO: Element not found with locator: //button[contains(text(),'Update floors')] and  locatorType: xpath
+09/13/2019 05:14:11 PM - SeleniumDriver - INFO: Element not displayed
+09/13/2019 05:14:19 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Request release to B')] and  locatorType: xpath
+09/13/2019 05:14:19 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Request release to B')] locatorType: xpath
+09/13/2019 05:14:22 PM - SeleniumDriver - INFO: Element found with locator: Add file (Excel) and  locatorType: link
+09/13/2019 05:14:22 PM - SeleniumDriver - INFO: Clicked on element with locator: Add file (Excel) locatorType: link
+09/13/2019 05:14:24 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:14:24 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:14:24 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='fsp-fileUpload'] locatorType: xpath
+09/13/2019 05:14:59 PM - SeleniumDriver - INFO: Element found with locator: Add file (PDF) and  locatorType: link
+09/13/2019 05:15:00 PM - SeleniumDriver - INFO: Clicked on element with locator: Add file (PDF) locatorType: link
+09/13/2019 05:15:02 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:15:02 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:15:02 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='fsp-fileUpload'] locatorType: xpath
+09/13/2019 05:15:27 PM - SeleniumDriver - INFO: Element found with locator: Add file (PDF, Doc) and  locatorType: link
+09/13/2019 05:15:27 PM - SeleniumDriver - INFO: Clicked on element with locator: Add file (PDF, Doc) locatorType: link
+09/13/2019 05:15:29 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:15:29 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:15:29 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='fsp-fileUpload'] locatorType: xpath
+09/13/2019 05:15:44 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div[4]/div[2]/button and  locatorType: xpath
+09/13/2019 05:15:44 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div[4]/div[2]/button locatorType: xpath
+09/13/2019 05:15:46 PM - SeleniumDriver - INFO: 09/14/2019
+09/13/2019 05:15:50 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='date'] and  locatorType: xpath
+09/13/2019 05:15:50 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //input[@id='date'] locatorType: xpath
+09/13/2019 05:15:55 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='date'] and  locatorType: xpath
+09/13/2019 05:15:55 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //input[@id='date'] locatorType: xpath
+09/13/2019 05:15:57 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/input and  locatorType: xpath
+09/13/2019 05:15:57 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[2]/div/div/input locatorType: xpath
+09/13/2019 05:15:59 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/input and  locatorType: xpath
+09/13/2019 05:15:59 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[2]/div/div/input locatorType: xpath
+09/13/2019 05:16:05 PM - SeleniumDriver - INFO: Element not found with locator: //li[contains(.,'Rumi Begum')] and  locatorType: xpath
+09/13/2019 05:16:05 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //li[contains(.,'Rumi Begum')] locatorType: xpath
+09/13/2019 05:16:09 PM - SeleniumDriver - INFO: Element found with locator: //div[4]/div/div/input and  locatorType: xpath
+09/13/2019 05:16:09 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[4]/div/div/input locatorType: xpath
+09/13/2019 05:16:11 PM - SeleniumDriver - INFO: Element found with locator: //div[4]/div/div/input and  locatorType: xpath
+09/13/2019 05:16:11 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[4]/div/div/input locatorType: xpath
+09/13/2019 05:16:17 PM - SeleniumDriver - INFO: Element not found with locator: //li[contains(.,'Shazadi Mohammed')] and  locatorType: xpath
+09/13/2019 05:16:17 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //li[contains(.,'Shazadi Mohammed')] locatorType: xpath
+09/13/2019 05:16:22 PM - SeleniumDriver - INFO: Element found with locator: //div[3]/div/div/input and  locatorType: xpath
+09/13/2019 05:16:22 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[3]/div/div/input locatorType: xpath
+09/13/2019 05:16:24 PM - SeleniumDriver - INFO: Element found with locator: //div[3]/div/div/input and  locatorType: xpath
+09/13/2019 05:16:24 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[3]/div/div/input locatorType: xpath
+09/13/2019 05:16:27 PM - SeleniumDriver - INFO: Element not found with locator: //li[contains(.,'Shazadi Mohammed')]] and  locatorType: xpath
+09/13/2019 05:16:27 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //li[contains(.,'Shazadi Mohammed')]] locatorType: xpath
+09/13/2019 05:16:31 PM - SeleniumDriver - INFO: Element found with locator: //div[5]/div/div/input and  locatorType: xpath
+09/13/2019 05:16:31 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[5]/div/div/input locatorType: xpath
+09/13/2019 05:16:33 PM - SeleniumDriver - INFO: Element found with locator: //div[5]/div/div/input and  locatorType: xpath
+09/13/2019 05:16:33 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[5]/div/div/input locatorType: xpath
+09/13/2019 05:16:39 PM - SeleniumDriver - INFO: Element not found with locator: //li[contains(.,'Shazadi Mohammed')] and  locatorType: xpath
+09/13/2019 05:16:39 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //li[contains(.,'Shazadi Mohammed')] locatorType: xpath
+09/13/2019 05:16:43 PM - SeleniumDriver - INFO: Element found with locator: //div[3]/button and  locatorType: xpath
+09/13/2019 05:16:44 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[3]/button locatorType: xpath
+09/13/2019 05:16:46 PM - SeleniumDriver - INFO: Element found with locator: //input[@placeholder='Enter a name'] and  locatorType: xpath
+09/13/2019 05:16:46 PM - SeleniumDriver - INFO: Clicked on element with locator: //input[@placeholder='Enter a name'] locatorType: xpath
+09/13/2019 05:16:48 PM - SeleniumDriver - INFO: Element found with locator: //input[@placeholder='Enter a name'] and  locatorType: xpath
+09/13/2019 05:16:48 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@placeholder='Enter a name'] locatorType: xpath
+09/13/2019 05:16:49 PM - SeleniumDriver - INFO: Element found with locator: //li[contains(.,'Gaurav Dave')] and  locatorType: xpath
+09/13/2019 05:16:50 PM - SeleniumDriver - INFO: Clicked on element with locator: //li[contains(.,'Gaurav Dave')] locatorType: xpath
+09/13/2019 05:16:54 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Submit')] and  locatorType: xpath
+09/13/2019 05:16:54 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Submit')] locatorType: xpath
+09/13/2019 05:16:56 PM - SeleniumDriver - INFO: Element present with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/button[2]/span locatorType: xpath
+09/13/2019 05:16:56 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:16:56 PM - MeetingNotesTests - INFO:  test_05VerifyEnterValueInMeetingNotesModalBoxFromCToB 
+09/13/2019 05:16:56 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:17:04 PM - SeleniumDriver - INFO: Element not found with locator: //textarea[@placeholder='Enter text here'] and  locatorType: xpath
+09/13/2019 05:17:04 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //textarea[@placeholder='Enter text here'] locatorType: xpath
+09/13/2019 05:17:09 PM - SeleniumDriver - INFO: Element not found with locator: //textarea[@placeholder='Enter text here'] and  locatorType: xpath
+09/13/2019 05:17:09 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //textarea[@placeholder='Enter text here'] locatorType: xpath
+09/13/2019 05:17:11 PM - SeleniumDriver - INFO: 09/13/2019
+09/13/2019 05:17:14 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='regionalCommitteeMeetingDate'] and  locatorType: xpath
+09/13/2019 05:17:14 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //input[@id='regionalCommitteeMeetingDate'] locatorType: xpath
+09/13/2019 05:17:16 PM - SeleniumDriver - INFO: 09/13/2019
+09/13/2019 05:17:19 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='regionalCommitteeMeetingDate'] and  locatorType: xpath
+09/13/2019 05:17:19 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //input[@id='regionalCommitteeMeetingDate'] locatorType: xpath
+09/13/2019 05:17:24 PM - SeleniumDriver - INFO: Element not found with locator: .sc-1b2vuwt-0 and  locatorType: css
+09/13/2019 05:17:24 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .sc-1b2vuwt-0 locatorType: css
+09/13/2019 05:17:27 PM - SeleniumDriver - INFO: Element not found with locator: .sc-1b2vuwt-0 and  locatorType: css
+09/13/2019 05:17:27 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: .sc-1b2vuwt-0 locatorType: css
+09/13/2019 05:17:30 PM - SeleniumDriver - INFO: Element not found with locator: .sc-1b2vuwt-0 and  locatorType: css
+09/13/2019 05:17:30 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: .sc-1b2vuwt-0 locatorType: css
+09/13/2019 05:17:35 PM - SeleniumDriver - INFO: Element not found with locator: .sc-1b2vuwt-0 and  locatorType: css
+09/13/2019 05:17:35 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: .sc-1b2vuwt-0 locatorType: css
+09/13/2019 05:17:40 PM - SeleniumDriver - INFO: Element not found with locator: //span[contains(text(),'Save')] and  locatorType: xpath
+09/13/2019 05:17:40 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //span[contains(text(),'Save')] locatorType: xpath
+09/13/2019 05:17:40 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:17:40 PM - MeetingNotesTests - INFO:  test_06VerifyVerifyAddedMeetingNotesOnNotesSectionFromCtoB 
+09/13/2019 05:17:40 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:17:42 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Notes')] and  locatorType: xpath
+09/13/2019 05:17:49 PM - SeleniumDriver - INFO: Element not present with locator: //span[contains(text(),'C to B release')] locatorType: xpath
+09/13/2019 05:17:49 PM - SeleniumDriver - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+09/13/2019 05:17:50 PM - SeleniumDriver - INFO: Screenshot save to directory: C:\Users\Sagar\PycharmProjects\DealTrack\base\../screenshots/element present not found.1568375269463.png
+09/13/2019 05:17:50 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:17:50 PM - MeetingNotesTests - INFO:  test_07VerifyPreviousMeetingNoteIsDisplayedAndEditableWhenReleaseIsCancelled 
+09/13/2019 05:17:50 PM - MeetingNotesTests - INFO: *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+09/13/2019 05:17:52 PM - SeleniumDriver - INFO: Element found with locator: //h4[contains(.,'Description')] and  locatorType: xpath
+09/13/2019 05:17:56 PM - SeleniumDriver - INFO: Element found with locator: //span[contains(text(),'Cancel')] and  locatorType: xpath
+09/13/2019 05:17:56 PM - SeleniumDriver - INFO: Clicked on element with locator: //span[contains(text(),'Cancel')] locatorType: xpath
+09/13/2019 05:17:58 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Submit')] and  locatorType: xpath
+09/13/2019 05:17:58 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Submit')] locatorType: xpath
+09/13/2019 05:18:03 PM - SeleniumDriver - INFO: Element found with locator: //button[contains(text(),'Request release to B')] and  locatorType: xpath
+09/13/2019 05:18:03 PM - SeleniumDriver - INFO: Clicked on element with locator: //button[contains(text(),'Request release to B')] locatorType: xpath
+09/13/2019 05:18:06 PM - SeleniumDriver - INFO: Element found with locator: Add file (Excel) and  locatorType: link
+09/13/2019 05:18:06 PM - SeleniumDriver - INFO: Clicked on element with locator: Add file (Excel) locatorType: link
+09/13/2019 05:18:08 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:18:08 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:18:08 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='fsp-fileUpload'] locatorType: xpath
+09/13/2019 05:18:43 PM - SeleniumDriver - INFO: Element found with locator: Add file (PDF) and  locatorType: link
+09/13/2019 05:18:43 PM - SeleniumDriver - INFO: Clicked on element with locator: Add file (PDF) locatorType: link
+09/13/2019 05:18:45 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:18:45 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:18:45 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='fsp-fileUpload'] locatorType: xpath
+09/13/2019 05:19:11 PM - SeleniumDriver - INFO: Element found with locator: Add file (PDF, Doc) and  locatorType: link
+09/13/2019 05:19:11 PM - SeleniumDriver - INFO: Clicked on element with locator: Add file (PDF, Doc) locatorType: link
+09/13/2019 05:19:13 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:19:13 PM - SeleniumDriver - INFO: Element found with locator: //input[@id='fsp-fileUpload'] and  locatorType: xpath
+09/13/2019 05:19:13 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@id='fsp-fileUpload'] locatorType: xpath
+09/13/2019 05:19:28 PM - SeleniumDriver - INFO: Element found with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div[4]/div[2]/button and  locatorType: xpath
+09/13/2019 05:19:28 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[@id='app']/div/div[2]/div/div/div/div/div/div[4]/div[2]/button locatorType: xpath
+09/13/2019 05:19:30 PM - SeleniumDriver - INFO: 09/14/2019
+09/13/2019 05:19:33 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='date'] and  locatorType: xpath
+09/13/2019 05:19:33 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //input[@id='date'] locatorType: xpath
+09/13/2019 05:19:38 PM - SeleniumDriver - INFO: Element not found with locator: //input[@id='date'] and  locatorType: xpath
+09/13/2019 05:19:38 PM - SeleniumDriver - INFO: Cannot send data on the element with locator: //input[@id='date'] locatorType: xpath
+09/13/2019 05:19:40 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/input and  locatorType: xpath
+09/13/2019 05:19:40 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[2]/div/div/input locatorType: xpath
+09/13/2019 05:19:42 PM - SeleniumDriver - INFO: Element found with locator: //div[2]/div/div/input and  locatorType: xpath
+09/13/2019 05:19:43 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[2]/div/div/input locatorType: xpath
+09/13/2019 05:19:49 PM - SeleniumDriver - INFO: Element not found with locator: //li[contains(.,'Rumi Begum')] and  locatorType: xpath
+09/13/2019 05:19:49 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //li[contains(.,'Rumi Begum')] locatorType: xpath
+09/13/2019 05:19:53 PM - SeleniumDriver - INFO: Element found with locator: //div[4]/div/div/input and  locatorType: xpath
+09/13/2019 05:19:53 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[4]/div/div/input locatorType: xpath
+09/13/2019 05:19:55 PM - SeleniumDriver - INFO: Element found with locator: //div[4]/div/div/input and  locatorType: xpath
+09/13/2019 05:19:55 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[4]/div/div/input locatorType: xpath
+09/13/2019 05:20:01 PM - SeleniumDriver - INFO: Element not found with locator: //li[contains(.,'Shazadi Mohammed')] and  locatorType: xpath
+09/13/2019 05:20:01 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //li[contains(.,'Shazadi Mohammed')] locatorType: xpath
+09/13/2019 05:20:05 PM - SeleniumDriver - INFO: Element found with locator: //div[3]/div/div/input and  locatorType: xpath
+09/13/2019 05:20:05 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[3]/div/div/input locatorType: xpath
+09/13/2019 05:20:07 PM - SeleniumDriver - INFO: Element found with locator: //div[3]/div/div/input and  locatorType: xpath
+09/13/2019 05:20:08 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[3]/div/div/input locatorType: xpath
+09/13/2019 05:20:11 PM - SeleniumDriver - INFO: Element not found with locator: //li[contains(.,'Shazadi Mohammed')]] and  locatorType: xpath
+09/13/2019 05:20:11 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //li[contains(.,'Shazadi Mohammed')]] locatorType: xpath
+09/13/2019 05:20:15 PM - SeleniumDriver - INFO: Element found with locator: //div[5]/div/div/input and  locatorType: xpath
+09/13/2019 05:20:15 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[5]/div/div/input locatorType: xpath
+09/13/2019 05:20:17 PM - SeleniumDriver - INFO: Element found with locator: //div[5]/div/div/input and  locatorType: xpath
+09/13/2019 05:20:17 PM - SeleniumDriver - INFO: Sent data on element with locator: //div[5]/div/div/input locatorType: xpath
+09/13/2019 05:20:23 PM - SeleniumDriver - INFO: Element not found with locator: //li[contains(.,'Shazadi Mohammed')] and  locatorType: xpath
+09/13/2019 05:20:23 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //li[contains(.,'Shazadi Mohammed')] locatorType: xpath
+09/13/2019 05:20:27 PM - SeleniumDriver - INFO: Element found with locator: //div[3]/button and  locatorType: xpath
+09/13/2019 05:20:27 PM - SeleniumDriver - INFO: Clicked on element with locator: //div[3]/button locatorType: xpath
+09/13/2019 05:20:29 PM - SeleniumDriver - INFO: Element found with locator: //input[@placeholder='Enter a name'] and  locatorType: xpath
+09/13/2019 05:20:29 PM - SeleniumDriver - INFO: Clicked on element with locator: //input[@placeholder='Enter a name'] locatorType: xpath
+09/13/2019 05:20:31 PM - SeleniumDriver - INFO: Element found with locator: //input[@placeholder='Enter a name'] and  locatorType: xpath
+09/13/2019 05:20:32 PM - SeleniumDriver - INFO: Sent data on element with locator: //input[@placeholder='Enter a name'] locatorType: xpath
+09/13/2019 05:20:32 PM - SeleniumDriver - INFO: Element found with locator: //li[contains(.,'Gaurav Dave')] and  locatorType: xpath
+09/13/2019 05:20:32 PM - SeleniumDriver - INFO: Clicked on element with locator: //li[contains(.,'Gaurav Dave')] locatorType: xpath
+09/13/2019 05:20:40 PM - SeleniumDriver - INFO: Element not found with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/button[2]/span and  locatorType: xpath
+09/13/2019 05:20:40 PM - SeleniumDriver - INFO: Cannot click on the element with locator: //div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div/div[2]/button[2]/span locatorType: xpath
+09/13/2019 05:20:45 PM - SeleniumDriver - INFO: Element not found with locator: //textarea[@placeholder='Enter text here'] and  locatorType: xpath

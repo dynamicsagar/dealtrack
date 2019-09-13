@@ -259,7 +259,7 @@ class DealDetailScreenPages(SeleniumDriver):
         self.verifyTextContains(actualText=transaction_manager, expectedText=name)
 
     enter_sourcer = "//div[3]/div/div/input"
-    select_sourcer_value = "//li[contains(.,'Gaurav Dave')]"
+    select_sourcer_value = "//li[contains(.,'Shazadi Mohammed')]]"
 
     def EnterSourcer(self, name):
         self.elementClick(self.enter_sourcer)
@@ -267,7 +267,7 @@ class DealDetailScreenPages(SeleniumDriver):
         self.sendKeys(name, self.enter_sourcer)
 
     def SelectSourcer(self):
-        name = 'Gaurav Dave'
+        name = 'Shazadi Mohammed'
         self.EnterSourcer(name)
         time.sleep(3)
         self.elementClick(self.select_sourcer_value)
@@ -277,7 +277,7 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.scroll_to_team)
         time.sleep(2)
-        name = 'Gaurav Dave'
+        name = 'Shazadi Mohammed'
         self.SelectSourcer()
         self.elementClick(self.click_team_save_button)
         time.sleep(2)

@@ -51,7 +51,7 @@ class PhotoModalTest(unittest.TestCase):
 
     def test_07VerifyByUploadingPhotoToSignage(self):
         self.log.info("*#" * 20)
-        self.log.info(" test_07VerifyByUploadingPhotoToSignage ")
+        self.log.info(" test_07VerifyByUploadingPhotoToSignage")
         self.log.info("*#" * 20)
         self.photo.ClickUploadSignageToAddPhoto()
 

@@ -213,14 +213,14 @@ class DealList(SeleniumDriver):
 
     # test_07RegionFieldFilter
 
-    more_filter_icon = "//img[@src='/2/client/7ace26a7466f9ba855bb192b01aecb91.svg']"
+    more_filter_icon = ".sidebar--header-icon:nth-child(3)"
     region_textfield = '''//*[@id="app"]/div/div[2]/div/div/div[1]/div/div[2]/div[1]/div/div/div[1]'''
     external_click_close_dropdown = "//p[contains(text(),'Territory')]"
     select_region_list = "//p[contains(text(),'US & Canada East & Israel')]"
     check_after_filter_tag = "//div[contains(text(),'US & Canada East & Israel')]"
 
     def MoreFilterIcon(self):
-        self.elementClick(self.more_filter_icon)
+        self.elementClick(self.more_filter_icon, locatorType='css')
 
     # Verify Region Filter
     def RegionFilter(self):
