@@ -174,11 +174,14 @@ class PhotoModalPages(SeleniumDriver):
     streetscape = "//p[contains(text(),'Streetscape')]"
     save_button = "//button[contains(text(),'Save')]"
 
+    def ClickPhotoMenuIcon(self):
+        self.elementClick(self.photo_menu_icon, locatorType='css')
+
     def EditTag(self):
         time.sleep(2)
         self.dealdetail.ClickUploadedImage()
         time.sleep(2)
-        self.elementClick(self.photo_menu_icon, locatorType='css')
+        self.ClickPhotoMenuIcon()
         time.sleep(2)
         self.elementClick(self.edit_photo_tag)
         time.sleep(2)
@@ -204,11 +207,12 @@ class PhotoModalPages(SeleniumDriver):
         self.elementClick(self.click_uploaded_image)
         self.elementPresenceCheck(self.zoom_button, byType='xpath')
         time.sleep(2)
-        self.elementClick(self.close_icon)
+        self.elementClick(self.close_icon, locatorType='css')
 
 
     click_upload_new_photo_main_section = "//div[@id='app']/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div/div/span/span"
     remove_tag = "//button[contains(text(),'Remove tag')]"
+    count_untagged_photo_after_update = "//div[contains(text(),'+ 4 more')]"
 
     def RemoveTag(self):
         time.sleep(2)
@@ -219,7 +223,7 @@ class PhotoModalPages(SeleniumDriver):
         time.sleep(4)
         self.dealdetail.ClickUploadButton()
         time.sleep(20)
-        self.elementClick(self.photo_menu_icon, locatorType='css')
+        self.ClickPhotoMenuIcon()
         time.sleep(2)
         self.elementClick(self.edit_photo_tag)
         time.sleep(2)
@@ -228,7 +232,7 @@ class PhotoModalPages(SeleniumDriver):
         self.dealdetail.ClickPhotoModalCloseIcon()
         time.sleep(2)
         text = "+ 4 more"
-        text_untagged_photo = self.getText(self.count_untagged_photo)
+        text_untagged_photo = self.getText(self.count_untagged_photo_after_update)
         self.verifyTextContains(actualText=text, expectedText=text_untagged_photo)
 
     delete_photo_link = "//strong[contains(text(),'Delete photo')]"
@@ -241,13 +245,15 @@ class PhotoModalPages(SeleniumDriver):
         time.sleep(2)
         self.dealdetail.ClickUploadedImage()
         time.sleep(2)
-        self.elementClick(self.photo_menu_icon, locatorType='css')
+        self.ClickPhotoMenuIcon()
         time.sleep(2)
         self.elementClick(self.delete_photo_link)
         time.sleep(2)
-        self.elementClick(self.delete_button)
+        self.driver.switch_to.frame(2)
         time.sleep(2)
-        self.elementPresenceCheck(self.click_upload_new_photo_main_section)
+        self.elementClick(self.delete_button)
+        time.sleep(4)
+        self.elementPresenceCheck(self.click_upload_new_photo_main_section, byType='xpath')
 
 
 

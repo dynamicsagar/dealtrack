@@ -30,7 +30,7 @@ class ExploreScreen(SeleniumDriver):
     explore_text = "//h3[contains(text(),'Explore')]"
 
     def ExploreNavigation(self):
-        time.sleep(2)
+        time.sleep(4)
         self.elementClick(self.explore_icon)
         time.sleep(2)
         text = 'Explore'
@@ -176,7 +176,7 @@ class ExploreScreen(SeleniumDriver):
         time.sleep(2)
         fromElement = self.getElement(self.street_icon)
         toElement = self.getElement(self.redo_Text)
-        time.sleep(2)
+        time.sleep(4)
         actions = ActionChains(self.driver)
         actions.drag_and_drop(fromElement, toElement).perform()
         time.sleep(5)

@@ -225,7 +225,7 @@ class DealList(SeleniumDriver):
     # Verify Region Filter
     def RegionFilter(self):
         time.sleep(10)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
         self.elementClick(self.region_textfield)
         time.sleep(2)
@@ -251,7 +251,7 @@ class DealList(SeleniumDriver):
 
     def TerritoryFilter(self):
         time.sleep(5)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
         self.elementClick(self.territory_list)
         time.sleep(2)
@@ -273,7 +273,7 @@ class DealList(SeleniumDriver):
 
     def MarketFilter(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
         self.elementClick(self.market_list)
         time.sleep(3)
@@ -320,7 +320,7 @@ class DealList(SeleniumDriver):
 
     def StatusFilter(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
         self.elementClick(self.status_field)
         time.sleep(2)
@@ -347,7 +347,7 @@ class DealList(SeleniumDriver):
 
     def StageFilter(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
         self.elementClick(self.stage_field)
         time.sleep(2)
@@ -368,7 +368,7 @@ class DealList(SeleniumDriver):
 
     def ReleaseFilter(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
         self.elementClick(self.release_field)
         time.sleep(2)
@@ -392,7 +392,7 @@ class DealList(SeleniumDriver):
         time.sleep(2)
         #scr1 = self.getElement(self.product_type_field)
         #self.driver.execute_script("arguments[0].scrollTop = arguments[0].scrollHeight", scr1)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
         self.elementClick(self.product_type_field)
         time.sleep(2)
@@ -405,7 +405,7 @@ class DealList(SeleniumDriver):
         self.verifyTextContains(actualText=awaiting_tag, expectedText=awaiting_tag_original)
 
 
-    team_member_field = '''//*[@id="app"]/div/div[2]/div/div/div[1]/div/div[2]/div[11]/div/div/div[1]'''
+    team_member_field = "//div[11]/div/div/div/input"
     select_team_member_list = "//p[contains(text(),'Shazadi Mohammed')]"
     team_member_after_tag = "//div[contains(text(),'Shazadi Mohammed')]"
 
@@ -416,7 +416,7 @@ class DealList(SeleniumDriver):
 
     def TeamMemberFilter(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
 
         ##### scroll into view #####
@@ -453,7 +453,7 @@ class DealList(SeleniumDriver):
 
     def DeskFilter(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(3)
         # Enter desk number using desk method writtern above. Added default desk value.
         self.DeskEnterNumber()
@@ -480,7 +480,7 @@ class DealList(SeleniumDriver):
 
     def RSFFilter(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(3)
         self.RsfEnterNumber()
         time.sleep(2)
@@ -506,7 +506,7 @@ class DealList(SeleniumDriver):
 
     def USFFilter(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(3)
         self.UsfEnterNumber()
         time.sleep(2)
@@ -538,7 +538,7 @@ class DealList(SeleniumDriver):
 
     def PosseDate(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
 
         ##### scroll into view #####
@@ -572,7 +572,7 @@ class DealList(SeleniumDriver):
 
     def OpeningDate(self):
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
 
         ##### scroll into view #####
@@ -626,7 +626,7 @@ class DealList(SeleniumDriver):
         time.sleep(2)
         #self.elementClick(self.click_arrow_img)
         time.sleep(2)
-        self.elementClick(self.more_filter_icon)
+        self.MoreFilterIcon()
         time.sleep(2)
         self.elementClick(self.reset_button)
         time.sleep(2)

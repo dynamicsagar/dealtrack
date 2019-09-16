@@ -402,7 +402,7 @@ class RequestRevisionPages(SeleniumDriver):
         dealname = "001 Udaipur"
         self.ChangeDealName(dealname)
 
-    more_filter = "//img[@src='/6/client/7ace26a7466f9ba855bb192b01aecb91.svg']"
+    more_filter = ".sidebar--header-icon:nth-child(4)"
     search_textbox = "//input[@placeholder='Search for deals']"
     no_deal_found = "//h3[contains(text(),'No deals matching your filters')]"
 
@@ -416,7 +416,7 @@ class RequestRevisionPages(SeleniumDriver):
 
     def DealRemovedFromNeedMyApprovalAfterRequestChanges(self):
         time.sleep(2)
-        self.elementClick(self.more_filter)
+        self.elementClick(self.more_filter, locatorType='css')
         time.sleep(2)
         self.deal.ClickStageField()
         time.sleep(2)

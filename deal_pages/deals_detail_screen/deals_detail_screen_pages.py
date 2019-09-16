@@ -143,28 +143,37 @@ class DealDetailScreenPages(SeleniumDriver):
 
     '''
 
-    click_financial = "//div[9]/div[2]/div[1]/div[2]/div"
-    click_deal_memo = "//div[9]/div[2]/div[3]/div[2]/div"
-    click_term_sheet = "//div[9]/div[2]/div[2]/div[2]/div"
+    click_financial = ".sc-12w36a0-0:nth-child(1) svg"
+    click_deal_memo = ".sc-12w36a0-0:nth-child(2) svg"
+    click_term_sheet = ".sc-12w36a0-0:nth-child(3) svg"
     scroll_to_text = "//span[contains(text(),'Financial model')]"
     text_after_upload_financial_pdf = "//span[contains(text(),'E (Discovery)')]"
+    click_reason_dropdown = "//select[@name='proformaUploadReason']"
+    select_option_from_dropdown = "//div[@id='app']/div/div[2]/div/div/div/div[2]/div/label/div/select/option[2]"
+    click_upload_file_button = "//span[contains(text(),'Upload file (.xlsb)')]"
 
 
     def FinacialDocuments(self):
         time.sleep(15)
         self.innerScroll(self.scroll_to_text)
         time.sleep(2)
-        self.elementClick(self.click_financial)
+        self.elementClick(self.click_financial, locatorType='css')
+        time.sleep(2)
+        self.elementClick(self.click_reason_dropdown)
+        time.sleep(2)
+        self.elementClick(self.select_option_from_dropdown)
+        time.sleep(2)
+        self.elementClick(self.click_upload_file_button)
         doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/FiMo.xlsm"
         self.UploadDocuments(doc)
-        time.sleep(45)
+        time.sleep(35)
         # text = 'E (Discovery)'
         # text_after_upload = self.getText(self.text_after_upload_financial_pdf)
         # self.verifyTextContains(actualText=text_after_upload, expectedText=text)
 
     def TermSheetDocument(self):
         time.sleep(2)
-        self.elementClick(self.click_term_sheet)
+        self.elementClick(self.click_term_sheet, locatorType='css')
         time.sleep(2)
         doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/1.pdf"
         self.UploadDocuments(doc)
@@ -172,7 +181,7 @@ class DealDetailScreenPages(SeleniumDriver):
 
     def DealMemo(self):
         time.sleep(2)
-        self.elementClick(self.click_deal_memo)
+        self.elementClick(self.click_deal_memo, locatorType='css')
         time.sleep(2)
         doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/DealMemo.pdf"
         self.UploadDocuments(doc)
@@ -195,7 +204,7 @@ class DealDetailScreenPages(SeleniumDriver):
     '''
 
     scroll_to_team = "//h4[contains(text(),'Team')]"
-    enter_real_state_manager = "//div[@id='app']//div[2]/div[1]/div[1]/div/div[1]/input"
+    enter_real_state_manager = "//div[@id='app']/div/div[2]/div[1]/div/div/div/div/div/div/div/div[1]/div/div/input"
     select_real_state_manager_value = "//li[contains(.,'Rumi Begum')]"
     click_team_save_button = "//button[contains(text(),'Save')]"
 
@@ -204,6 +213,8 @@ class DealDetailScreenPages(SeleniumDriver):
 
     def EnterRealManager(self, name):
         self.elementClick(self.enter_real_state_manager)
+        time.sleep(2)
+        self.clearField(self.enter_real_state_manager)
         time.sleep(2)
         self.sendKeys(name, self.enter_real_state_manager)
 
@@ -227,7 +238,7 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         real_state = self.getElement(self.enter_real_state_manager).get_attribute('value')
         time.sleep(2)
-        self.verifyTextContains(actualText=real_state,expectedText=name)
+        self.verifyTextContains(actualText=real_state, expectedText=name)
 
     enter_transaction_manager = "//div[2]/div/div/input"
     select_transaction_manager_value = "//li[contains(.,'Rumi Begum')]"
@@ -259,15 +270,17 @@ class DealDetailScreenPages(SeleniumDriver):
         self.verifyTextContains(actualText=transaction_manager, expectedText=name)
 
     enter_sourcer = "//div[3]/div/div/input"
-    select_sourcer_value = "//li[contains(.,'Shazadi Mohammed')]]"
+    select_sourcer_value = "//li[contains(.,'Rumi Begum')]"
 
     def EnterSourcer(self, name):
         self.elementClick(self.enter_sourcer)
         time.sleep(2)
+        self.clearField(self.enter_sourcer)
+        time.sleep(2)
         self.sendKeys(name, self.enter_sourcer)
 
     def SelectSourcer(self):
-        name = 'Shazadi Mohammed'
+        name = 'Rumi Begum'
         self.EnterSourcer(name)
         time.sleep(3)
         self.elementClick(self.select_sourcer_value)
@@ -277,12 +290,12 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.scroll_to_team)
         time.sleep(2)
-        name = 'Shazadi Mohammed'
+        name = 'Rumi Begum'
         self.SelectSourcer()
         self.elementClick(self.click_team_save_button)
         time.sleep(2)
         self.elementClick(self.scroll_to_team)
-        time.sleep(2)
+        time.sleep(3)
         sourcer = self.getElement(self.enter_sourcer).get_attribute('value')
         time.sleep(2)
         self.verifyTextContains(actualText=sourcer, expectedText=name)
@@ -975,45 +988,5 @@ class DealDetailScreenPages(SeleniumDriver):
         g_value = g_value.replace("$", '')
         g_value = g_value.replace(",", '')
         self.verifyTextContains(actualText=g_value, expectedText=grossconstructioncost)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
