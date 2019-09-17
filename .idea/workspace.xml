@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ac67b39-6865-46cd-9101-8430a9aa15f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Rumi Begum not matching .1568610723615.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Shazadi Mohammed not matching .1568464064552.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Shazadi Mohammed not matching .1568609621687.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Shazadi Mohammed not matching .1568610744810.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/element present not found.1568460401038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcases/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="374">
               <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -29,23 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deal_pages/account_tab/account_tab_pages.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-440">
-              <caret line="157" column="45" lean-forward="true" selection-start-line="157" selection-start-column="45" selection-end-line="157" selection-end-column="45" />
+            <state relative-caret-position="-57">
+              <caret line="167" column="33" lean-forward="true" selection-start-line="167" selection-start-column="33" selection-end-line="167" selection-end-column="33" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -126,7 +110,6 @@
         <option value="$PROJECT_DIR$/deal_pages/broker/broker_pages.py" />
         <option value="$PROJECT_DIR$/base/selenium_driver.py" />
         <option value="$PROJECT_DIR$/testcases/landlord/landlord_testcases.py" />
-        <option value="$PROJECT_DIR$/deal_pages/landlord/landlord_pages.py" />
         <option value="$PROJECT_DIR$/testcases/deal_list_screen/deal_list_screen_testcases.py" />
         <option value="$PROJECT_DIR$/testcases/release/release_testcases.py" />
         <option value="$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py" />
@@ -141,10 +124,11 @@
         <option value="$PROJECT_DIR$/automation.log" />
         <option value="$PROJECT_DIR$/deal_pages/photo_modal/photo_modal.py" />
         <option value="$PROJECT_DIR$/deal_pages/release/release_pages.py" />
-        <option value="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" />
         <option value="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" />
         <option value="$PROJECT_DIR$/testcases/test_suite.py" />
         <option value="$PROJECT_DIR$/testcases/deal_detail_screen/deal_detail_screen_testcases.py" />
+        <option value="$PROJECT_DIR$/deal_pages/landlord/landlord_pages.py" />
+        <option value="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" />
       </list>
     </option>
   </component>
@@ -167,6 +151,17 @@
             <path>
               <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
               <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
+              <item name="deal_pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
+              <item name="deal_pages" type="462c0819:PsiDirectoryNode" />
+              <item name="landlord" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,10 +208,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13561471" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13561471" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -229,7 +224,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5038023" side_tool="true" weight="0.26881722" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.20295699" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49619773" weight="0.41129032" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49619773" visible="true" weight="0.41129032" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -478,16 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deal_pages/landlord/landlord_pages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcases/release/release_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-325">
@@ -624,10 +609,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py">
+    <entry file="file://$PROJECT_DIR$/deal_pages/landlord/landlord_pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="157" column="45" lean-forward="true" selection-start-line="157" selection-start-column="45" selection-end-line="157" selection-end-column="45" />
+        <state relative-caret-position="2684">
+          <caret line="152" column="51" lean-forward="true" selection-start-line="152" selection-start-column="51" selection-end-line="152" selection-end-column="51" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
@@ -646,10 +631,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcases/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="374">
           <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="167" column="33" lean-forward="true" selection-start-line="167" selection-start-column="33" selection-end-line="167" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

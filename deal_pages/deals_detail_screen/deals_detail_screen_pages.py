@@ -167,6 +167,7 @@ class DealDetailScreenPages(SeleniumDriver):
         doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/FiMo.xlsm"
         self.UploadDocuments(doc)
         time.sleep(35)
+        self.elementClick(self.click_Save_button)
         # text = 'E (Discovery)'
         # text_after_upload = self.getText(self.text_after_upload_financial_pdf)
         # self.verifyTextContains(actualText=text_after_upload, expectedText=text)
