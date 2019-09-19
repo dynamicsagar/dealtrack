@@ -31,24 +31,6 @@ class DealDetailTest(unittest.TestCase):
         self.log.info("*#" * 20)
         self.deal_details.Description()
 
-    def test_04DealDetailsUploadFinancialDocs(self):
-        self.log.info("*#" * 20)
-        self.log.info(" Deal details Financial Documents  ")
-        self.log.info("*#" * 20)
-        self.deal_details.FinacialDocuments()
-
-    def test_05DealDetailsUploadTermSheetDocs(self):
-        self.log.info("*#" * 20)
-        self.log.info(" Deal details Term sheet documents ")
-        self.log.info("*#" * 20)
-        self.deal_details.TermSheetDocument()
-
-    def test_06DealDetailsDealMemoDocs(self):
-        self.log.info("*#" * 20)
-        self.log.info(" Deal details DealMemo documents ")
-        self.log.info("*#" * 20)
-        self.deal_details.DealMemo()
-
     def test_07DealDetailsTeamMemberRealStateManager(self):
         self.log.info("*#" * 20)
         self.log.info(" Deal details DealMemo documents ")
@@ -138,4 +120,30 @@ class DealDetailTest(unittest.TestCase):
         self.log.info(" test_22VerifyGrossConstructionCostOnPerformanceTab ")
         self.log.info("*#" * 20)
         self.deal_details.GrossConstructionFieldEditable()
+
+    def test_24DealDetailsUploadFinancialDocs(self):
+        self.log.info("*#" * 20)
+        self.log.info(" Deal details Financial Documents  ")
+        self.log.info("*#" * 20)
+        self.deal_details.DealDetails()
+        self.deal_details.FinacialDocuments()
+
+    def test_25DealDetailsUploadTermSheetDocs(self):
+        self.log.info("*#" * 20)
+        self.log.info(" Deal details Term sheet documents ")
+        self.log.info("*#" * 20)
+        self.deal_details.TermSheetDocument()
+
+    def test_26DealDetailsDealMemoDocs(self):
+        self.log.info("*#" * 20)
+        self.log.info(" Deal details DealMemo documents ")
+        self.log.info("*#" * 20)
+        self.deal_details.DealMemo()
+
+    def test_27DealDetailVerifyPerformanceSectionNotEditableAfterUploadCsv(self):
+        self.log.info("*#" * 20)
+        self.log.info(" test_27DealDetailVerifyPerformanceSectionNotEditableAfterUploadCsv ")
+        self.log.info("*#" * 20)
+        self.deal_details.VerifyPerformanceSectionTabNotEditable()
+
 

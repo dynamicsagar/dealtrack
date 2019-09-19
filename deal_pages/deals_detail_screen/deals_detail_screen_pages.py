@@ -617,6 +617,7 @@ class DealDetailScreenPages(SeleniumDriver):
 
     def EnterGrossConstructionCost(self, grossconstructioncost):
         self.elementClick(self.enter_gross_construction_cost)
+        time.sleep(2)
         self.clearField(self.enter_gross_construction_cost)
         time.sleep(2)
         self.sendKeys(grossconstructioncost, self.enter_gross_construction_cost)
@@ -644,7 +645,7 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         adjustednpv = "25425"
         self.EnterAdjustedNPV(adjustednpv)
-        time.sleep(2)
+        time.sleep(4)
         grossconstructioncost1 = "2580985"
         self.EnterGrossConstructionCost(grossconstructioncost1)
         time.sleep(2)
@@ -979,7 +980,7 @@ class DealDetailScreenPages(SeleniumDriver):
         self.elementClick(self.click_performance_tab)
         time.sleep(2)
         self.elementClick(self.click_to_open_performance_tab)
-        time.sleep(2)
+        time.sleep(4)
         grossconstructioncost = "300000"
         self.EnterGrossConstructionCost(grossconstructioncost)
         time.sleep(2)
@@ -989,5 +990,21 @@ class DealDetailScreenPages(SeleniumDriver):
         g_value = g_value.replace("$", '')
         g_value = g_value.replace(",", '')
         self.verifyTextContains(actualText=g_value, expectedText=grossconstructioncost)
+
+
+    def VerifyPerformanceSectionTabNotEditable(self):
+        time.sleep(2)
+        self.innerScrollUp(self.click_performance_tab)
+        time.sleep(2)
+        self.elementClick(self.click_performance_tab)
+        time.sleep(2)
+        self.elementClick(self.click_to_open_performance_tab)
+        time.sleep(2)
+        text = 'Performance'
+        text_tab = self.getText(self.click_performance_tab)
+        self.verifyTextContains(actualText=text_tab, expectedText=text)
+
+
+
 
 
