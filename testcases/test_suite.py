@@ -1,17 +1,17 @@
 import unittest
-from testCases.account_tab.account_tab_testcases import AccountTabTest
-from testCases.broker.broker_testcases import BrokerTest
-from testCases.deal_detail_screen.deal_detail_screen_testcases import DealDetailTest
-from testCases.deal_list_screen.deal_list_screen_testcases import DealListTest
-from testCases.landlord.landlord_testcases import LandlordTest
-from testCases.login_and_logout.login_logout_testcases import LoginTests
-from testCases.release_process.release_process_testcases import ReleaseTest
-from testCases.unrelease.unrelease_testcases import UnreleaseTest
-from testCases.explore_tab_screen.explore_tab_screen_textcases import ExploreScreenTest
-from testCases.request_revision.request_revision_testcases import RequestRevisionTest
-from testCases.meeting_notes.meeting_notes_testcases import MeetingNotesTests
-from testCases.photo_modal.photo_modal_testcases import PhotoModalTest
-from testCases.target_zone.target_zone_testcases import TargetZoneTest
+from testcases.account_tab.account_tab_testcases import AccountTabTest
+from testcases.broker.broker_testcases import BrokerTest
+from testcases.deal_detail_screen.deal_detail_screen_testcases import DealDetailTest
+from testcases.deal_list_screen.deal_list_screen_testcases import DealListTest
+from testcases.landlord.landlord_testcases import LandlordTest
+from testcases.login_and_logout.login_logout_testcases import LoginTests
+from testcases.release_process.release_process_testcases import ReleaseTest
+from testcases.unrelease.unrelease_testcases import UnreleaseTest
+from testcases.explore_tab_screen.explore_tab_screen_textcases import ExploreScreenTest
+from testcases.request_revision.request_revision_testcases import RequestRevisionTest
+from testcases.meeting_notes.meeting_notes_testcases import MeetingNotesTests
+from testcases.photo_modal.photo_modal_testcases import PhotoModalTest
+from testcases.target_zone.target_zone_testcases import TargetZoneTest
 
 # Get all tests from the test classes
 
