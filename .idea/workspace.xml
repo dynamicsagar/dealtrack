@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ac67b39-6865-46cd-9101-8430a9aa15f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/broker/broker_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/broker/broker_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/deals_detail_screen/deals_detail_screen_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/landlord/landlord_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/landlord/landlord_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/meeting_notes/meeting_notes_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/meeting_notes/meeting_notes_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/release/release_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/release/releasing_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/target_zone/target_zone_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/target_zone/target_zone_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deal_pages/unrelease/unrelease_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/deal_pages/unrelease/unrelease_pages.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/account_tab/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/account_tab/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/account_tab/account_tab_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/account_tab/account_tab_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/broker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/broker/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/broker/broker_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/broker/broker_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/deal_detail_screen/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/deal_detail_screen/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/deal_detail_screen/deal_detail_screen_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/deal_detail_screen/deal_detail_screen_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/deal_list_screen/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/deal_list_screen/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/deal_list_screen/deal_list_screen_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/deal_list_screen/deal_list_screen_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/explore_tab_screen/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/explore_tab_screen/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/explore_tab_screen/explore_tab_screen_textcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/explore_tab_screen/explore_tab_screen_textcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/landlord/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/landlord/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/landlord/landlord_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/landlord/landlord_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/login.xls" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/login.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/login_and_logout/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/login_and_logout/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/login_and_logout/login_logout_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/login_and_logout/login_logout_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/meeting_notes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/meeting_notes/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/meeting_notes/meeting_notes_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/meeting_notes/meeting_notes_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/photo_modal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/photo_modal/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/photo_modal/photo_modal_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/photo_modal/photo_modal_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/release/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/release_process/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/release/release_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/release_process/release_process_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/request_revision/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/request_revision/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/request_revision/request_revision_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/target_zone/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/target_zone/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/target_zone/target_zone_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/target_zone/target_zone_testcases.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/test_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_suite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/unrelease/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/unrelease/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/unrelease/unrelease_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/unrelease/unrelease_testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/photo_modal/photo_modal_testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/photo_modal/photo_modal_testcases.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/deal_pages/comparables/comparables_page.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2596">
-              <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -64,18 +25,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/comparables/comparables_testcases.py">
+        <entry file="file://$PROJECT_DIR$/testcases/comparables/comparables_testcases.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
+            <state relative-caret-position="300">
               <caret line="37" column="63" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="477">
               <caret line="439" column="27" selection-start-line="439" selection-start-column="20" selection-end-line="439" selection-end-column="27" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -85,7 +46,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCases/request_revision/request_revision_testcases.py">
+        <entry file="file://$PROJECT_DIR$/testcases/test_suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="127">
               <caret line="73" column="71" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="71" />
@@ -104,7 +77,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ReleasePage</find>
       <find>release</find>
       <find>EnterValueInMeetingNotesModalBox</find>
       <find>ClickSaveButton</find>
@@ -134,6 +106,7 @@
       <find>VerifyRequestRevisionFromBToA</find>
       <find>NoApprovalButtonsAfterRequestChanges</find>
       <find>//textarea[@placeholder='Enter a comment']</find>
+      <find>VerifyNoApprovalButtonsAfterRequestChangesFromBtoA</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,7 +154,6 @@
         <option value="$PROJECT_DIR$/deal_pages/landlord/landlord_pages.py" />
         <option value="$PROJECT_DIR$/testCases/release_process/release_process_testcases.py" />
         <option value="$PROJECT_DIR$/deal_pages/target_zone/target_zone_pages.py" />
-        <option value="$PROJECT_DIR$/testCases/test_suite.py" />
         <option value="$PROJECT_DIR$/testCases/meeting_notes/meeting_notes_testcases.py" />
         <option value="$PROJECT_DIR$/deal_pages/meeting_notes/meeting_notes_pages.py" />
         <option value="$PROJECT_DIR$/testCases/comparables/comparables_testcases.py" />
@@ -190,6 +162,7 @@
         <option value="$PROJECT_DIR$/deal_pages/unrelease/unrelease_pages.py" />
         <option value="$PROJECT_DIR$/testCases/request_revision/request_revision_testcases.py" />
         <option value="$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py" />
+        <option value="$PROJECT_DIR$/testCases/test_suite.py" />
       </list>
     </option>
   </component>
@@ -206,7 +179,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DealTrack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DealTrack" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,9 +232,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13561471" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13561471" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -264,7 +246,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5038023" side_tool="true" weight="0.26881722" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.41129032" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49619773" visible="true" weight="0.28225806" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49619773" weight="0.2594086" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,7 +365,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/testCases/document_target/document_target_testcases.py</url>
+          <url>file://$PROJECT_DIR$/testcases/document_target/document_target_testcases.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -428,7 +410,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/broker/broker_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/broker/broker_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-96">
           <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
@@ -437,14 +419,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/element present not found.1567763412754.png" />
     <entry file="file://$PROJECT_DIR$/screenshots/element present not found.1568008889536.png" />
-    <entry file="file://$PROJECT_DIR$/testCases/landlord/landlord_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/landlord/landlord_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/account_tab/account_tab_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/account_tab/account_tab_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-44">
           <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
@@ -452,7 +434,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/+ 3 more not matching .1568279746548.png" />
-    <entry file="file://$PROJECT_DIR$/testCases/login_and_logout/login_logout_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/login_and_logout/login_logout_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="19" selection-end-column="35" />
@@ -462,7 +444,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/photo_modal/photo_modal_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/photo_modal/photo_modal_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
           <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
@@ -476,14 +458,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/explore_tab_screen/explore_tab_screen_textcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/explore_tab_screen/explore_tab_screen_textcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/target_zone/target_zone_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/target_zone/target_zone_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="19" column="72" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="72" />
@@ -493,7 +475,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/deal_list_screen/deal_list_screen_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/deal_list_screen/deal_list_screen_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
@@ -503,14 +485,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/document_target/document_target_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/document_target/document_target_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/conftest.py">
+    <entry file="file://$PROJECT_DIR$/testcases/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
@@ -560,16 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/test_suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="63" lean-forward="true" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deal_pages/broker/broker_pages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3806">
@@ -580,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/meeting_notes/meeting_notes_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/meeting_notes/meeting_notes_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
@@ -640,22 +612,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/unrelease/unrelease_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/unrelease/unrelease_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="43" column="63" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="63" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deal_pages/comparables/comparables_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2596">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -670,14 +632,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/comparables/comparables_testcases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="37" column="63" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/deal_detail_screen/deal_detail_screen_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/deal_detail_screen/deal_detail_screen_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
@@ -707,7 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/release_process/release_process_testcases.py">
+    <entry file="file://$PROJECT_DIR$/testcases/release_process/release_process_testcases.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
@@ -731,20 +686,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCases/request_revision/request_revision_testcases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="73" column="71" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deal_pages/request_revision/request_revision_pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="477">
           <caret line="439" column="27" selection-start-line="439" selection-start-column="20" selection-end-line="439" selection-end-column="27" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/comparables/comparables_testcases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="63" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deal_pages/comparables/comparables_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2596">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test_suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/request_revision/request_revision_testcases.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="73" column="71" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="71" />
         </state>
       </provider>
     </entry>
