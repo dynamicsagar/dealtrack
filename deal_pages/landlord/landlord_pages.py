@@ -2,7 +2,7 @@ import time
 from base.selenium_driver import SeleniumDriver
 from deal_pages.deal_list_screen.deal_list_screen_page import DealList
 from deal_pages.deals_detail_screen.deals_detail_screen_pages import DealDetailScreenPages
-from deal_pages.release.release_pages import ReleasePages
+from deal_pages.release.releasing_page import ReleasePage
 from deal_pages.broker.broker_pages import BrokerPages
 from utilities.util import Util
 
@@ -12,7 +12,7 @@ class LandlordPages(SeleniumDriver):
         super().__init__(driver)
         self.deal = DealList(self.driver)
         self.dealdetail = DealDetailScreenPages(self.driver)
-        self.release = ReleasePages(self.driver)
+        self.release = ReleasePage(self.driver)
         self.broker = BrokerPages(self.driver)
         self.ut = Util()
         self.driver = driver

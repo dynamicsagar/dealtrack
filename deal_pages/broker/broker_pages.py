@@ -2,7 +2,7 @@ import time
 from base.selenium_driver import SeleniumDriver
 from deal_pages.deal_list_screen.deal_list_screen_page import DealList
 from deal_pages.deals_detail_screen.deals_detail_screen_pages import DealDetailScreenPages
-from deal_pages.release.release_pages import ReleasePages
+from deal_pages.release.releasing_page import ReleasePage
 from utilities.util import Util
 
 
@@ -11,7 +11,7 @@ class BrokerPages(SeleniumDriver):
         super().__init__(driver)
         self.deal = DealList(self.driver)
         self.dealdetail = DealDetailScreenPages(self.driver)
-        self.release = ReleasePages(self.driver)
+        self.release = ReleasePage(self.driver)
         self.ut = Util()
         self.driver = driver
 
@@ -182,7 +182,7 @@ class BrokerPages(SeleniumDriver):
     '''
 
     edit_contact_text_box = "//div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/input"
-    select_edit_contact = "//div/div/div/div/div/div/div[2]/div/div/div/div/div/p"
+    select_edit_contact = "//div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div[2]/div/div/div/div/div"
     verify_edit_contact_on_detail_page = "//p[contains(.,'gdave@arcgate.com')]"
 
     '''

@@ -5,6 +5,7 @@ from deal_pages.deals_detail_screen.deals_detail_screen_pages import DealDetailS
 
 
 class TargetZonePages(SeleniumDriver):
+
     def __init__(self, driver):
         super().__init__(driver)
         self.deall = DealList(self.driver)
@@ -14,6 +15,7 @@ class TargetZonePages(SeleniumDriver):
     select_item_list = "//li[@id='search-bar-item-0']/div/p[2]"
     market_tier_flag = "//li[2]//span[2]"
 
+    click_financial = "//a[contains(text(),'Financials')]"
 
     def DealDetailPageShowsWhetherADealFallsWithinTargetZone(self):
         time.sleep(2)
@@ -28,7 +30,7 @@ class TargetZonePages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.deall.click_add_button)
         time.sleep(5)
-        self.innerScroll(self.dealdetail.scroll_to_general_tab)
+        self.elementClick(self.click_financial)
         time.sleep(2)
         text = self.getText(self.market_tier_flag)
         time.sleep(2)
@@ -45,9 +47,11 @@ class TargetZonePages(SeleniumDriver):
     icon = ".sc-1h4l0u6-0 path"
     target_zone_text = "//span[contains(text(),'Deal within Target Zone')]"
 
+    click_location_tab = "//a[contains(text(),'Location')]"
+
     def VerifyTargetZoneIcon(self):
         time.sleep(2)
-        self.innerScroll(self.dealdetail.scroll_to_location)
+        self.elementClick(self.click_location_tab)
         time.sleep(2)
         self.log.info('Scroll')
         self.isElementPresent(self.icon, locatorType='css')
@@ -57,7 +61,4 @@ class TargetZonePages(SeleniumDriver):
         text = 'Deal within Target Zone'
         text1 = self.getText(self.target_zone_text)
         self.verifyTextContains(actualText=text, expectedText=text1)
-
-
-
 

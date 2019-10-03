@@ -102,7 +102,7 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.ClickPhotoModalCloseIcon()
 
-    click_description = "//h4[contains(.,'Description')]"
+    click_description = "//span[contains(text(),'Description')]"
     enter_description = "//textarea[@name='description']"
     click_Save_button = "//button[contains(.,'Save')]"
     description_text = "//p[contains(text(),'Hi this is a random automation text')]"
@@ -470,7 +470,7 @@ class DealDetailScreenPages(SeleniumDriver):
     enter_free_rent = "//input[@name='freeRentMonthsNotes']"
     enter_lease_term = "//input[@name='termMonthsNotes']"
     check_gross_rent = "//li[3]//span[2]"
-    check_rfi_lease = "//li[2]//span[2]"
+    check_rfi_lease = "//li[3]//span[2]"
     check_opEx = "//li[4]//span[2]"
     check_allowance = "//li[5]//span[2]"
     check_free_rent = "//li[6]//span[2]"
@@ -570,7 +570,7 @@ class DealDetailScreenPages(SeleniumDriver):
         # self.log.info('!!!! Free rent verification successfully !!!!')
         # self.verifyTextContains(actualText=leaseterm, expectedText=lease)
         # self.log.info('!!!! Lease Term verification successfully !!!!')
-        self.verifyTextContains(actualText=signa, expectedText=signage)
+        # self.verifyTextContains(actualText=signa, expectedText=signage)
         # self.log.info('!!!! signage verification successfully !!!!')
 
 
@@ -808,7 +808,7 @@ class DealDetailScreenPages(SeleniumDriver):
     menu_icon = ".sc-1dok22n-0 > path"
     click_closed = "//p[contains(text(),'Closed')]"
     submit_button = "//button[contains(text(),'Submit')]"
-    after_closed_tag = "//p[contains(text(),'Closed')]"
+    after_closed_tag = "//div[contains(text(),'Closed')]"
 
     def SubmitButton(self):
         self.elementClick(self.submit_button)
@@ -848,14 +848,14 @@ class DealDetailScreenPages(SeleniumDriver):
         
     '''
 
-    scroll_to_location = "//h4[contains(text(),'Location')]"
+    scroll_to_location = "//a[contains(text(),'Location')]"
     load_button = "//button[contains(text(),'Load')]"
     near_by_business = "//p[contains(text(),'Restaurants')]"
     near_by_business_fitness = "//p[contains(text(),'Fitness')]"
 
     def LocationScreenGoogle(self):
         time.sleep(2)
-        self.innerScrollUp(self.scroll_to_location)
+        self.innerScrollUp(self.click_description)
         time.sleep(2)
         self.elementClick(self.load_button)
         time.sleep(2)
@@ -900,7 +900,7 @@ class DealDetailScreenPages(SeleniumDriver):
 
     add_new_deal = "//p[contains(text(),'Add new deal at this location')]"
     click_add_button = "//button[contains(text(),'Add')]"
-    deal_tag = "//p[contains(.,'Deal 2')]"
+    deal_tag = "//div[contains(text(),'Deal 2')]"
 
     def CreateDealFromExistingDeal(self):
         time.sleep(2)
@@ -918,7 +918,7 @@ class DealDetailScreenPages(SeleniumDriver):
 
 
     add_deal_from_created_deal = "//p[contains(.,'+ Add new deal at this location')]"
-    deal_tag1 = "//p[contains(.,'Deal 3')]"
+    deal_tag1 = "//div[contains(text(),'Deal 3')]"
 
     def AddDealFromCreatedDeal(self):
         time.sleep(2)
@@ -960,7 +960,7 @@ class DealDetailScreenPages(SeleniumDriver):
 
     def GrossConstructionCostONPerformanceTab(self):
         time.sleep(2)
-        self.innerScroll(self.scroll_to_general_tab)
+        self.innerScroll(self.click_terms_tab)
         time.sleep(2)
         self.elementClick(self.click_performance_tab)
         time.sleep(2)
@@ -975,7 +975,7 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.click_closed_tag_to_back_to_deal1)
         time.sleep(4)
-        self.innerScroll(self.scroll_to_general_tab)
+        self.innerScroll(self.click_terms_tab)
         time.sleep(2)
         self.elementClick(self.click_performance_tab)
         time.sleep(2)

@@ -3,8 +3,9 @@ from base.selenium_driver import SeleniumDriver
 from deal_pages.deal_list_screen.deal_list_screen_page import DealList
 from deal_pages.deals_detail_screen.deals_detail_screen_pages import DealDetailScreenPages
 from deal_pages.unrelease.unrelease_pages import UnReleasePages
-from deal_pages.release.release_pages import ReleasePages
+from deal_pages.release.releasing_page import ReleasePage
 from selenium.webdriver.common.keys import Keys
+
 
 
 class RequestRevisionPages(SeleniumDriver):
@@ -14,7 +15,7 @@ class RequestRevisionPages(SeleniumDriver):
         self.deal = DealList(self.driver)
         self.dealdetail = DealDetailScreenPages(self.driver)
         self.unrelease = UnReleasePages(self.driver)
-        self.release = ReleasePages(self.driver)
+        self.release = ReleasePage(self.driver)
         self.driver = driver
 
 
@@ -129,11 +130,15 @@ class RequestRevisionPages(SeleniumDriver):
     
     '''
 
-    doc_upload_button = "//span[@class='upload-docs']"
-    cancel_button = "//span[contains(text(),'Cancel')]"
+    doc_upload_button = "//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/div[3]/button/span"
+    cancel_button = "//p[contains(text(),'Cancel release request')]"
+    update_document = "//span[contains(text(),'Update documents')]"
 
     def ClickDealDetailPageCancelButton(self):
+        self.dealdetail.ClickMenuIcon()
+        time.sleep(2)
         self.elementClick(self.cancel_button)
+        self.dealdetail.SubmitButton()
 
     # test_02VerifyNoApprovalButtonsAfterRequestChanges
 
@@ -146,8 +151,9 @@ class RequestRevisionPages(SeleniumDriver):
         self.Comment()
         time.sleep(2)
         self.RequestModalSubmitButton()
-        get_button = self.getText(self.doc_upload_button)
-        text = "Upload documents"
+        time.sleep(2)
+        get_button = self.getText(self.update_document)
+        text = "Update documents"
         self.verifyTextContains(actualText=get_button, expectedText=text)
 
 
@@ -172,9 +178,9 @@ class RequestRevisionPages(SeleniumDriver):
 
     def CTAButtonShouldSayUploadDocuments(self):
         time.sleep(2)
-        cancel_button = self.getText(self.cancel_button)
-        cancel_text = "Cancel"
-        self.verifyTextContains(actualText=cancel_button, expectedText=cancel_text)
+        get_button = self.getText(self.update_document)
+        text = "Update documents"
+        self.verifyTextContains(actualText=get_button, expectedText=text)
 
 
 
@@ -215,9 +221,9 @@ class RequestRevisionPages(SeleniumDriver):
     # test_06VerifyRequestRevisionFromDToC
     def VerifyRequestRevisionFromDToC(self):
         time.sleep(2)
-        self.dealdetail.innerScrollUp(self.doc_upload_button)
-        time.sleep(2)
-        self.elementClick(self.doc_upload_button)
+        # self.dealdetail.innerScrollUp(self.doc_upload_button)
+        # time.sleep(2)
+        self.elementClick(self.update_document)
         time.sleep(2)
         self.release.AddDealMemo()
         time.sleep(2)
@@ -258,19 +264,20 @@ class RequestRevisionPages(SeleniumDriver):
         self.release.ReleaseProcessCTOB()
         time.sleep(2)
         self.dealdetail.SubmitButton()
+        self.release.AddMeetingNote()
+        time.sleep(2)
         self.NoApprovalButtonsAfterRequestChanges()
 
     def ApproverSectionUpdatesToReflectRequestedChangesStatusFromCToB(self):
         time.sleep(2)
         self.ApproverSectionUpdatesToReflectRequestedChangesStatus()
 
-
     click_first_close_icon = "//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/div/div[1]/div/img"
 
     def VerifyRequestRevisionFromCToB(self):
         time.sleep(2)
-        self.dealdetail.innerScrollUp(self.doc_upload_button)
-        time.sleep(2)
+        # self.dealdetail.innerScrollUp(self.doc_upload_button)
+        # time.sleep(2)
         self.elementClick(self.doc_upload_button)
         time.sleep(2)
         self.elementClick(self.click_first_close_icon)
@@ -351,8 +358,8 @@ class RequestRevisionPages(SeleniumDriver):
 
     def VerifyRequestRevisionFromBToA(self):
         time.sleep(2)
-        self.dealdetail.innerScrollUp(self.doc_upload_button)
-        time.sleep(2)
+        # self.dealdetail.innerScrollUp(self.doc_upload_button)
+        # time.sleep(2)
         self.elementClick(self.doc_upload_button)
         time.sleep(2)
         self.elementClick(self.click_first_close_icon)
@@ -387,7 +394,7 @@ class RequestRevisionPages(SeleniumDriver):
 
 
     # change deal name
-    deal_name_change = "//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div/div/div/div/div/input"
+    deal_name_change = "//input[@placeholder='Unknown']"
 
     def ChangeDealName(self, dealname):
         time.sleep(2)
@@ -416,7 +423,7 @@ class RequestRevisionPages(SeleniumDriver):
 
     def DealRemovedFromNeedMyApprovalAfterRequestChanges(self):
         time.sleep(2)
-        self.elementClick(self.more_filter, locatorType='css')
+        self.elementClick(self.deal.more_filter_icon)
         time.sleep(2)
         self.deal.ClickStageField()
         time.sleep(2)

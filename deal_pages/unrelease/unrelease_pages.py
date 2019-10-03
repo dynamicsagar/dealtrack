@@ -2,7 +2,7 @@ import time
 from base.selenium_driver import SeleniumDriver
 from deal_pages.deal_list_screen.deal_list_screen_page import DealList
 from deal_pages.deals_detail_screen.deals_detail_screen_pages import DealDetailScreenPages
-from deal_pages.release.release_pages import ReleasePages
+from deal_pages.release.releasing_page import ReleasePage
 
 
 class UnReleasePages(SeleniumDriver):
@@ -10,7 +10,7 @@ class UnReleasePages(SeleniumDriver):
         super().__init__(driver)
         self.deal = DealList(self.driver)
         self.dealdetail = DealDetailScreenPages(self.driver)
-        self.release = ReleasePages(self.driver)
+        self.release = ReleasePage(self.driver)
         self.driver = driver
 
 
@@ -103,7 +103,7 @@ class UnReleasePages(SeleniumDriver):
         self.ClickMenuIcon()
         time.sleep(4)
         text = self.getText(self.release.button_request_release_to_c)
-        button_text = "Request release to C"
+        button_text = "Request release"
         self.verifyTextContains(actualText=text, expectedText=button_text)
 
     # C27846 Unrelease B>C
@@ -135,7 +135,7 @@ class UnReleasePages(SeleniumDriver):
         self.ClickMenuIcon()
         time.sleep(4)
         text = self.getText(self.release.button_request_release_to_b)
-        button_text = "Request release to B"
+        button_text = "Request release"
         self.verifyTextContains(actualText=text, expectedText=button_text)
 
     # C27847 Unrelease A>B
@@ -156,7 +156,7 @@ class UnReleasePages(SeleniumDriver):
         
     '''
 
-    button_release_to_a = "//button[contains(text(),'Request release to A')]"
+    button_release_to_a = "//span[contains(text(),'Request release')]"
 
     def UnReleaseATOB(self):
         time.sleep(2)
@@ -169,7 +169,7 @@ class UnReleasePages(SeleniumDriver):
         self.ClickMenuIcon()
         time.sleep(4)
         text = self.getText(self.button_release_to_a)
-        button_text = "Request release to A"
+        button_text = "Request release"
         self.verifyTextContains(actualText=text, expectedText=button_text)
 
 
@@ -193,7 +193,7 @@ class UnReleasePages(SeleniumDriver):
 
     '''
 
-    add_budget_file = "//div[4]//p[2]//a[1]"
+    add_budget_file = "//div[5]//p[2]//a[1]"
     optional_tag = "//p[contains(text(),'optional')]"
     verify_added_file = "//p[contains(text(),'1 file added')]"
     verify_error_msg = "//div[@id='__filestack-picker']/div/div[2]/div"
@@ -218,7 +218,7 @@ class UnReleasePages(SeleniumDriver):
         self.dealdetail.UploadDocuments(doc)
         time.sleep(25)
         text = self.getText(self.verify_added_file)
-        original_text = "1 file added"
+        original_text = "1 file added; 4 remaining"
         self.verifyTextContains(actualText=text, expectedText=original_text)
 
     # upload the document and click on cancel button
@@ -229,7 +229,7 @@ class UnReleasePages(SeleniumDriver):
         self.elementClick(self.cancel_button_on_popup)
         time.sleep(2)
         text = self.getText(self.button_release_to_a)
-        button_text = "Request release to A"
+        button_text = "Request release"
         self.verifyTextContains(actualText=text, expectedText=button_text)
 
     # upload invalid documents and verify the error message.
@@ -267,7 +267,7 @@ class UnReleasePages(SeleniumDriver):
     '''
 
     lease_text = "//div[@id='app']/div/div/div[2]/div/div[2]/div/div/div[9]/div[2]/div[4]/div[2]/span"
-    lock_icon = ".qlrCv path"
+    lock_icon = ".Regular-sc-ju30to svg"
     lease_text_on_popup = "//p[contains(text(),'will not be accessible from application')]"
 
     def VerifyLeaseTextOnPopUp(self):
@@ -292,7 +292,8 @@ class UnReleasePages(SeleniumDriver):
     
     '''
 
-    scroll_to_financial = "//span[contains(text(),'Financial model')]"
+    scroll_to_documents = "//a[contains(text(),'Documents')]"
+
 
     def VerifyLeaseAttachementByClickingLeaseDocument(self):
         time.sleep(2)
@@ -301,13 +302,13 @@ class UnReleasePages(SeleniumDriver):
         self.release.ReleasePopUpFieldEntry()
         time.sleep(2)
         self.dealdetail.SubmitButton()
-        time.sleep(2)
-        self.innerScroll(self.scroll_to_financial)
+        time.sleep(3)
+        self.elementClick(self.scroll_to_documents)
         time.sleep(2)
         self.elementClick(self.lock_icon, locatorType='css')
         time.sleep(2)
-        financial_text = self.getText(self.scroll_to_financial)
-        text = 'Financial model'
+        financial_text = self.getText(self.scroll_to_documents)
+        text = 'Documents'
         self.verifyTextContains(actualText=text, expectedText=financial_text)
 
     # C54915 Global approvers do not exist on C>B deals
