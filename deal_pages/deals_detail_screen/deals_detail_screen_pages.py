@@ -144,7 +144,7 @@ class DealDetailScreenPages(SeleniumDriver):
     '''
 
     click_financial = ".sc-12w36a0-0:nth-child(1) svg"
-    click_deal_memo = ".sc-12w36a0-0:nth-child(2) svg"
+    click_deal_memo = ".sc-12w36a0-0:nth-child(4) svg"
     click_term_sheet = ".sc-12w36a0-0:nth-child(3) svg"
     scroll_to_text = "//span[contains(text(),'Financial model')]"
     text_after_upload_financial_pdf = "//span[contains(text(),'E (Discovery)')]"
@@ -159,6 +159,13 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.click_financial, locatorType='css')
         time.sleep(2)
+        self.UploadFinanciaDocumentUsingNewPopUp()
+
+        # text = 'E (Discovery)'
+        # text_after_upload = self.getText(self.text_after_upload_financial_pdf)
+        # self.verifyTextContains(actualText=text_after_upload, expectedText=text)
+
+    def UploadFinanciaDocumentUsingNewPopUp(self):
         self.elementClick(self.click_reason_dropdown)
         time.sleep(2)
         self.elementClick(self.select_option_from_dropdown)
@@ -166,11 +173,8 @@ class DealDetailScreenPages(SeleniumDriver):
         self.elementClick(self.click_upload_file_button)
         doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/FiMo.xlsm"
         self.UploadDocuments(doc)
-        time.sleep(35)
+        time.sleep(25)
         self.elementClick(self.click_Save_button)
-        # text = 'E (Discovery)'
-        # text_after_upload = self.getText(self.text_after_upload_financial_pdf)
-        # self.verifyTextContains(actualText=text_after_upload, expectedText=text)
 
     def TermSheetDocument(self):
         time.sleep(2)

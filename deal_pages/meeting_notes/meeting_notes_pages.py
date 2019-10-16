@@ -19,7 +19,7 @@ class MeetingNotesPages(SeleniumDriver):
         self.release = ReleasePage(self.driver)
         self.driver = driver
 
-    temp_update_floor_button = "//button[contains(text(),'Update floors')]"
+    temp_update_floor_button = "//span[contains(text(),'Update floors')]"
     element1 = "//tr[1]//td[7]//div[1]//img[2]"
 
     def VerifyMeetingNoteButton(self):
@@ -46,7 +46,7 @@ class MeetingNotesPages(SeleniumDriver):
                 break
         self.elementPresenceCheck(self.release.add_meeting_notes_button, byType='xpath')
 
-    # adding meeting jote by clicking on add meeting note button and then entering all the values.
+    # adding meeting note by clicking on add meeting note button and then entering all the values.
     def AddMeetingNotes(self):
         self.release.AddMeetingNote()
 
@@ -59,7 +59,7 @@ class MeetingNotesPages(SeleniumDriver):
     def VerifyAddedMeetingNotesOnNotesSection(self):
         time.sleep(2)
         self.innerScroll(self.scroll_to_notes)
-        time.sleep(2)
+        time.sleep(4)
         self.elementPresenceCheck(self.click_added_meeting_note, byType='xpath')
 
     select_c = "//div[5]/div/div/div[2]/div[4]/div/img"
@@ -67,7 +67,7 @@ class MeetingNotesPages(SeleniumDriver):
 
     # add meeting notes from c to b process
     def VerifyMeetingNotesButtonFromCtoB(self):
-        time.sleep(2)
+        time.sleep(4)
         self.deall.MoreFilterIcon()
         time.sleep(2)
         self.elementClick(self.deall.reset_button)
@@ -95,7 +95,7 @@ class MeetingNotesPages(SeleniumDriver):
         self.release.ReleaseProcessCTOB()
         time.sleep(2)
         self.dealdetail.SubmitButton()
-        time.sleep(2)
+        time.sleep(4)
         self.elementPresenceCheck(self.release.add_meeting_notes_button, byType='xpath')
 
 
@@ -108,7 +108,7 @@ class MeetingNotesPages(SeleniumDriver):
     def VerifyAddedMeetingNotesOnNotesSectionFromCtoB(self):
         time.sleep(2)
         self.innerScroll(self.scroll_to_notes)
-        time.sleep(3)
+        time.sleep(4)
         self.elementPresenceCheck(self.click_added_meeting_note_from_c_to_b, byType='xpath')
 
 

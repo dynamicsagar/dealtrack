@@ -95,6 +95,26 @@ class ReleasePage(SeleniumDriver):
     
     '''
 
+    add_broker_button = "//button[contains(text(),'Add/edit broker')]"
+    add_broker_link = "//p[contains(.,'+ Add broker')]"
+    broker_textbox1 = "//div[@id='app']/div/div[2]/div[2]/div/div/div/div/div/div/div/div/input"
+    select_broker = "//p[contains(.,'Gaurav Dave')]"
+
+    def EnterBroker(self, brokername):
+        self.elementClick(self.broker_textbox1)
+        time.sleep(2)
+        self.sendKeys(brokername, self.broker_textbox1)
+
+    def EnterBrokerValueByClickingAddEditBrokerButton(self):
+        self.elementClick(self.add_broker_link)
+        brokername = "Gaurav dave"
+        self.EnterBroker(brokername)
+        time.sleep(2)
+        self.elementClick(self.select_broker)
+        time.sleep(2)
+        self.elementClick(self.dealdetail.click_team_save_button)
+        time.sleep(2)
+
     def ReleaseEToD(self):
         time.sleep(2)
         self.deal.AddNewDeal()
@@ -105,6 +125,10 @@ class ReleasePage(SeleniumDriver):
         self.EnterRealStateManager(name)
         time.sleep(2)
         self.elementClick(self.select_value_real_state_manager)
+        time.sleep(2)
+        self.elementClick(self.add_broker_button)
+        time.sleep(2)
+        self.EnterBrokerValueByClickingAddEditBrokerButton()
         time.sleep(2)
         num = '100'
         self.dealdetail.EnterDeskValue(num)
@@ -193,7 +217,7 @@ class ReleasePage(SeleniumDriver):
     upload_next_button_step1 = "//div[@id='app']/div/div[2]/div/div/div/div/div/div[4]/div[2]/button"
     next_button_step2 = "//div[2]/div[3]/button"
     description_field = "//textarea[@placeholder='Describe the deal']"
-    click_add_edit_landlord = "//button[contains(text(),'Add/edit Landlord')]"
+    click_add_edit_landlord = "//button[contains(text(),'Add/edit landlord')]"
     enter_landlord_name = "//input[@placeholder='Company name']"
     select_landlord = "//p[contains(.,'Gunners')]"
     click_save_button = "//span[contains(text(),'Save')]"
@@ -238,6 +262,18 @@ class ReleasePage(SeleniumDriver):
         time.sleep(3)
         self.elementClick(self.click_approve_button)
 
+    def SelectLandlordFromAddEditButton(self):
+        time.sleep(2)
+        self.elementClick(self.click_add_edit_landlord)
+        time.sleep(2)
+        name = 'gunner'
+        self.EnterLandlordName(name)
+        time.sleep(2)
+        self.elementClick(self.select_landlord)
+        time.sleep(2)
+        self.ClickSaveButton()
+
+
     def ReleaseDToCForm(self):
         time.sleep(2)
         self.elementClick(self.button_request_release_to_c)
@@ -248,15 +284,7 @@ class ReleasePage(SeleniumDriver):
         time.sleep(2)
         desc = "Running automation release from D - C"
         self.EnterDescriptionRelease(desc)
-        time.sleep(2)
-        self.elementClick(self.click_add_edit_landlord)
-        time.sleep(2)
-        name = 'gunner'
-        self.EnterLandlordName(name)
-        time.sleep(2)
-        self.elementClick(self.select_landlord)
-        time.sleep(2)
-        self.ClickSaveButton()
+        self.SelectLandlordFromAddEditButton()
         time.sleep(2)
         self.elementClick(self.next_button_step2)
         time.sleep(2)
@@ -271,7 +299,7 @@ class ReleasePage(SeleniumDriver):
         text_verify = "Request changes"
         self.verifyTextContains(actualText=verify_deal_after_completion, expectedText=text_verify)
 
-    def ReleaseDToC(self):
+    def ReleaseCToB(self):
         self.ReleaseDToCForm()
         self.ApproveReleaseButtonClick()
 
@@ -346,6 +374,9 @@ class ReleasePage(SeleniumDriver):
         self.AddTermSheet()
         self.AddAdditionalFinancialModelPDf()
         time.sleep(5)
+        self.ReleaseProcessCtoBStep2()
+
+    def ReleaseProcessCtoBStep2(self):
         self.elementClick(self.upload_next_button_step1)
         time.sleep(2)
         base = datetime.datetime.now()

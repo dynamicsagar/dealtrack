@@ -143,8 +143,8 @@ class BrokerPages(SeleniumDriver):
     '''
 
     broker_textbox = "//div[@id='app']/div/div[2]/div/div/div/div/div/div/div/div/div/input"
-    select_broker = "//p[contains(.,'Gaurav Dave')]"
     after_adding_broker = ".broker--name"
+    select_broker = "//p[contains(.,'Gaurav Dave')]"
 
     def EnterBroker(self, brokername):
         self.elementClick(self.broker_textbox)
@@ -156,8 +156,6 @@ class BrokerPages(SeleniumDriver):
         self.elementClick(self.add_broker_link)
         time.sleep(2)
         brokername = "Gaurav dave"
-        self.EnterBroker(brokername)
-        time.sleep(2)
         self.elementClick(self.select_broker)
         time.sleep(2)
         self.elementClick(self.save_button)
@@ -276,7 +274,7 @@ class BrokerPages(SeleniumDriver):
         name = "broker"
         brokername = self.ut.getUniqueName(2)
         brokername = name + brokername
-        self.EnterBroker(brokername)
+        self.release.EnterBroker(brokername)
         time.sleep(2)
         self.ClickCreateNew()
         time.sleep(2)

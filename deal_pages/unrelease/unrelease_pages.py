@@ -37,10 +37,17 @@ class UnReleasePages(SeleniumDriver):
     reset_button = "//button[contains(text(),'Reset')]"
     select_lease_signed = "//div[5]/div/div/div[2]/div[8]/div/img"
 
-    def GlobalFilterSelection(self):
-        self.deal.MoreFilterIcon()
+    def ClickResetButton(self):
         time.sleep(2)
         self.elementClick(self.reset_button)
+
+    def SelectSourcing(self):
+        time.sleep(2)
+        self.elementClick(self.select_sourcing)
+
+    def GlobalFilterSelection(self):
+        self.deal.MoreFilterIcon()
+        self.ClickResetButton()
         time.sleep(2)
         self.deal.ClickStageField()
 

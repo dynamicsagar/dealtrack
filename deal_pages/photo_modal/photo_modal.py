@@ -86,11 +86,11 @@ class PhotoModalPages(SeleniumDriver):
     
     """
 
-    untagged_photo = '''//*[@id="app"]/div/div[1]/div[2]/div/div[2]/div/div[1]/div[2]/div[7]/div''' # change might be needed
+    untagged_photo = ".sc-108qnys-0:nth-child(1)" # change might be needed
 
     def UserCanUploadUntaggedPhoto(self):
         time.sleep(2)
-        self.elementClick(self.untagged_photo)
+        self.elementClick(self.untagged_photo, locatorType='css')
         time.sleep(2)
         name = "C:/Users/Sagar/Desktop/360degreeimages/R0010005.JPG"
         self.dealdetail.UploadDocuments(name)
@@ -116,11 +116,11 @@ class PhotoModalPages(SeleniumDriver):
 
     other_photos_upload_link = "//div[7]//div[1]//div[1]//strong[1]"
     count_untagged_photo = "//div[contains(text(),'+ 3 more')]"
-    click_other_photo_after_upload = "//div[7]//img[1]"
+    click_other_photo_after_upload = ".tag:nth-child(6) > img"
 
     def UntaggedPhotoSlotKeepsCountOfAllUntaggedPhotos(self):
-        time.sleep(2)
-        self.elementClick(self.click_other_photo_after_upload)
+        time.sleep(4)
+        self.dealdetail.ClickUploadedImage()
         time.sleep(2)
         self.innerScroll(self.other_photos_upload_link)
         time.sleep(2)
@@ -189,16 +189,16 @@ class PhotoModalPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.save_button)
 
-    signage_upload_link = "//div[3]//div[1]//div[1]//strong[1]"
+    signage_upload_link = ".photo-tour--tag-group:nth-child(3) .Strong-sc-1nub4yc"
     click_uploaded_image = "//div[@id='app']/div/div[2]/div/div/div/div[2]/div/div[3]/div[2]/div/div/img"
     zoom_button = "(//button[@type='button'])[3]"
     close_icon = ".ril-close"
 
 
     def ClickUploadSignageToAddPhoto(self):
-        time.sleep(2)
-        self.elementClick(self.signage_upload_link)
-        time.sleep(2)
+        time.sleep(4)
+        self.elementClick(self.signage_upload_link, locatorType='css')
+        time.sleep(3)
         name = "C:/Users/Sagar/Desktop/360degreeimages/R0010005.JPG"
         self.dealdetail.UploadDocuments(name)
         time.sleep(4)
@@ -248,8 +248,6 @@ class PhotoModalPages(SeleniumDriver):
         self.ClickPhotoMenuIcon()
         time.sleep(2)
         self.elementClick(self.delete_photo_link)
-        time.sleep(2)
-        self.driver.switch_to.frame(2)
         time.sleep(2)
         self.elementClick(self.delete_button)
         time.sleep(4)
