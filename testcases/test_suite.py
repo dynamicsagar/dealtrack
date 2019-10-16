@@ -12,6 +12,7 @@ from testcases.request_revision.request_revision_testcases import RequestRevisio
 from testcases.meeting_notes.meeting_notes_testcases import MeetingNotesTests
 from testcases.photo_modal.photo_modal_testcases import PhotoModalTest
 from testcases.target_zone.target_zone_testcases import TargetZoneTest
+from testcases.comparables.comparables_testcases import ComparableTest
 
 # Get all tests from the test classes
 
@@ -27,6 +28,7 @@ tc9 = unittest.TestLoader().loadTestsFromTestCase(RequestRevisionTest)
 tc10 = unittest.TestLoader().loadTestsFromTestCase(ExploreScreenTest)
 tc11 = unittest.TestLoader().loadTestsFromTestCase(MeetingNotesTests)
 tc12 = unittest.TestLoader().loadTestsFromTestCase(PhotoModalTest)
+tc13 = unittest.TestLoader().loadTestsFromTestCase(ComparableTest)
 #tc13 = unittest.TestLoader().loadTestsFromTestCase(TargetZoneTest)
 
 # Create a test suite combining all test classes
