@@ -189,7 +189,7 @@ class PhotoModalPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.save_button)
 
-    signage_upload_link = ".photo-tour--tag-group:nth-child(3) .Strong-sc-1nub4yc"
+    signage_upload_link = ".photo-tour--tag-group:nth-child(3) .Strong-sc-jrot7n"
     click_uploaded_image = "//div[@id='app']/div/div[2]/div/div/div/div[2]/div/div[3]/div[2]/div/div/img"
     zoom_button = "(//button[@type='button'])[3]"
     close_icon = ".ril-close"
@@ -248,7 +248,7 @@ class PhotoModalPages(SeleniumDriver):
         self.ClickPhotoMenuIcon()
         time.sleep(2)
         self.elementClick(self.delete_photo_link)
-        time.sleep(2)
+        time.sleep(4)
         self.elementClick(self.delete_button)
         time.sleep(4)
         self.elementPresenceCheck(self.click_upload_new_photo_main_section, byType='xpath')

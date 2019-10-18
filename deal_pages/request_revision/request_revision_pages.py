@@ -151,7 +151,7 @@ class RequestRevisionPages(SeleniumDriver):
         self.Comment()
         time.sleep(2)
         self.RequestModalSubmitButton()
-        time.sleep(2)
+        time.sleep(4)
         get_button = self.getText(self.update_document)
         text = "Update documents"
         self.verifyTextContains(actualText=get_button, expectedText=text)
@@ -212,8 +212,7 @@ class RequestRevisionPages(SeleniumDriver):
 
     def ApproverSectionUpdatesToReflectRequestedChangesStatus(self):
         time.sleep(2)
-        self.dealdetail.innerScroll(self.dealdetail.scroll_to_team)
-        time.sleep(2)
+        #self.dealdetail.innerScroll(self.dealdetail.scroll_to_team)
         approver_request_text = self.getText(self.requested_changes_on_deal_detail_page)
         text = "Requested changes"
         self.verifyTextContains(actualText=approver_request_text, expectedText=text)
@@ -230,6 +229,7 @@ class RequestRevisionPages(SeleniumDriver):
         self.RequestModalSubmitButton()
         time.sleep(2)
         self.VerifyRequestButton()
+        time.sleep(2)
         self.release.ApproveReleaseButtonClick()
 
 
@@ -265,7 +265,7 @@ class RequestRevisionPages(SeleniumDriver):
         time.sleep(2)
         self.dealdetail.SubmitButton()
         self.release.AddMeetingNote()
-        time.sleep(2)
+        time.sleep(4)
         self.NoApprovalButtonsAfterRequestChanges()
 
     def ApproverSectionUpdatesToReflectRequestedChangesStatusFromCToB(self):
@@ -406,7 +406,7 @@ class RequestRevisionPages(SeleniumDriver):
     # Enter deal name
     def EnterDealName(self):
         time.sleep(2)
-        dealname = "001 Udaipur"
+        dealname = "#"
         self.ChangeDealName(dealname)
 
     more_filter = ".sidebar--header-icon:nth-child(4)"
@@ -422,22 +422,18 @@ class RequestRevisionPages(SeleniumDriver):
         self.sendKeys(value, self.search_textbox)
 
     def DealRemovedFromNeedMyApprovalAfterRequestChanges(self):
-        time.sleep(2)
-        self.elementClick(self.deal.more_filter_icon)
-        time.sleep(2)
-        self.deal.ClickStageField()
-        time.sleep(2)
-        self.SelectCtoB()
-        time.sleep(2)
-        self.deal.ClickApplyButton()
+        time.sleep(3)
+        self.elementClick(self.deal.click_need_my_approval)
         time.sleep(2)
         self.EnterDealName()
         time.sleep(2)
         self.NoApprovalButtonsAfterRequestChanges()
         time.sleep(2)
-        # self.deal.ClickBackArrow()
-        # time.sleep(4)
-        name = "001 Udaipur"
+        self.deal.ClickBackArrow()
+        time.sleep(4)
+        self.elementClick(self.deal.click_need_my_approval)
+        time.sleep(2)
+        name = "#"
         self.EnterSearchTextBox(name)
         time.sleep(2)
         self.PressEnter(Keys.ENTER)
@@ -445,42 +441,5 @@ class RequestRevisionPages(SeleniumDriver):
         no_deal_text = self.getText(self.no_deal_found)
         deal_text = "No deals matching your filters"
         self.verifyTextContains(actualText=no_deal_text, expectedText=deal_text)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
 
 

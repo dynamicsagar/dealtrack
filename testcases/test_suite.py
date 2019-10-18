@@ -13,26 +13,28 @@ from testcases.meeting_notes.meeting_notes_testcases import MeetingNotesTests
 from testcases.photo_modal.photo_modal_testcases import PhotoModalTest
 from testcases.target_zone.target_zone_testcases import TargetZoneTest
 from testcases.comparables.comparables_testcases import ComparableTest
+from testcases.document_target.document_target_testcases import DocumentSpecificTest
 
 # Get all tests from the test classes
-
-tc1 = unittest.TestLoader().loadTestsFromTestCase(BrokerTest)
-tc2 = unittest.TestLoader().loadTestsFromTestCase(LoginTests)
-tc3 = unittest.TestLoader().loadTestsFromTestCase(ReleaseTest)
-tc4 = unittest.TestLoader().loadTestsFromTestCase(DealDetailTest)
-tc5 = unittest.TestLoader().loadTestsFromTestCase(DealListTest)
-tc6 = unittest.TestLoader().loadTestsFromTestCase(LandlordTest)
-tc7 = unittest.TestLoader().loadTestsFromTestCase(AccountTabTest)
-tc8 = unittest.TestLoader().loadTestsFromTestCase(UnreleaseTest)
-tc9 = unittest.TestLoader().loadTestsFromTestCase(RequestRevisionTest)
-tc10 = unittest.TestLoader().loadTestsFromTestCase(ExploreScreenTest)
+tc1 = unittest.TestLoader().loadTestsFromTestCase(AccountTabTest)
+tc2 = unittest.TestLoader().loadTestsFromTestCase(BrokerTest)
+tc3 = unittest.TestLoader().loadTestsFromTestCase(ComparableTest)
+tc4 = unittest.TestLoader().loadTestsFromTestCase(DealListTest)
+tc5 = unittest.TestLoader().loadTestsFromTestCase(DealDetailTest)
+tc6 = unittest.TestLoader().loadTestsFromTestCase(DocumentSpecificTest)
+tc7 = unittest.TestLoader().loadTestsFromTestCase(ExploreScreenTest)
+tc9 = unittest.TestLoader().loadTestsFromTestCase(LandlordTest)
+tc10 = unittest.TestLoader().loadTestsFromTestCase(LoginTests)
 tc11 = unittest.TestLoader().loadTestsFromTestCase(MeetingNotesTests)
 tc12 = unittest.TestLoader().loadTestsFromTestCase(PhotoModalTest)
-tc13 = unittest.TestLoader().loadTestsFromTestCase(ComparableTest)
-#tc13 = unittest.TestLoader().loadTestsFromTestCase(TargetZoneTest)
+tc13 = unittest.TestLoader().loadTestsFromTestCase(ReleaseTest)
+tc14 = unittest.TestLoader().loadTestsFromTestCase(RequestRevisionTest)
+tc15 = unittest.TestLoader().loadTestsFromTestCase(UnreleaseTest)
+
+#tc16 = unittest.TestLoader().loadTestsFromTestCase(TargetZoneTest)
 
 # Create a test suite combining all test classes
-smokeTest = unittest.TestSuite([tc3, tc1, tc2, tc7, tc4, tc5, tc6, tc8, tc9, tc10, tc11, tc12])
+smokeTest = unittest.TestSuite([tc1, tc2, tc3, tc4, tc5, tc6, tc7, tc9, tc10, tc11, tc12, tc13, tc14, tc15])
 
 unittest.TextTestRunner(verbosity=2).run(smokeTest)
 

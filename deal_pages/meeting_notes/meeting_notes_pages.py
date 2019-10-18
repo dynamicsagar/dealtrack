@@ -53,12 +53,12 @@ class MeetingNotesPages(SeleniumDriver):
 
     click_meeting_notes_from_note_section = ".sc-1nmm7de-0 svg"
     click_added_meeting_note = "//span[contains(text(),'B to A release')]"
-    scroll_to_notes = "//span[contains(text(),'Notes')]"
+    scroll_to_notes = "//a[contains(text(),'Notes')]"
 
     # verify added meeting note is showing in notes section
     def VerifyAddedMeetingNotesOnNotesSection(self):
         time.sleep(2)
-        self.innerScroll(self.scroll_to_notes)
+        self.elementClick(self.scroll_to_notes)
         time.sleep(4)
         self.elementPresenceCheck(self.click_added_meeting_note, byType='xpath')
 
@@ -96,6 +96,11 @@ class MeetingNotesPages(SeleniumDriver):
         time.sleep(2)
         self.dealdetail.SubmitButton()
         time.sleep(4)
+        if self.isElementDisplayed(self.temp_update_floor_button):
+            self.elementClick(self.temp_update_floor_button)
+            time.sleep(2)
+            self.dealdetail.EnteringFloorValues()
+            time.sleep(3)
         self.elementPresenceCheck(self.release.add_meeting_notes_button, byType='xpath')
 
 
@@ -107,7 +112,7 @@ class MeetingNotesPages(SeleniumDriver):
     
     def VerifyAddedMeetingNotesOnNotesSectionFromCtoB(self):
         time.sleep(2)
-        self.innerScroll(self.scroll_to_notes)
+        self.elementClick(self.scroll_to_notes)
         time.sleep(4)
         self.elementPresenceCheck(self.click_added_meeting_note_from_c_to_b, byType='xpath')
 
@@ -128,14 +133,19 @@ class MeetingNotesPages(SeleniumDriver):
 
     def PreviousMeetingNoteIsDisplayedAndEditableWhenReleaseIsCancelled(self):
         time.sleep(2)
-        self.innerScrollUp(self.dealdetail.click_description)
-        time.sleep(2)
+        # self.innerScrollUp(self.dealdetail.click_description)
+        # time.sleep(2)
         self.request.ClickDealDetailPageCancelButton()
         time.sleep(2)
         self.release.ReleaseProcessCTOB()
         time.sleep(2)
         self.dealdetail.SubmitButton()
         time.sleep(4)
+        if self.isElementDisplayed(self.temp_update_floor_button):
+            self.elementClick(self.temp_update_floor_button)
+            time.sleep(2)
+            self.dealdetail.EnteringFloorValues()
+            time.sleep(3)
         self.elementClick(self.release.add_meeting_notes_button)
         time.sleep(2)
         textbox = self.getElement(self.release.enter_meeting_notes).get_attribute('value')

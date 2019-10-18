@@ -186,7 +186,7 @@ class DealList(SeleniumDriver):
         self.elementClick(self.select_item_list)
         time.sleep(2)
         deal_exist_text = self.getText(self.deal_exist)
-        deal_text = 'There are already 6 deals at this property. Add anyway?'
+        deal_text = 'There are already 7 deals at this property. Add anyway?'
         self.verifyTextContains(actualText=deal_exist_text, expectedText=deal_text)
         self.elementClick(self.cancel_button)
 

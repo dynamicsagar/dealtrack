@@ -156,6 +156,7 @@ class BrokerPages(SeleniumDriver):
         self.elementClick(self.add_broker_link)
         time.sleep(2)
         brokername = "Gaurav dave"
+        self.EnterBroker(brokername)
         self.elementClick(self.select_broker)
         time.sleep(2)
         self.elementClick(self.save_button)
@@ -274,7 +275,7 @@ class BrokerPages(SeleniumDriver):
         name = "broker"
         brokername = self.ut.getUniqueName(2)
         brokername = name + brokername
-        self.release.EnterBroker(brokername)
+        self.EnterBroker(brokername)
         time.sleep(2)
         self.ClickCreateNew()
         time.sleep(2)

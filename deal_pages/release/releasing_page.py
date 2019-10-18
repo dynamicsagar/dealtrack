@@ -231,6 +231,7 @@ class ReleasePage(SeleniumDriver):
         self.elementClick(self.approve_release_button)
 
     def ClickNextButton(self):
+        time.sleep(2)
         self.elementClick(self.upload_next_button_step1)
 
     def ClickSaveButton(self):
@@ -279,7 +280,7 @@ class ReleasePage(SeleniumDriver):
         self.elementClick(self.button_request_release_to_c)
         time.sleep(2)
         self.AddFileMemoSheet()
-        time.sleep(25)
+        time.sleep(20)
         self.ClickNextButton()
         time.sleep(2)
         desc = "Running automation release from D - C"
@@ -299,7 +300,7 @@ class ReleasePage(SeleniumDriver):
         text_verify = "Request changes"
         self.verifyTextContains(actualText=verify_deal_after_completion, expectedText=text_verify)
 
-    def ReleaseCToB(self):
+    def ReleaseDToC(self):
         self.ReleaseDToCForm()
         self.ApproveReleaseButtonClick()
 
@@ -373,7 +374,7 @@ class ReleasePage(SeleniumDriver):
         self.AddDealMemo()
         self.AddTermSheet()
         self.AddAdditionalFinancialModelPDf()
-        time.sleep(5)
+        time.sleep(2)
         self.ReleaseProcessCtoBStep2()
 
     def ReleaseProcessCtoBStep2(self):
@@ -487,8 +488,9 @@ class ReleasePage(SeleniumDriver):
         self.dealdetail.SubmitButton()
         time.sleep(3)
         self.ApproveReleaseButtonClick()
-        time.sleep(2)
+        time.sleep(4)
         self.AddMeetingNote()
+        time.sleep(3)
         button = self.getText(self.move_to_b_button)
         button_text = "Release to B"
         self.verifyTextContains(actualText=button, expectedText=button_text)
@@ -523,7 +525,7 @@ class ReleasePage(SeleniumDriver):
     approver_2 = "//div[3]/div/div/div/div[2]/div/div/input"
     approver_4 = "//div[3]/div/div/div/div[4]/div/div/input"
     close_icon = ".icon--close"
-    select_value_real_state_manager_vineet = "//li[contains(.,'Vineet')]"
+    select_value_real_state_manager_dhiraj = "//li[contains(.,'Dhiraj')]"
 
     def EnterApprover1(self, app1):
         self.elementClick(self.approver_1)
@@ -567,10 +569,10 @@ class ReleasePage(SeleniumDriver):
         # self.EnterApprover2(app2)
         # self.elementClick(self.select_value_real_state_manager)
         time.sleep(2)
-        app4 = "Gaurav Dave"
+        app4 = "Dhiraj"
         self.EnterApprover4(app4)
         time.sleep(2)
-        self.elementClick(self.select_value_real_state_manager)
+        self.elementClick(self.select_value_real_state_manager_dhiraj)
 
     def ReleaseToA(self):
         self.ReleasePopUpFieldEntry()

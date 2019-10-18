@@ -1008,7 +1008,3 @@ class DealDetailScreenPages(SeleniumDriver):
         text_tab = self.getText(self.click_performance_tab)
         self.verifyTextContains(actualText=text_tab, expectedText=text)
 
-
-
-
-
