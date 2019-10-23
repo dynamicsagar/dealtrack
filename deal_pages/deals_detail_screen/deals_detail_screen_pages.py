@@ -1,4 +1,5 @@
 import time
+import random
 import datetime
 from base.selenium_driver import SeleniumDriver
 from deal_pages.deal_list_screen.deal_list_screen_page import DealList
@@ -480,6 +481,9 @@ class DealDetailScreenPages(SeleniumDriver):
     check_free_rent = "//li[6]//span[2]"
     check_lease_term = "//li[7]//span[2]"
     check_signange = "//li[8]//span[2]"
+    Click_product_type = "//div[@id='app']/div/div[2]/div/div/div/div/form/div/div[2]/div/div/div/div/input"
+    select_product = "//div[2]/div/div/div/div[2]/div[2]/div/p"
+
 
     def EnterGrossRent(self, gross_rent):
         self.elementClick(self.enter_gross_rent)
@@ -511,6 +515,10 @@ class DealDetailScreenPages(SeleniumDriver):
         self.elementClick(self.click_terms_tab)
         time.sleep(2)
         self.elementClick(self.click_to_open_terms_tab)
+        time.sleep(2)
+        self.elementClick(self.Click_product_type)
+        time.sleep(2)
+        self.elementClick(self.select_product)
         time.sleep(2)
         self.elementClick(self.click_rental_type_dropdown)
         time.sleep(2)
@@ -709,6 +717,7 @@ class DealDetailScreenPages(SeleniumDriver):
     def EnteringFloorValues(self):
         floor_num = '2'
         self.EnterFloor(floor_num)
+        #self.EnterFloor(random.randrange(1, 10))
         time.sleep(2)
         self.pressEnter(Keys.ENTER)
         rsf_num = '10'

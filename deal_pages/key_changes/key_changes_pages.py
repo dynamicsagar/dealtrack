@@ -204,4 +204,7 @@ class KeyChangesPages(SeleniumDriver):
     def ChangeColumnSignifiesChangeInDataCToB(self):
         time.sleep(2)
         self.release.ReleaseProcessCTOB()
+        time.sleep(2)
+
+
 
