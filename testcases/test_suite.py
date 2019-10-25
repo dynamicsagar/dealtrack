@@ -11,7 +11,6 @@ from testcases.explore_tab_screen.explore_tab_screen_textcases import ExploreScr
 from testcases.request_revision.request_revision_testcases import RequestRevisionTest
 from testcases.meeting_notes.meeting_notes_testcases import MeetingNotesTests
 from testcases.photo_modal.photo_modal_testcases import PhotoModalTest
-from testcases.target_zone.target_zone_testcases import TargetZoneTest
 from testcases.comparables.comparables_testcases import ComparableTest
 from testcases.document_target.document_target_testcases import DocumentSpecificTest
 
@@ -31,7 +30,6 @@ tc13 = unittest.TestLoader().loadTestsFromTestCase(ReleaseTest)
 tc14 = unittest.TestLoader().loadTestsFromTestCase(RequestRevisionTest)
 tc15 = unittest.TestLoader().loadTestsFromTestCase(UnreleaseTest)
 
-#tc16 = unittest.TestLoader().loadTestsFromTestCase(TargetZoneTest)
 
 # Create a test suite combining all test classes
 smokeTest = unittest.TestSuite([tc1, tc2, tc3, tc4, tc5, tc6, tc7, tc9, tc10, tc11, tc12, tc13, tc14, tc15])
