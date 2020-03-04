@@ -42,7 +42,8 @@ class ReleasePage(SeleniumDriver):
     release_to_d_button = "//span[contains(text(),'Release to D')]"
     enter_value_real_state_manager = "//input[@placeholder='Enter a name']"
                                     #= "//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/div/div/div/input"
-    select_value_real_state_manager = "//li[contains(.,'Gaurav Dave')]"
+    #select_value_real_state_manager = "//li[contains(.,'Gaurav Dave')]"
+    select_value_real_state_manager = "//li[2]/p"
     enter_desk = "//input[@name='desks']"
     enter_rsf = "//input[@name='rsf']"
     est_c_release_calendar = "//input[@id='estimatedReleaseFromDToCDate']"
@@ -214,15 +215,16 @@ class ReleasePage(SeleniumDriver):
     '''
 
     add_fimo_link_text = "Add file (Excel)"
-    upload_next_button_step1 = "//div[@id='app']/div/div[2]/div/div/div/div/div/div[4]/div[2]/button"
+    #upload_next_button_step1 = "//div[@id='app']/div/div[2]/div/div/div/div/div/div[4]/div[2]/button"
     next_button_step2 = "//div[2]/div[3]/button"
+    upload_next_button_step1 = "//div[@class='button--wrapper wdunhr-0 kUWJWD']//button[@class='button--button'][contains(text(),'Next')]"
     description_field = "//textarea[@placeholder='Describe the deal']"
     click_add_edit_landlord = "//button[contains(text(),'Add/edit landlord')]"
     enter_landlord_name = "//input[@placeholder='Company name']"
     select_landlord = "//p[contains(.,'Gunners')]"
     click_save_button = "//span[contains(text(),'Save')]"
-    enter_approver = "//div[@id='app']/div/div[2]/div/div/div/div/div/div[3]/div/div/div/div/input"
-    select_approver = "//p[contains(.,'Gaurav Dave')]"
+    enter_approver = "//div[1]/div/div[2]/div/div/div[1]/div/div/div[3]/div/div/div[1]/div[1]/div/input"
+    select_approver = "//li[2]/p"
     request_change_button_for_verification = "//span[contains(text(),'Request changes')]"
     approve_release_button = "//span[contains(text(),'Approve release')]"
     click_approve_button = "//div[@id='app']/div/div[2]/div/div/div/div/div/div[2]/button/span"
@@ -231,7 +233,7 @@ class ReleasePage(SeleniumDriver):
         self.elementClick(self.approve_release_button)
 
     def ClickNextButton(self):
-        time.sleep(2)
+        time.sleep(5)
         self.elementClick(self.upload_next_button_step1)
 
     def ClickSaveButton(self):
@@ -255,7 +257,7 @@ class ReleasePage(SeleniumDriver):
     def AddFileMemoSheet(self):
         self.elementClick(self.add_fimo_link_text, locatorType='link')
         time.sleep(2)
-        doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/FiMo.xlsm"
+        doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/v4.2_Proforma(1).xlsb"
         self.dealdetail.UploadDocuments(doc)
 
     def ApproveReleaseButtonClick(self):
@@ -280,7 +282,8 @@ class ReleasePage(SeleniumDriver):
         self.elementClick(self.button_request_release_to_c)
         time.sleep(2)
         self.AddFileMemoSheet()
-        time.sleep(20)
+        time.sleep(45)
+        self.log.info("hiiii pass")
         self.ClickNextButton()
         time.sleep(2)
         desc = "Running automation release from D - C"
@@ -370,7 +373,7 @@ class ReleasePage(SeleniumDriver):
         self.elementClick(self.button_request_release_to_b)
         time.sleep(2)
         self.AddFileMemoSheet()
-        time.sleep(25)
+        time.sleep(35)
         self.AddDealMemo()
         self.AddTermSheet()
         self.AddAdditionalFinancialModelPDf()
@@ -393,9 +396,9 @@ class ReleasePage(SeleniumDriver):
         self.dealdetail.SelectRealStateAnalystValue()
         time.sleep(2)
         self.dealdetail.SelectSourcer()
-        time.sleep(2)
-        self.dealdetail.SelectInternalCounsel()
-        time.sleep(2)
+        #time.sleep(2)
+        #self.dealdetail.SelectInternalCounsel()
+        #time.sleep(2)
         self.elementClick(self.next_button_step2)
         time.sleep(2)
         name = "Gaurav Dave"
@@ -425,16 +428,17 @@ class ReleasePage(SeleniumDriver):
 
     def VerifyGlobalApproversDoNotExistOnCToBDeals(self):
         self.ReleaseProcessCTOB()
-        text = "Global Approvers are not required for C>B deals"
-        globe_text = self.getText(self.global_approver_text_on_popup)
-        self.verifyTextContains(actualText=text, expectedText=globe_text)
+        ### not required now as per the new flow
+        #$text = "Global Approvers are not required for C>B deals"
+        #globe_text = self.getText(self.global_approver_text_on_popup)
+        #self.verifyTextContains(actualText=text, expectedText=globe_text)
 
     # adding meeting note method
 
     add_meeting_notes_button = "//span[contains(text(),'Add meeting notes')]"
     enter_meeting_notes = "//textarea[@placeholder='Enter text here']"
     enter_meeting_date = "//input[@id='regionalCommitteeMeetingDate']"
-    enter_time = ".sc-1b2vuwt-0"
+    enter_time = ".tdxc9i-0"
 
     def AddMeetingNoteButton(self):
         self.elementClick(self.add_meeting_notes_button)
@@ -486,7 +490,7 @@ class ReleasePage(SeleniumDriver):
 
     def ReleaseCToB(self):
         self.dealdetail.SubmitButton()
-        time.sleep(3)
+        time.sleep(4)
         self.ApproveReleaseButtonClick()
         time.sleep(4)
         self.AddMeetingNote()
@@ -515,10 +519,10 @@ class ReleasePage(SeleniumDriver):
                 self.EnterLeaseSigningDate(a)
         time.sleep(2)
         self.elementClick(self.button_release)
-        time.sleep(3)
-        button = self.getText(self.release_to_a_button)
-        button_text = "Request release"
-        self.verifyTextContains(actualText=button, expectedText=button_text)
+        #time.sleep(3)
+        #button = self.getText(self.release_to_a_button)
+        #button_text = "Request release"
+        #self.verifyTextContains(actualText=button, expectedText=button_text)
 
 
     approver_1 = "//div[3]/div/div/div/div[1]/div/div/input"
@@ -550,7 +554,7 @@ class ReleasePage(SeleniumDriver):
         self.elementClick(self.release_to_a_button)
         time.sleep(2)
         self.AddFileMemoSheet()
-        time.sleep(25)
+        time.sleep(45)
         self.AddDealMemo()
         time.sleep(2)
         self.AddTermSheet()
@@ -569,10 +573,10 @@ class ReleasePage(SeleniumDriver):
         # self.EnterApprover2(app2)
         # self.elementClick(self.select_value_real_state_manager)
         time.sleep(2)
-        app4 = "Dhiraj"
+        app4 = "Gaurav Dave"
         self.EnterApprover4(app4)
         time.sleep(2)
-        self.elementClick(self.select_value_real_state_manager_dhiraj)
+        self.elementClick(self.select_value_real_state_manager)
 
     def ReleaseToA(self):
         self.ReleasePopUpFieldEntry()

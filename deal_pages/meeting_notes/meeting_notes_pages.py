@@ -100,7 +100,7 @@ class MeetingNotesPages(SeleniumDriver):
             self.elementClick(self.temp_update_floor_button)
             time.sleep(2)
             self.dealdetail.EnteringFloorValues()
-            time.sleep(3)
+            time.sleep(4)
         self.elementPresenceCheck(self.release.add_meeting_notes_button, byType='xpath')
 
 

@@ -67,11 +67,11 @@ class UnreleaseTest(unittest.TestCase):
         self.log.info("*#" * 20)
         self.unrelease.VerifyLeaseAttachementByClickingLeaseDocument()
 
-    def test_10VerifyGlobalApproverNotExistOnCtoBDeals(self):
-        self.log.info("*#" * 20)
-        self.log.info(" test_10VerifyGlobalApproverNotExistOnCtoBDeals ")
-        self.log.info("*#" * 20)
-        self.unrelease.VerifyGlobalApproverNotExistOnCtoBDeals()
+    # def test_10VerifyGlobalApproverNotExistOnCtoBDeals(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info(" test_10VerifyGlobalApproverNotExistOnCtoBDeals ")
+    #     self.log.info("*#" * 20)
+    #     self.unrelease.VerifyGlobalApproverNotExistOnCtoBDeals()
 
 
 

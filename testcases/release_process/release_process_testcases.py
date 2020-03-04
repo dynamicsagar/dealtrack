@@ -49,11 +49,11 @@ class ReleaseTest(unittest.TestCase):
         self.log.info("*#" * 20)
         self.release.ReleaseMoveToB()
 
-    def test_07ReleaseToA(self):
+    """def test_07ReleaseToA(self):
         self.log.info("*#" * 20)
         self.log.info(" test_06ReleaseToA ")
         self.log.info("*#" * 20)
-        self.release.ReleaseToA()
+        self.release.ReleaseToA()"""
 
 
 

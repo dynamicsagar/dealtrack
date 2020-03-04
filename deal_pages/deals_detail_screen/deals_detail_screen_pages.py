@@ -87,11 +87,11 @@ class DealDetailScreenPages(SeleniumDriver):
         self.elementClick(self.click_new_photo)
         time.sleep(2)
         # self.driver.switch_to.frame(0)
-        name = "C:/Users/Sagar/Desktop/360degreeimages/R0010005.JPG"
+        name = "C:/Users/Sagar/PycharmProjects/DealTrack/images/R0010005.JPG"
         self.UploadDocuments(name)
         time.sleep(4)
         self.ClickUploadButton()
-        time.sleep(25)
+        time.sleep(35)
         self.VerifyPhotoAddedSuccessfully()
 
     def VerifyPhotoAddedSuccessfully(self):
@@ -106,7 +106,7 @@ class DealDetailScreenPages(SeleniumDriver):
     click_description = "//span[contains(text(),'Description')]"
     enter_description = "//textarea[@name='description']"
     click_Save_button = "//button[contains(.,'Save')]"
-    description_text = "//p[contains(text(),'Hi this is a random automation text')]"
+    description_text = "//span[contains(.,'Hi this is a random automation text')]"
 
     def EnterDesc(self, description):
         self.elementClick(self.enter_description)
@@ -144,10 +144,10 @@ class DealDetailScreenPages(SeleniumDriver):
 
     '''
 
-    click_financial = ".sc-12w36a0-0:nth-child(1) svg"
-    click_deal_memo = ".sc-12w36a0-0:nth-child(4) svg"
-    click_term_sheet = ".sc-12w36a0-0:nth-child(3) svg"
-    scroll_to_text = "//span[contains(text(),'Financial model')]"
+    click_financial = ".h4p14a-0:nth-child(1) svg"
+    click_deal_memo = "//div[@id='documents']/div[2]/div[4]/div[2]/div"
+    click_term_sheet = "//div[@id='documents']/div[2]/div[3]/div[2]/div"
+    scroll_to_text = "//span[contains(text(),'Documents')]"
     text_after_upload_financial_pdf = "//span[contains(text(),'E (Discovery)')]"
     click_reason_dropdown = "//select[@name='proformaUploadReason']"
     select_option_from_dropdown = "//div[@id='app']/div/div[2]/div/div/div/div[2]/div/label/div/select/option[2]"
@@ -172,26 +172,26 @@ class DealDetailScreenPages(SeleniumDriver):
         self.elementClick(self.select_option_from_dropdown)
         time.sleep(2)
         self.elementClick(self.click_upload_file_button)
-        doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/FiMo.xlsm"
+        doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/v4.2_Proforma(1).xlsb"
         self.UploadDocuments(doc)
-        time.sleep(25)
+        time.sleep(45)
         self.elementClick(self.click_Save_button)
 
     def TermSheetDocument(self):
         time.sleep(2)
-        self.elementClick(self.click_term_sheet, locatorType='css')
+        self.elementClick(self.click_term_sheet)
         time.sleep(2)
         doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/1.pdf"
         self.UploadDocuments(doc)
-        time.sleep(35)
+        time.sleep(15)
 
     def DealMemo(self):
         time.sleep(2)
-        self.elementClick(self.click_deal_memo, locatorType='css')
+        self.elementClick(self.click_deal_memo)
         time.sleep(2)
         doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/DealMemo.pdf"
         self.UploadDocuments(doc)
-        time.sleep(35)
+        time.sleep(15)
 
 
     # Steps for team section
@@ -211,7 +211,7 @@ class DealDetailScreenPages(SeleniumDriver):
 
     scroll_to_team = "//h4[contains(text(),'Team')]"
     enter_real_state_manager = "//div[@id='app']/div/div[2]/div[1]/div/div/div/div/div/div/div/div[1]/div/div/input"
-    select_real_state_manager_value = "//li[contains(.,'Rumi Begum')]"
+    select_real_state_manager_value = "//li[contains(.,'Shazadi Mohammed')]"
     click_team_save_button = "//button[contains(text(),'Save')]"
 
     def SaveButton(self):
@@ -225,7 +225,7 @@ class DealDetailScreenPages(SeleniumDriver):
         self.sendKeys(name, self.enter_real_state_manager)
 
     def SelectRealStateManagerValue(self):
-        name = "Rumi Begum"
+        name = "Shazadi Mohammed"
         self.EnterRealManager(name)
         time.sleep(2)
         self.elementClick(self.select_real_state_manager_value)
@@ -236,7 +236,7 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.scroll_to_team)
         time.sleep(2)
-        name = "Rumi Begum"
+        name = "Shazadi Mohammed"
         self.SelectRealStateManagerValue()
         self.elementClick(self.click_team_save_button)
         time.sleep(2)
@@ -247,7 +247,7 @@ class DealDetailScreenPages(SeleniumDriver):
         self.verifyTextContains(actualText=real_state, expectedText=name)
 
     enter_transaction_manager = "//div[2]/div/div/input"
-    select_transaction_manager_value = "//li[contains(.,'Rumi Begum')]"
+    select_transaction_manager_value = "//li[contains(.,'Shazadi Mohammed')]"
 
     def EnterTransactionManager(self, name):
         self.elementClick(self.enter_transaction_manager)
@@ -255,7 +255,7 @@ class DealDetailScreenPages(SeleniumDriver):
         self.sendKeys(name, self.enter_transaction_manager)
 
     def SelectTransactionManager(self):
-        name = "Rumi Begum"
+        name = "Shazadi Mohammed"
         self.EnterTransactionManager(name)
         time.sleep(3)
         self.elementClick(self.select_transaction_manager_value)
@@ -265,7 +265,7 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.scroll_to_team)
         time.sleep(2)
-        name = "Rumi Begum"
+        name = "Shazadi Mohammed"
         self.SelectTransactionManager()
         self.elementClick(self.click_team_save_button)
         time.sleep(2)
@@ -276,7 +276,7 @@ class DealDetailScreenPages(SeleniumDriver):
         self.verifyTextContains(actualText=transaction_manager, expectedText=name)
 
     enter_sourcer = "//div[3]/div/div/input"
-    select_sourcer_value = "//li[contains(.,'Rumi Begum')]"
+    select_sourcer_value = "//li[contains(.,'Shazadi Mohammed')]"
 
     def EnterSourcer(self, name):
         self.elementClick(self.enter_sourcer)
@@ -286,7 +286,7 @@ class DealDetailScreenPages(SeleniumDriver):
         self.sendKeys(name, self.enter_sourcer)
 
     def SelectSourcer(self):
-        name = 'Rumi Begum'
+        name = 'Shazadi Mohammed'
         self.EnterSourcer(name)
         time.sleep(3)
         self.elementClick(self.select_sourcer_value)
@@ -296,7 +296,7 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.scroll_to_team)
         time.sleep(2)
-        name = 'Rumi Begum'
+        name = 'Shazadi Mohammed'
         self.SelectSourcer()
         self.elementClick(self.click_team_save_button)
         time.sleep(2)
@@ -306,7 +306,7 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.verifyTextContains(actualText=sourcer, expectedText=name)
 
-    enter_real_state_analyst = "//div[4]/div/div/input"
+    enter_real_state_analyst = "//div[3]/div/div/input"
     select_real_state_analyst_value = "//li[contains(.,'Shazadi Mohammed')]"
 
     def EnterRealState(self, name):
@@ -334,6 +334,7 @@ class DealDetailScreenPages(SeleniumDriver):
         real_state = self.getElement(self.enter_real_state_analyst).get_attribute('value')
         time.sleep(2)
         self.verifyTextContains(actualText=real_state, expectedText=name)
+        self.elementClick(self.click_team_save_button)
 
     # Locators for internal counsels
     enter_internal_counsel = "//div[5]/div/div/input"
@@ -367,8 +368,6 @@ class DealDetailScreenPages(SeleniumDriver):
         internal_counsel = self.getElement(self.enter_internal_counsel).get_attribute('value')
         time.sleep(2)
         self.verifyTextContains(actualText=internal_counsel, expectedText=name)
-        self.elementClick(self.click_team_save_button)
-
 
     # C27836 Deal details adding/editing data for Genaral Info, Terms, Performance & Floors tab
 
@@ -588,7 +587,7 @@ class DealDetailScreenPages(SeleniumDriver):
 
     click_performance_tab = "//div[contains(text(),'Performance')]"
     click_to_open_performance_tab = "//span[contains(text(),'Payback period')]"
-    enter_ebitda_margin = "=//input[@name='ebitdaMargin']"
+    enter_ebitda_margin = "//input[@name='ebitdaMargin']"
     enter_breakeven_occupancy = "//input[@name='breakevenOccupancy']"
     enter_payback_period = "//input[@name='paybackPeriod']"
     enter_net_effective_rent = "//input[@name='netEffectiveRent']"
@@ -818,10 +817,21 @@ class DealDetailScreenPages(SeleniumDriver):
      
     '''
 
-    menu_icon = ".sc-1dok22n-0 > path"
-    click_closed = "//p[contains(text(),'Closed')]"
+    menu_icon = ".sc-1eia494-0"
+    click_closed = "//p[contains(text(),'Dead')]"
     submit_button = "//button[contains(text(),'Submit')]"
-    after_closed_tag = "//div[contains(text(),'Closed')]"
+    after_closed_tag = "//div[contains(text(),'Dead')]"
+
+    # newly added
+
+    reason_dropdown = "//select[@name='reason']"
+    select_option_for_reason = "//option[@value='OTHER']"
+    textbox_for_reason = "//textarea[@placeholder='Enter an explanation']"
+
+    def EnterReason(self, reasonname):
+        self.elementClick(self.textbox_for_reason)
+        time.sleep(2)
+        self.sendKeys(reasonname, self.textbox_for_reason)
 
     def SubmitButton(self):
         self.elementClick(self.submit_button)
@@ -835,10 +845,17 @@ class DealDetailScreenPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.click_closed)
         time.sleep(2)
+        self.elementClick(self.reason_dropdown)
+        time.sleep(2)
+        self.elementClick(self.select_option_for_reason)
+        time.sleep(2)
+        reason_text = "testing"
+        self.EnterReason(reason_text)
+        time.sleep(2)
         self.SubmitButton()
         time.sleep(2)
         reactivate = self.getText(self.after_closed_tag)
-        reactivate_text = "Closed"
+        reactivate_text = "Dead"
         self.verifyTextContains(actualText=reactivate, expectedText=reactivate_text)
 
 
@@ -865,19 +882,25 @@ class DealDetailScreenPages(SeleniumDriver):
     load_button = "//button[contains(text(),'Load')]"
     near_by_business = "//p[contains(text(),'Restaurants')]"
     near_by_business_fitness = "//p[contains(text(),'Fitness')]"
+    text_demand = "//span[contains(text(),'Demand')]"
 
     def LocationScreenGoogle(self):
         time.sleep(2)
-        self.innerScrollUp(self.click_description)
+        self.elementClick(self.scroll_to_location)
         time.sleep(2)
-        self.elementClick(self.load_button)
+        text_to_verify_map = "Demand"
+        get_text = self.getText(self.text_demand)
         time.sleep(2)
-        restaurant = self.getText(self.near_by_business)
-        restaurant_text = "Restaurants"
-        fitness = self.getText(self.near_by_business_fitness)
-        fitness_text = "Fitness"
-        self.verifyTextContains(actualText=restaurant, expectedText=restaurant_text)
-        self.verifyTextContains(actualText=fitness, expectedText=fitness_text)
+        self.verifyTextContains(actualText=get_text, expectedText=text_to_verify_map)
+
+        # # self.elementClick(self.load_button)
+        # # time.sleep(2)
+        # restaurant = self.getText(self.near_by_business)
+        # restaurant_text = "Restaurants"
+        # fitness = self.getText(self.near_by_business_fitness)
+        # fitness_text = "Fitness"
+        # self.verifyTextContains(actualText=restaurant, expectedText=restaurant_text)
+        # self.verifyTextContains(actualText=fitness, expectedText=fitness_text)
 
 
     # C33433 Button/link to create deal at existing location/place
@@ -911,27 +934,25 @@ class DealDetailScreenPages(SeleniumDriver):
     
     '''
 
-    add_new_deal = "//p[contains(text(),'Add new deal at this location')]"
+    add_new_deal = ".deal-options--grid:nth-child(2)"
     click_add_button = "//button[contains(text(),'Add')]"
-    deal_tag = "//div[contains(text(),'Deal 2')]"
+    deal_tag = "//div[contains(text(),'Deal')]"
 
     def CreateDealFromExistingDeal(self):
         time.sleep(2)
-        self.innerScrollUp(self.menu_icon, locatorType='css')
-        time.sleep(2)
         self.elementClick(self.menu_icon, locatorType='css')
         time.sleep(2)
-        self.elementClick(self.add_new_deal)
+        self.elementClick(self.add_new_deal, locatorType="css")
         time.sleep(2)
         self.elementClick(self.click_add_button)
         time.sleep(5)
         deal_tag_name = self.getText(self.deal_tag)
-        tag_name = "Deal 2"
+        tag_name = "Deal"
         self.verifyTextContains(actualText=deal_tag_name, expectedText=tag_name)
 
 
     add_deal_from_created_deal = "//p[contains(.,'+ Add new deal at this location')]"
-    deal_tag1 = "//div[contains(text(),'Deal 3')]"
+    deal_tag1 = "//div[contains(text(),'Deal')]"
 
     def AddDealFromCreatedDeal(self):
         time.sleep(2)
@@ -940,7 +961,7 @@ class DealDetailScreenPages(SeleniumDriver):
         self.elementClick(self.click_add_button)
         time.sleep(2)
         deal_tag_name = self.getText(self.deal_tag1)
-        tag_name = "Deal 3"
+        tag_name = "Deal"
         self.verifyTextContains(actualText=deal_tag_name, expectedText=tag_name)
 
 
@@ -969,7 +990,7 @@ class DealDetailScreenPages(SeleniumDriver):
     
     '''
 
-    gross_text = "//span[contains(text(),'Gross Construction Cost')]"
+    gross_text = "//span[contains(text(),'Total Gross CapEx')]"
 
     def GrossConstructionCostONPerformanceTab(self):
         time.sleep(2)
@@ -978,16 +999,16 @@ class DealDetailScreenPages(SeleniumDriver):
         self.elementClick(self.click_performance_tab)
         time.sleep(2)
         verify_gross_text = self.getText(self.gross_text)
-        verify_text = "Gross Construction Cost"
+        verify_text = "Total Gross CapEx"
         self.verifyTextContains(actualText=verify_gross_text, expectedText=verify_text)
 
-    click_closed_tag_to_back_to_deal1 = "//p[contains(.,'Closed')]"
+    click_closed_tag_to_back_to_deal1 = "//div[@id='location']/div[2]/div[2]/div/div[2]/div/div/div/p"
     check_gross_value = "//li[7]//span[2]"
 
     def GrossConstructionFieldEditable(self):
         time.sleep(2)
-        self.elementClick(self.click_closed_tag_to_back_to_deal1)
-        time.sleep(4)
+        # self.elementClick(self.click_closed_tag_to_back_to_deal1)
+        # time.sleep(4)
         self.innerScroll(self.click_terms_tab)
         time.sleep(2)
         self.elementClick(self.click_performance_tab)
@@ -1007,6 +1028,8 @@ class DealDetailScreenPages(SeleniumDriver):
 
     def VerifyPerformanceSectionTabNotEditable(self):
         time.sleep(2)
+        self.elementClick(self.click_closed_tag_to_back_to_deal1)
+        time.sleep(4)
         self.innerScrollUp(self.click_performance_tab)
         time.sleep(2)
         self.elementClick(self.click_performance_tab)

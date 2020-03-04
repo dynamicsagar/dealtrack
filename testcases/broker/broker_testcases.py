@@ -25,11 +25,11 @@ class BrokerTest(unittest.TestCase):
         self.log.info("*#" * 20)
         self.broker.DealDetailsPageHasEmptyBrokerSection()
 
-    def test_03VerifyDealDetailsPageHasNotApplicableBrokerSection(self):
-        self.log.info("*#" * 20)
-        self.log.info(" test_03VerifyDealDetailsPageHasNotApplicableBrokerSection ")
-        self.log.info("*#" * 20)
-        self.broker.DealDetailsPageHasNotApplicableBrokerSection()
+    # def test_03VerifyDealDetailsPageHasNotApplicableBrokerSection(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info(" test_03VerifyDealDetailsPageHasNotApplicableBrokerSection ")
+    #     self.log.info("*#" * 20)
+    #     self.broker.DealDetailsPageHasNotApplicableBrokerSection()
 
     def test_04VerifySubmitButtonShouldBeDisabled(self):
         self.log.info("*#" * 20)

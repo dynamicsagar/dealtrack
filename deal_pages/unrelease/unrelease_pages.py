@@ -33,7 +33,7 @@ class UnReleasePages(SeleniumDriver):
     select_term_sheet = "//div[5]/div/div/div[2]/div[4]/div/img"
     select_c_to_b = "//div[5]/div/div/div[2]/div[5]/div/img"
     select_leasing = "//div[5]/div/div/div[2]/div[6]/div/img"
-    click_move_back_to_E = "//*[@class='icon--unrelease']"
+    click_move_back_to_E = "//p[contains(text(),'Move back to ')]"
     reset_button = "//button[contains(text(),'Reset')]"
     select_lease_signed = "//div[5]/div/div/div[2]/div[8]/div/img"
 
@@ -57,7 +57,7 @@ class UnReleasePages(SeleniumDriver):
         self.dealdetail.ClickMenuIcon()
         time.sleep(3)
         self.elementClick(self.click_move_back_to_E)
-        time.sleep(2)
+        time.sleep(3)
         self.dealdetail.SubmitButton()
 
     def UnreleaseDTOE(self):
@@ -68,7 +68,7 @@ class UnReleasePages(SeleniumDriver):
         self.elementClick(self.select_sourcing)
         time.sleep(2)
         self.ClickMenuIcon()
-        time.sleep(2)
+        time.sleep(3)
         text = self.getText(self.release.release_to_d_button)
         button_text = "Release to D"
         self.verifyTextContains(actualText=text, expectedText=button_text)
@@ -221,9 +221,9 @@ class UnReleasePages(SeleniumDriver):
         self.elementClick(self.button_release_to_a)
         time.sleep(3)
         self.AddBudgetFile()
-        doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/FiMo.xlsm"
+        doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/v4.2_Proforma(1).xlsb"
         self.dealdetail.UploadDocuments(doc)
-        time.sleep(25)
+        time.sleep(45)
         text = self.getText(self.verify_added_file)
         original_text = "1 file added; 4 remaining"
         self.verifyTextContains(actualText=text, expectedText=original_text)
@@ -339,19 +339,19 @@ class UnReleasePages(SeleniumDriver):
     global_approver_c_to_b = "//p[contains(text(),'Global Approvers are not required for C>B deals')]"
 
 
-    def VerifyGlobalApproverNotExistOnCtoBDeals(self):
-        time.sleep(2)
-        self.GlobalFilterSelection()
-        time.sleep(2)
-        self.elementClick(self.select_c_to_b)
-        time.sleep(2)
-        self.deal.ClickApplyButton()
-        time.sleep(2)
-        self.innerScroll(self.dealdetail.scroll_to_team)
-        time.sleep(2)
-        g_approver = self.getText(self.global_approver_c_to_b)
-        g_approver_text = "Global Approvers are not required for C>B deals"
-        self.verifyTextContains(actualText=g_approver, expectedText=g_approver_text)
+    # def VerifyGlobalApproverNotExistOnCtoBDeals(self):
+    #     time.sleep(2)
+    #     self.GlobalFilterSelection()
+    #     time.sleep(2)
+    #     self.elementClick(self.select_c_to_b)
+    #     time.sleep(2)
+    #     self.deal.ClickApplyButton()
+    #     time.sleep(2)
+    #     self.innerScroll(self.dealdetail.scroll_to_team)
+    #     time.sleep(2)
+    #     g_approver = self.getText(self.global_approver_c_to_b)
+    #     g_approver_text = "Global Approvers are not required for C>B deals"
+    #     self.verifyTextContains(actualText=g_approver, expectedText=g_approver_text)
 
 
 

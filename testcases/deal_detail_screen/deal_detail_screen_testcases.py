@@ -43,11 +43,11 @@ class DealDetailTest(unittest.TestCase):
         self.log.info("*#" * 20)
         self.deal_details.TransactionManger()
 
-    def test_09DealDetailsSourcer(self):
-        self.log.info("*#" * 20)
-        self.log.info(" Deal details Sourcer ")
-        self.log.info("*#" * 20)
-        self.deal_details.Sourcer()
+    # def test_09DealDetailsSourcer(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info(" Deal details Sourcer ")
+    #     self.log.info("*#" * 20)
+    #     self.deal_details.Sourcer()
 
     def test_10DealDetailsRealStateAnalyst(self):
         self.log.info("*#" * 20)
@@ -55,11 +55,11 @@ class DealDetailTest(unittest.TestCase):
         self.log.info("*#" * 20)
         self.deal_details.RealStateAnalyst()
 
-    def test_11DealDetailsInternalCounsel(self):
-        self.log.info("*#" * 20)
-        self.log.info(" Deal details InternalCounsel ")
-        self.log.info("*#" * 20)
-        self.deal_details.InternalCounsel()
+    # def test_11DealDetailsInternalCounsel(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info(" Deal details InternalCounsel ")
+    #     self.log.info("*#" * 20)
+    #     self.deal_details.InternalCounsel()
 
     # def test_12DealDetailsGeneralInfoTab(self):
     #     self.log.info("*#" * 20)

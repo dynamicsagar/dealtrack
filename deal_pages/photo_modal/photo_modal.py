@@ -92,7 +92,7 @@ class PhotoModalPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.untagged_photo, locatorType='css')
         time.sleep(2)
-        name = "C:/Users/Sagar/Desktop/360degreeimages/R0010005.JPG"
+        name = "C:/Users/Sagar/PycharmProjects/DealTrack/images/R0010005.JPG"
         self.dealdetail.UploadDocuments(name)
         time.sleep(4)
         self.dealdetail.ClickUploadButton()
@@ -127,7 +127,7 @@ class PhotoModalPages(SeleniumDriver):
         for i in range(0, 3):
             self.elementClick(self.other_photos_upload_link)
             time.sleep(2)
-            name = "C:/Users/Sagar/Desktop/360degreeimages/R0010005.JPG"
+            name = "C:/Users/Sagar/PycharmProjects/DealTrack/images/R0010005.JPG"
             self.dealdetail.UploadDocuments(name)
             time.sleep(4)
             self.dealdetail.ClickUploadButton()
@@ -199,7 +199,7 @@ class PhotoModalPages(SeleniumDriver):
         time.sleep(4)
         self.elementClick(self.signage_upload_link, locatorType='css')
         time.sleep(3)
-        name = "C:/Users/Sagar/Desktop/360degreeimages/R0010005.JPG"
+        name = "C:/Users/Sagar/PycharmProjects/DealTrack/images/R0010005.JPG"
         self.dealdetail.UploadDocuments(name)
         time.sleep(4)
         self.dealdetail.ClickUploadButton()
@@ -218,7 +218,7 @@ class PhotoModalPages(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.click_upload_new_photo_main_section)
         time.sleep(2)
-        name = "C:/Users/Sagar/Desktop/360degreeimages/R0010005.JPG"
+        name = "C:/Users/Sagar/PycharmProjects/DealTrack/images/R0010005.JPG"
         self.dealdetail.UploadDocuments(name)
         time.sleep(4)
         self.dealdetail.ClickUploadButton()

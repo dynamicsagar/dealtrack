@@ -369,8 +369,8 @@ class ExternalCounselPages(SeleniumDriver):
         self.elementClick(self.text_external_counsel)
         time.sleep(2)
         self.elementClick(self.firm_close_icon, locatorType='css')
-        time.sleep(2)
-        self.elementPresenceCheck(self.add_new_firm_textbox, byType='css')
+        time.sleep(4)
+        self.elementPresenceCheck(self.add_new_firm_textbox)
 
 
 

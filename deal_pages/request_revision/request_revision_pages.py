@@ -329,7 +329,7 @@ class RequestRevisionPages(SeleniumDriver):
     Expected:
     Verify request button should be there
     
-    Click requested buttoon
+    Click requested button
     Enter comment and select value from drop down
     Click submit
     Scroll to bottom of screen

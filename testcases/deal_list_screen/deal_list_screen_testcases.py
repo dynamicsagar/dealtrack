@@ -43,89 +43,89 @@ class DealListTest(unittest.TestCase):
         self.log.info("*#" * 20)
         self.deal.DealAlreadyAvailableText()
 
-    def test_07RegionFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters with Region, Territory, Market, & Landlord fields')
-        self.log.info("*#" * 20)
-        self.deal.RegionFilter()
-
-    def test_08TerritoryFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters with Region, Territory, Market, & Landlord fields')
-        self.log.info("*#" * 20)
-        self.deal.TerritoryFilter()
-
-    def test_09MarketFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters with Region, Territory, Market, & Landlord fields')
-        self.log.info("*#" * 20)
-        self.deal.MarketFilter()
-
-    def test_10StatusFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Select status filter and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.StatusFilter()
-
-    def test_11StageFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Select stage filter and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.StageFilter()
-
-    def test_12ReleaseFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Select Release filter and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.ReleaseFilter()
-
-    def test_13ProductTypeFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Select Product Type filter and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.ProductTypeFilter()
-
-    def test_14TeamMemberFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Select Team Member filter and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.TeamMemberFilter()
-
-    def test_15DeskFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Enter Desk filter values and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.DeskFilter()
-
-    def test_1RSFFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Enter RSF filter values and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.RSFFilter()
-
-    def test_17USFFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Enter USF filter values and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.USFFilter()
-
-    def test_18PossessionFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Enter Possession filter dates and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.PosseDate()
-
-    def test_19OpeningFieldFilter(self):
-        self.log.info("*#" * 20)
-        self.log.info('More filters -- Enter Opening filter dates and verify on home page.')
-        self.log.info("*#" * 20)
-        self.deal.OpeningDate()
-
-    def test_20VerifyPagination(self):
-        self.log.info("*#" * 20)
-        self.log.info('Pagination')
-        self.log.info("*#" * 20)
-        self.deal.Pagination()
+    # def test_07RegionFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters with Region, Territory, Market, & Landlord fields')
+    #     self.log.info("*#" * 20)
+    #     self.deal.RegionFilter()
+    #
+    # def test_08TerritoryFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters with Region, Territory, Market, & Landlord fields')
+    #     self.log.info("*#" * 20)
+    #     self.deal.TerritoryFilter()
+    #
+    # def test_09MarketFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters with Region, Territory, Market, & Landlord fields')
+    #     self.log.info("*#" * 20)
+    #     self.deal.MarketFilter()
+    #
+    # def test_10StatusFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Select status filter and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.StatusFilter()
+    #
+    # def test_11StageFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Select stage filter and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.StageFilter()
+    #
+    # def test_12ReleaseFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Select Release filter and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.ReleaseFilter()
+    #
+    # def test_13ProductTypeFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Select Product Type filter and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.ProductTypeFilter()
+    #
+    # def test_14TeamMemberFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Select Team Member filter and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.TeamMemberFilter()
+    #
+    # def test_15DeskFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Enter Desk filter values and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.DeskFilter()
+    #
+    # def test_1RSFFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Enter RSF filter values and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.RSFFilter()
+    #
+    # def test_17USFFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Enter USF filter values and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.USFFilter()
+    #
+    # def test_18PossessionFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Enter Possession filter dates and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.PosseDate()
+    #
+    # def test_19OpeningFieldFilter(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('More filters -- Enter Opening filter dates and verify on home page.')
+    #     self.log.info("*#" * 20)
+    #     self.deal.OpeningDate()
+    #
+    # def test_20VerifyPagination(self):
+    #     self.log.info("*#" * 20)
+    #     self.log.info('Pagination')
+    #     self.log.info("*#" * 20)
+    #     self.deal.Pagination()
 
 
 

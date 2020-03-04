@@ -99,7 +99,7 @@ class ExploreScreen(SeleniumDriver):
 
     close_icon = "//*[@class='icon--close']"
     add_a_deal_button = "//button[contains(text(),'Add a deal')]"
-    deal_detail_text_after_creation = "//button[contains(text(),'Release to D')]"
+    deal_detail_text_after_creation = "//span[contains(text(),'Release to D')]"
 
 
     def AddNewDeal(self):
@@ -109,7 +109,7 @@ class ExploreScreen(SeleniumDriver):
         self.elementClick(self.add_a_deal_button)
         time.sleep(3)
         text_deal_detail_page = self.getText(self.deal_detail_text_after_creation)
-        text_detail = "Release to D (Sourcing)"
+        text_detail = "Release to D"
         self.verifyTextContains(actualText=text_deal_detail_page, expectedText=text_detail)
 
 

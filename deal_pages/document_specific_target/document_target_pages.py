@@ -115,12 +115,12 @@ class DocumentSpecificPages(SeleniumDriver):
     def UploadPDF(self):
         doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/1.pdf"
         self.dealdetail.UploadDocuments(doc)
-        time.sleep(15)
+        time.sleep(20)
 
     def UploadCSV(self):
-        doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/FiMo.xlsm"
+        doc = "C:/Users/Sagar/PycharmProjects/DealTrack/files/v4.2_Proforma(1).xlsb"
         self.dealdetail.UploadDocuments(doc)
-        time.sleep(20)
+        time.sleep(45)
 
     def ClickNewFinancialModel(self):
         self.elementClick(self.click_new_financial_model, locatorType='css')
@@ -182,7 +182,7 @@ class DocumentSpecificPages(SeleniumDriver):
     
     """
 
-    lock_icon = ".Regular-sc-1a1sabl path"
+    lock_icon = ".Regular-sc-178ixox path"
 
     def LockIcon(self):
         self.getElement(self.lock_icon, locatorType='css')

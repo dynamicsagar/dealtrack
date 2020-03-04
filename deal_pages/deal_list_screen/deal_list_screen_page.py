@@ -124,7 +124,7 @@ class DealList(SeleniumDriver):
     click_add_new_deal = "//div[@class='add--new-deal']"
     new_deal_textbox = "//input[@id='search-bar-input']"
     click_add_button = "//div[@id='app']/div/div[2]/div/div/div/div/div[2]/div[2]/button"
-    select_item_list = "//li[@id='search-bar-item-3']/div/p[2]"
+    select_item_list = "//li[@id='search-bar-item-1']/div/p[2]"
     deal_name_main_page = "//div[@id='app']/div/div/div[2]/div/div[2]//div/h3"
     _toast_message = "//div[@class='Toastify__toast-body']"
 
@@ -139,7 +139,7 @@ class DealList(SeleniumDriver):
         self.elementClick(self.click_add_new_deal)
         time.sleep(2)
         deal_name = self.ut.getUniqueName(3)
-        self.EnterDeal(deal_name)
+        self.EnterDeal("ca" + " " + deal_name)
         time.sleep(3)
         self.elementClick(self.select_item_list)
         time.sleep(4)
@@ -181,12 +181,12 @@ class DealList(SeleniumDriver):
         time.sleep(2)
         self.elementClick(self.click_add_new_deal)
         time.sleep(2)
-        self.EnterDeal('Indi')
+        self.EnterDeal('India')
         time.sleep(3)
         self.elementClick(self.select_item_list)
         time.sleep(2)
         deal_exist_text = self.getText(self.deal_exist)
-        deal_text = 'There are already 7 deals at this property. Add anyway?'
+        deal_text = 'There are already 6 deals at this property. Add anyway?'
         self.verifyTextContains(actualText=deal_exist_text, expectedText=deal_text)
         self.elementClick(self.cancel_button)
 
